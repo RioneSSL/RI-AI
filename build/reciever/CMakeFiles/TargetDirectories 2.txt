@@ -1,0 +1,10 @@
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/rebuild_cache.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/install/local.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/test.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/edit_cache.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/list_install_components.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/receiver.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/reciever_uninstall.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/install/strip.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/install.dir
+/Users/mukuyo/Desktop/RI-AI/build/reciever/CMakeFiles/uninstall.dir

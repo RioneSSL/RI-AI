@@ -1,0 +1,4 @@
+source;share/reciever/local_setup.bash
+source;share/reciever/local_setup.dsv
+source;share/reciever/local_setup.sh
+source;share/reciever/local_setup.zsh

@@ -1,0 +1,15 @@
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/RefereeGameEvent.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/RefereeTeamInfo.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/Referee.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/FieldCircularArc.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/FieldLineSegment.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/VisionGeometry.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/DetectionBall.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/DetectionRobot.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/DetectionFrame.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/VisionDetections.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/RobotCommand.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/RobotCommands.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/Test.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/BallInfo.idl
+/Users/mukuyo/Desktop/RI-AI/build/message_info/rosidl_adapter/message_info:msg/GoalInfo.idl

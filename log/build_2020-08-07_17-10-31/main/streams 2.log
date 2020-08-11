@@ -1,0 +1,54 @@
+[0.137s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.693s] Scanning dependencies of target main
+[0.986s] [ 20%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.989s] [ 40%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.002s] [ 60%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.746s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:8:21: error: call to non-static member function without an object argument
+[3.746s]         float degree=Calc::degree_atan2(ball.pose,robot.pose)-robot.pose.theta;
+[3.747s]                      ~~~~~~^~~~~~~~~~~~
+[3.747s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:29: error: call to non-static member function without an object argument
+[3.747s]         float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+[3.747s]                              ~~~~~~^~~~~~~~~~~~
+[3.768s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[3.768s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:17:
+[3.768s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:9:
+[3.768s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[3.768s] class Calc{
+[3.768s]       ^
+[3.769s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.769s] #include "calculate.hpp"
+[3.769s]          ^
+[3.769s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:9:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.770s] #include "calculate.hpp"
+[3.770s]          ^
+[3.770s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[3.770s] class Calc{
+[3.770s]       ^
+[3.776s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[3.776s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:17:
+[3.776s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:9:
+[3.776s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[3.777s] class Calc{
+[3.777s]       ^
+[3.777s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.778s] #include "calculate.hpp"
+[3.778s]          ^
+[3.778s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:9:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.778s] #include "calculate.hpp"
+[3.778s]          ^
+[3.779s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[3.779s] class Calc{
+[3.779s]       ^
+[3.815s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.815s]          float field_width = geometry_message->field_width;
+[3.816s]                ^
+[4.361s] 2 errors generated.
+[4.380s] make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+[4.381s] make[2]: *** Waiting for unfinished jobs....
+[4.435s] 1 error generated.
+[4.454s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[6.413s] 1 warning and 1 error generated.
+[6.434s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[6.434s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[6.434s] make: *** [all] Error 2
+[6.436s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

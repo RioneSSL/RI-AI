@@ -1,0 +1,207 @@
+-- The C compiler identification is AppleClang 11.0.3.11030032
+-- The CXX compiler identification is AppleClang 11.0.3.11030032
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found version "3.12.4") 
+-- Found python_cmake_module: 0.8.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/python_cmake_module/cmake)
+-- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/proto_info
+[  3%] Running cpp protocol buffer compiler on proto/messages_robocup_ssl_robot_status.proto
+[  6%] Running cpp protocol buffer compiler on proto/messages_robocup_ssl_wrapper.proto
+[  9%] Running cpp protocol buffer compiler on proto/messages_robocup_ssl_geometry.proto
+[ 12%] Running cpp protocol buffer compiler on proto/grSim_Packet.proto
+Scanning dependencies of target proto_info_py
+[ 16%] Running cpp protocol buffer compiler on proto/messages_robocup_ssl_refbox_log.proto
+[ 19%] Running cpp protocol buffer compiler on proto/messages_robocup_ssl_detection.proto
+[ 22%] Running cpp protocol buffer compiler on proto/referee.proto
+[ 25%] Running cpp protocol buffer compiler on proto/game_event.proto
+[ 29%] Running cpp protocol buffer compiler on proto/grSim_Commands.proto
+[ 32%] Running cpp protocol buffer compiler on proto/grSim_Replacement.proto
+[ 35%] Running python protocol buffer compiler on proto/messages_robocup_ssl_wrapper.proto
+[ 38%] Running python protocol buffer compiler on proto/messages_robocup_ssl_geometry.proto
+[ 41%] Running python protocol buffer compiler on proto/messages_robocup_ssl_detection.proto
+[ 45%] Running python protocol buffer compiler on proto/messages_robocup_ssl_robot_status.proto
+[ 48%] Running python protocol buffer compiler on proto/messages_robocup_ssl_refbox_log.proto
+[ 51%] Running python protocol buffer compiler on proto/referee.proto
+[ 54%] Running python protocol buffer compiler on proto/game_event.proto
+[ 58%] Running python protocol buffer compiler on proto/grSim_Replacement.proto
+[ 64%] Running python protocol buffer compiler on proto/grSim_Commands.proto
+[ 64%] Running python protocol buffer compiler on proto/grSim_Packet.proto
+Scanning dependencies of target proto_info
+[ 64%] Built target proto_info_py
+[ 67%] Building CXX object CMakeFiles/proto_info.dir/messages_robocup_ssl_detection.pb.cc.o
+[ 74%] Building CXX object CMakeFiles/proto_info.dir/messages_robocup_ssl_robot_status.pb.cc.o
+[ 74%] Building CXX object CMakeFiles/proto_info.dir/messages_robocup_ssl_wrapper.pb.cc.o
+[ 77%] Building CXX object CMakeFiles/proto_info.dir/game_event.pb.cc.o
+[ 83%] Building CXX object CMakeFiles/proto_info.dir/referee.pb.cc.o
+[ 83%] Building CXX object CMakeFiles/proto_info.dir/messages_robocup_ssl_geometry.pb.cc.o
+[ 87%] Building CXX object CMakeFiles/proto_info.dir/messages_robocup_ssl_refbox_log.pb.cc.o
+[ 90%] Building CXX object CMakeFiles/proto_info.dir/grSim_Replacement.pb.cc.o
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.cc:37:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Robot_Status_messages_5frobocup_5fssl_5frobot_5fstatus_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.cc:39:71: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_SSL_Referee_Game_Event_Originator_game_5fevent_2eproto.base,}};
+                                                                      ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.cc:42:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_grSim_BallReplacement_grSim_5fReplacement_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.cc:42:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_DetectionBall_messages_5frobocup_5fssl_5fdetection_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.cc:45:53: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_SSL_Referee_TeamInfo_referee_2eproto.base,
+                                                    ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.cc:59:69: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_Vector2f_messages_5frobocup_5fssl_5fgeometry_2eproto.base,}};
+                                                                    ^
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+[ 93%] Building CXX object CMakeFiles/proto_info.dir/grSim_Commands.pb.cc.o
+[ 96%] Building CXX object CMakeFiles/proto_info.dir/grSim_Packet.pb.cc.o
+1 warning generated.
+1 warning generated.
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.cc:39:61: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_grSim_Robot_Command_grSim_5fCommands_2eproto.base,}};
+                                                            ^
+1 warning generated.
+[100%] Linking CXX shared library libproto_info.dylib
+[100%] Built target proto_info
+-- Install configuration: ""
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info/__init__.py
+Listing '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info'...
+Compiling '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info/__init__.py'...
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_wrapper.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_geometry.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_detection.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_robot_status.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_refbox_log.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/referee.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/game_event.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Replacement.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Commands.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Packet.pb.h
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/libproto_info.dylib
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_wrapper_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_geometry_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_detection_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_robot_status_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_refbox_log_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/referee_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/game_event_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Replacement_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Commands_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Packet_pb2.py
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/package_run_dependencies/proto_info
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/parent_prefix_path/proto_info
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.bash
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.zsh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/packages/proto_info
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig-version.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.xml

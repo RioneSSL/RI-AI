@@ -1,0 +1,50 @@
+[0.131s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.681s] Scanning dependencies of target main
+[0.932s] [ 16%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.933s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.939s] [ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[3.397s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[3.398s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+[3.398s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+[3.398s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[3.398s] class Calc{
+[3.398s]       ^
+[3.398s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.399s] #include "calculate.hpp"
+[3.399s]          ^
+[3.399s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.399s] #include "calculate.hpp"
+[3.399s]          ^
+[3.399s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[3.400s] class Calc{
+[3.400s]       ^
+[3.408s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[3.408s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+[3.408s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+[3.408s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[3.409s] class Calc{
+[3.409s]       ^
+[3.409s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.409s] #include "calculate.hpp"
+[3.409s]          ^
+[3.409s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[3.409s] #include "calculate.hpp"
+[3.409s]          ^
+[3.410s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[3.410s] class Calc{
+[3.410s]       ^
+[3.423s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:8: warning: unused variable 'TH_goal_degree' [-Wunused-variable]
+[3.423s]         float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+[3.424s]               ^
+[3.427s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.428s]          float field_width = geometry_message->field_width;
+[3.428s]                ^
+[4.060s] 1 error generated.
+[4.079s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[4.079s] make[2]: *** Waiting for unfinished jobs....
+[4.115s] 1 warning generated.
+[6.054s] 1 warning and 1 error generated.
+[6.084s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[6.084s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[6.085s] make: *** [all] Error 2
+[6.087s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

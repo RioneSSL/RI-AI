@@ -1,0 +1,34 @@
+[0.135s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.528s] Scanning dependencies of target main
+[0.671s] [ 40%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[0.671s] [ 40%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.673s] [ 60%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[2.977s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:6:13: error: return type of out-of-line definition of 'Calc::degree_improve' differs from that in the declaration
+[2.977s] float Calc::degree_improve(float degree){
+[2.977s] ~~~~~       ^
+[2.977s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:14:7: note: previous declaration is here
+[2.977s]         void degree_improve(float degree);
+[2.978s]         ~~~~ ^
+[2.978s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:15:13: error: return type of out-of-line definition of 'Calc::degree_atan2' differs from that in the declaration
+[2.978s] float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+[2.978s] ~~~~~       ^
+[2.978s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:16:7: note: previous declaration is here
+[2.979s]         void degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+[2.979s]         ~~~~ ^
+[2.991s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:13: error: out-of-line definition of 'distance_calc' does not match any declaration in 'Calc'; did you mean 'distace_calc'?
+[2.992s] float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+[2.992s]             ^~~~~~~~~~~~~
+[2.992s]             distace_calc
+[2.993s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:20:8: note: 'distace_calc' declared here
+[2.993s]         float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+[2.993s]               ^
+[2.995s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.995s]          float field_width = geometry_message->field_width;
+[2.995s]                ^
+[3.580s] 3 errors generated.
+[3.597s] make[2]: *** [CMakeFiles/main.dir/src/calculate.cpp.o] Error 1
+[3.597s] make[2]: *** Waiting for unfinished jobs....
+[8.971s] 1 warning generated.
+[9.001s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[9.001s] make: *** [all] Error 2
+[9.003s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

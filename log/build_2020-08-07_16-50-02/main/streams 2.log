@@ -1,0 +1,73 @@
+[0.107s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.367s] -- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+[0.468s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[0.938s] -- Found rclcpp: 2.0.2 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)
+[1.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.029s] -- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)
+[1.152s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[1.198s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[1.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.081s] -- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)
+[2.085s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.374s] -- Found message_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake)
+[2.991s] -- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+[3.159s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.238s] -- Configured cppcheck include dirs: 
+[3.238s] -- Configured cppcheck exclude dirs and/or files: 
+[3.308s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.308s] -- Configured cpplint exclude dirs and/or files: 
+[3.315s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.329s] -- Added test 'lint_cmake' to check CMake code style
+[3.337s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.406s] -- Added test 'uncrustify' to check C / C++ code style
+[3.406s] -- Configured uncrustify additional arguments: 
+[3.420s] -- Added test 'xmllint' to check XML markup files
+[3.423s] -- Configuring done
+[3.476s] -- Generating done
+[3.483s] -- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/main
+[3.699s] Scanning dependencies of target main
+[3.816s] [ 20%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[3.817s] [ 40%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.817s] [ 60%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[4.599s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:4:
+[4.599s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:7:20: error: use of undeclared identifier 'geometry_msgs'
+[4.600s]         void degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+[4.600s]                           ^
+[4.602s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:7:56: error: use of undeclared identifier 'geometry_msgs'
+[4.603s]         void degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+[4.603s]                                                               ^
+[4.606s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:21: error: use of undeclared identifier 'message_info'
+[4.606s]         float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+[4.607s]                            ^
+[4.610s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:63: error: use of undeclared identifier 'message_info'
+[4.611s]         float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+[4.611s]                                                                      ^
+[4.611s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:6:13: error: return type of out-of-line definition of 'Calc::degree_improve' differs from that in the declaration
+[4.612s] float Calc::degree_improve(float degree){
+[4.612s] ~~~~~       ^
+[4.612s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:5:7: note: previous declaration is here
+[4.612s]         void degree_improve(float degree);
+[4.612s]         ~~~~ ^
+[4.617s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:15:26: error: use of undeclared identifier 'geometry_msgs'
+[4.617s] float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+[4.617s]                          ^
+[4.625s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:15:62: error: use of undeclared identifier 'geometry_msgs'
+[4.625s] float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+[4.625s]                                                              ^
+[4.633s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:27: error: use of undeclared identifier 'message_info'
+[4.633s] float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+[4.634s]                           ^
+[4.639s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:69: error: use of undeclared identifier 'message_info'
+[4.639s] float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+[4.640s]                                                                     ^
+[4.677s] 9 errors generated.
+[4.685s] make[2]: *** [CMakeFiles/main.dir/src/calculate.cpp.o] Error 1
+[4.685s] make[2]: *** Waiting for unfinished jobs....
+[5.976s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[5.976s]          float field_width = geometry_message->field_width;
+[5.976s]                ^
+[11.107s] 1 warning generated.
+[11.132s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[11.132s] make: *** [all] Error 2
+[11.133s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

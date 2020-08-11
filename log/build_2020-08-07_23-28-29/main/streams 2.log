@@ -1,0 +1,68 @@
+[0.154s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.778s] Scanning dependencies of target main
+[1.077s] [ 16%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[1.094s] [ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.101s] [ 50%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
+[4.167s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[4.167s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:
+[4.168s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+[4.168s]         main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+[4.168s]         ^
+[4.168s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[4.169s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+[4.169s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+[4.169s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[4.170s] class Calc{
+[4.170s]       ^
+[4.170s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[4.171s] #include "calculate.hpp"
+[4.171s]          ^
+[4.171s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[4.171s] #include "calculate.hpp"
+[4.172s]          ^
+[4.172s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[4.172s] class Calc{
+[4.172s]       ^
+[4.181s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[4.182s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:
+[4.182s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+[4.183s]         main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+[4.183s]         ^
+[4.183s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[4.183s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+[4.184s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+[4.184s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+[4.184s] class Calc{
+[4.184s]       ^
+[4.184s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[4.185s] #include "calculate.hpp"
+[4.185s]          ^
+[4.185s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+[4.186s] #include "calculate.hpp"
+[4.186s]          ^
+[4.186s] /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[4.186s] class Calc{
+[4.187s]       ^
+[4.225s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[4.225s]          float field_width = geometry_message->field_width;
+[4.226s]                ^
+[4.246s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:3:
+[4.246s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+[4.246s]         main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+[4.247s]         ^
+[4.263s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:6:17: error: use of undeclared identifier 'degree_atan2'
+[4.263s]         float degree = degree_atan2(ball.pose,robot.pose);
+[4.264s]                        ^
+[4.279s] /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:7:11: error: use of undeclared identifier 'wrap_calc'
+[4.279s]         degree = wrap_calc(degree);
+[4.279s]                  ^
+[4.921s] 2 errors generated.
+[4.946s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[4.946s] make[2]: *** Waiting for unfinished jobs....
+[4.969s] 3 errors generated.
+[4.990s] make[2]: *** [CMakeFiles/main.dir/src/attacker.cpp.o] Error 1
+[7.194s] 1 warning and 2 errors generated.
+[7.223s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[7.224s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[7.224s] make: *** [all] Error 2
+[7.227s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

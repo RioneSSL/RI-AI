@@ -1,0 +1,4 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:8: warning: unused variable 'TH_goal_degree' [-Wunused-variable]
+        float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+              ^
+1 warning generated.

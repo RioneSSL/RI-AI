@@ -1,0 +1,98 @@
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_robot_status.pb.cc:37:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_Robot_Status_messages_5frobocup_5fssl_5frobot_5fstatus_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/game_event.pb.cc:39:71: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_SSL_Referee_Game_Event_Originator_game_5fevent_2eproto.base,}};
+                                                                      ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Replacement.pb.cc:42:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_grSim_BallReplacement_grSim_5fReplacement_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_detection.pb.cc:42:47: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+::PROTOBUF_NAMESPACE_ID::internal::SCCInfo<0> scc_info_SSL_DetectionBall_messages_5frobocup_5fssl_5fdetection_2eproto =
+                                              ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/referee.pb.cc:45:53: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_SSL_Referee_TeamInfo_referee_2eproto.base,
+                                                    ^
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/messages_robocup_ssl_geometry.pb.cc:59:69: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_Vector2f_messages_5frobocup_5fssl_5fgeometry_2eproto.base,}};
+                                                                    ^
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+1 warning generated.
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.cc:4:
+In file included from /Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.h:26:
+In file included from /usr/local/include/google/protobuf/generated_message_table_driven.h:35:
+In file included from /usr/local/include/google/protobuf/map_entry_lite.h:42:
+/usr/local/include/google/protobuf/generated_message_util.h:230:14: warning: zero size arrays are an extension [-Wzero-length-array]
+  void* deps[PROTOBUF_ARRAY_SIZE(N)];
+             ^~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/google/protobuf/generated_message_util.h:215:32: note: expanded from macro 'PROTOBUF_ARRAY_SIZE'
+#define PROTOBUF_ARRAY_SIZE(n) (n)
+                               ^~~
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/grSim_Commands.pb.cc:39:61: note: in instantiation of template class 'google::protobuf::internal::SCCInfo<0>' requested here
+      &scc_info_grSim_Robot_Command_grSim_5fCommands_2eproto.base,}};
+                                                            ^
+1 warning generated.

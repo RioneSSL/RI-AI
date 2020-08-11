@@ -1,0 +1,22 @@
+[0.113s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.647s] Scanning dependencies of target main
+[0.920s] [ 16%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.927s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.947s] [ 50%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.965s] [ 66%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
+[4.057s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:8:15: error: use of undeclared identifier 'Calc'
+[4.057s]         float degree=Calc::degree_atan2(ball.pose,robot.pose)-robot.pose.theta;
+[4.058s]                      ^
+[4.070s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[4.071s]          float field_width = geometry_message->field_width;
+[4.071s]                ^
+[4.071s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:23: error: use of undeclared identifier 'Calc'
+[4.071s]         float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+[4.072s]                              ^
+[4.621s] 2 errors generated.
+[4.637s] make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+[4.637s] make[2]: *** Waiting for unfinished jobs....
+[9.821s] 1 warning generated.
+[9.851s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[9.852s] make: *** [all] Error 2
+[9.854s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

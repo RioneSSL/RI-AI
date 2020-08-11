@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_generator_c/sender/msg/detail/test__functions.c
+sender/msg/detail/test__functions.h
+/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_generator_c/sender/msg/detail/sender/msg/detail/test__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/mukuyo/ros2_ws/ros2-osx/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/sender/msg/detail/test__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/sender/msg/detail/rosidl_runtime_c/visibility_control.h
+sender/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/sender/msg/detail/sender/msg/rosidl_generator_c__visibility_control.h
+sender/msg/detail/test__struct.h
+rosidl_generator_c/sender/msg/detail/sender/msg/detail/test__struct.h
+
+rosidl_generator_c/sender/msg/detail/test__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/sender/msg/rosidl_generator_c__visibility_control.h
+

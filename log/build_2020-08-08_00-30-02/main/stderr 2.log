@@ -1,0 +1,7 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:5:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/math.h:692:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+1 warning generated.

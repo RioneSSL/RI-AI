@@ -1,0 +1,44 @@
+[0.125s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.678s] Scanning dependencies of target main
+[0.935s] [ 20%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.941s] [ 40%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.942s] [ 60%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.702s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[3.702s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:50: warning: direct base 'Calc' is inaccessible due to ambiguity:
+[3.702s]     class Game -> class Goalie -> class Calc
+[3.702s]     class Game -> class Calc [-Winaccessible-base]
+[3.703s] class Game : public rclcpp::Node, public Goalie, public Calc
+[3.703s]                                                  ^~~~~~~~~~~
+[3.729s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:1:
+[3.730s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:10:23: error: expected class name
+[3.730s] class Goalie : public Calc{
+[3.730s]                       ^
+[3.731s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:52: warning: unused parameter 'ball' [-Wunused-parameter]
+[3.731s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.732s]                                                    ^
+[3.732s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:92: warning: unused parameter 'robot' [-Wunused-parameter]
+[3.732s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.732s]                                                                                            ^
+[3.733s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:127: warning: unused parameter 'goal' [-Wunused-parameter]
+[3.733s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.733s]                                                                                                                               ^
+[3.733s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:167: warning: unused parameter 'send_message' [-Wunused-parameter]
+[3.733s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.734s]                                                                                                                                                                       ^
+[3.737s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.737s]          float field_width = geometry_message->field_width;
+[3.738s]                ^
+[3.766s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[3.767s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:50: warning: direct base 'Calc' is inaccessible due to ambiguity:
+[3.767s]     class Game -> class Goalie -> class Calc
+[3.767s]     class Game -> class Calc [-Winaccessible-base]
+[3.768s] class Game : public rclcpp::Node, public Goalie, public Calc
+[3.768s]                                                  ^~~~~~~~~~~
+[4.326s] 4 warnings and 1 error generated.
+[4.344s] make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+[4.345s] make[2]: *** Waiting for unfinished jobs....
+[4.586s] 1 warning generated.
+[9.309s] 2 warnings generated.
+[9.341s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[9.342s] make: *** [all] Error 2
+[9.344s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

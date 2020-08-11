@@ -1,0 +1,66 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+        main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+        ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+class Calc{
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+#include "calculate.hpp"
+         ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+#include "calculate.hpp"
+         ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+class Calc{
+      ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:15:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+        main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+        ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:16:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: error: redefinition of 'Calc'
+class Calc{
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:10:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+#include "calculate.hpp"
+         ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:2:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp' included multiple times, additional include site here
+#include "calculate.hpp"
+         ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:7: note: unguarded header; consider using #ifdef guards or #pragma once
+class Calc{
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:3:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.hpp:15:2: error: C++ requires a type specifier for all declarations
+        main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command); 
+        ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:6:17: error: use of undeclared identifier 'degree_atan2'
+        float degree = degree_atan2(ball.pose,robot.pose);
+                       ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/attacker.cpp:7:11: error: use of undeclared identifier 'wrap_calc'
+        degree = wrap_calc(degree);
+                 ^
+2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+3 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/attacker.cpp.o] Error 1
+1 warning and 2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

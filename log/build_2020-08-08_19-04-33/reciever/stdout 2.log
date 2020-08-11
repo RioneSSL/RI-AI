@@ -1,0 +1,53 @@
+-- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found rclcpp: 2.0.2 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 2.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/std_msgs/cmake)
+-- Found message_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake)
+-- Found proto_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake)
+-- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /Users/mukuyo/Desktop/RI-AI/src/reciever/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/reciever
+[ 50%] Building CXX object CMakeFiles/receiver.dir/src/grsim_receiver.cpp.o
+[100%] Linking CXX executable receiver
+[100%] Built target receiver
+-- Install configuration: "Debug"
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/.DS_Store
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver/.DS_Store
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever/multicast.hpp
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/lib/reciever/receiver
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/package_run_dependencies/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/parent_prefix_path/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.zsh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/packages/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.xml

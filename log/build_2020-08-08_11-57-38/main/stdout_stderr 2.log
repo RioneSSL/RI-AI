@@ -1,0 +1,40 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 33%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:5:52: warning: unused parameter 'ball' [-Wunused-parameter]
+void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+                                                   ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:5:92: warning: unused parameter 'robot' [-Wunused-parameter]
+void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+                                                                                           ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:5:127: warning: unused parameter 'goal' [-Wunused-parameter]
+void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+                                                                                                                              ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:5:167: warning: unused parameter 'send_message' [-Wunused-parameter]
+void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+                                                                                                                                                                      ^
+4 warnings generated.
+[ 50%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 warning generated.
+[ 66%] Linking CXX executable main
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

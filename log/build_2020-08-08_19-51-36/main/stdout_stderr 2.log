@@ -1,0 +1,28 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:6:8: warning: unused variable 'degree' [-Wunused-variable]
+        float degree=Calc::degree_atan2(ball.pose,robot.pose)-robot.pose.theta;
+              ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:8: warning: unused variable 'TH_goal_degree' [-Wunused-variable]
+        float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+              ^
+2 warnings generated.
+[ 33%] Linking CXX executable main
+[100%] Built target main
+-- Install configuration: "Debug"
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

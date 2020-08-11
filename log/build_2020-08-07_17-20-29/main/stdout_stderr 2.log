@@ -1,0 +1,12 @@
+Scanning dependencies of target main
+[ 20%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:8:21: error: call to non-static member function without an object argument
+        float degree=Calc::degree_atan2(ball.pose,robot.pose)-robot.pose.theta;
+                     ~~~~~~^~~~~~~~~~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:29: error: call to non-static member function without an object argument
+        float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+                             ~~~~~~^~~~~~~~~~~~
+2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

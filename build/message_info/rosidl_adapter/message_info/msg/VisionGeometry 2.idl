@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message_info/msg/VisionGeometry.msg
+// generated code does not contain a copyright notice
+
+#include "message_info/msg/FieldCircularArc.idl"
+#include "message_info/msg/FieldLineSegment.idl"
+
+module message_info {
+  module msg {
+    struct VisionGeometry {
+      double field_length;
+
+      double field_width;
+
+      double goal_width;
+
+      double goal_depth;
+
+      int32 boundary_width;
+
+      sequence<message_info::msg::FieldLineSegment> field_lines;
+
+      sequence<message_info::msg::FieldCircularArc> field_arcs;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:1:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:10:23: error: expected class name
+class Goalie : public Calc{
+                      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:8:15: error: use of undeclared identifier 'Calc'
+        float degree=Calc::degree_atan2(ball.pose,robot.pose)-robot.pose.theta;
+                     ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:50: warning: direct base 'Calc' is inaccessible due to ambiguity:
+    class Game -> class Goalie -> class Calc
+    class Game -> class Calc [-Winaccessible-base]
+class Game : public rclcpp::Node, public Goalie, public Calc
+                                                 ^~~~~~~~~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:23: error: use of undeclared identifier 'Calc'
+        float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+                             ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:50: warning: direct base 'Calc' is inaccessible due to ambiguity:
+    class Game -> class Goalie -> class Calc
+    class Game -> class Calc [-Winaccessible-base]
+class Game : public rclcpp::Node, public Goalie, public Calc
+                                                 ^~~~~~~~~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+3 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+1 warning generated.
+2 warnings generated.
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,56 @@
+[0.198s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/mukuyo/Desktop/RI-AI/src/reciever -DCMAKE_INSTALL_PREFIX=/Users/mukuyo/Desktop/RI-AI/install/reciever
+[0.710s] -- The C compiler identification is AppleClang 11.0.3.11030032
+[0.837s] -- The CXX compiler identification is AppleClang 11.0.3.11030032
+[0.852s] -- Detecting C compiler ABI info
+[1.537s] -- Detecting C compiler ABI info - done
+[1.555s] -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+[1.556s] -- Detecting C compile features
+[1.556s] -- Detecting C compile features - done
+[1.568s] -- Detecting CXX compiler ABI info
+[2.250s] -- Detecting CXX compiler ABI info - done
+[2.268s] -- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+[2.269s] -- Detecting CXX compile features
+[2.270s] -- Detecting CXX compile features - done
+[2.290s] -- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+[2.413s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.413s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[2.979s] -- Found rclcpp: 2.0.2 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)
+[3.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.220s] -- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)
+[3.324s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[3.415s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[3.828s] -- Found OpenSSL: /usr/local/opt/openssl@1.1/lib/libcrypto.dylib (found version "1.1.1g")  
+[4.078s] -- Found FastRTPS: /Users/mukuyo/ros2_ws/ros2-osx/include  
+[4.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.702s] -- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)
+[4.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.711s] -- Looking for pthread.h
+[5.227s] -- Looking for pthread.h - found
+[5.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.833s] -- Found Threads: TRUE  
+[6.148s] -- Found std_msgs: 2.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/std_msgs/cmake)
+[6.188s] -- Found message_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake)
+[6.691s] -- Found proto_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake)
+[6.873s] -- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found version "3.12.4") 
+[6.940s] -- Found Boost: /usr/local/lib/cmake/Boost-1.73.0/BoostConfig.cmake (found version "1.73.0") found components: system 
+[6.973s] -- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+[7.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.272s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.273s] -- Configured cppcheck include dirs: /Users/mukuyo/Desktop/RI-AI/src/reciever/include
+[7.273s] -- Configured cppcheck exclude dirs and/or files: 
+[7.277s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.277s] -- Configured cpplint exclude dirs and/or files: 
+[7.280s] -- Added test 'lint_cmake' to check CMake code style
+[7.285s] -- Added test 'uncrustify' to check C / C++ code style
+[7.285s] -- Configured uncrustify additional arguments: 
+[7.287s] -- Added test 'xmllint' to check XML markup files
+[7.291s] -- Configuring done
+[7.339s] -- Generating done
+[7.346s] -- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/reciever
+[7.364s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/reciever' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/mukuyo/Desktop/RI-AI/src/reciever -DCMAKE_INSTALL_PREFIX=/Users/mukuyo/Desktop/RI-AI/install/reciever
+[7.370s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/reciever -- -j8 -l8
+[8.453s] Scanning dependencies of target receiver
+[8.638s] [ 50%] Building CXX object CMakeFiles/receiver.dir/src/grsim_receiver.cpp.o
+[13.903s] [100%] Linking CXX executable receiver
+[14.118s] [100%] Built target receiver
