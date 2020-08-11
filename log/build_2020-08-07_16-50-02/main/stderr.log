@@ -1,0 +1,40 @@
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:4:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:7:20: error: use of undeclared identifier 'geometry_msgs'
+        void degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+                          ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:7:56: error: use of undeclared identifier 'geometry_msgs'
+        void degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+                                                              ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:21: error: use of undeclared identifier 'message_info'
+        float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+                           ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:11:63: error: use of undeclared identifier 'message_info'
+        float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+                                                                     ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:6:13: error: return type of out-of-line definition of 'Calc::degree_improve' differs from that in the declaration
+float Calc::degree_improve(float degree){
+~~~~~       ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:5:7: note: previous declaration is here
+        void degree_improve(float degree);
+        ~~~~ ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:15:26: error: use of undeclared identifier 'geometry_msgs'
+float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+                         ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:15:62: error: use of undeclared identifier 'geometry_msgs'
+float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+                                                             ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:27: error: use of undeclared identifier 'message_info'
+float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+                          ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:69: error: use of undeclared identifier 'message_info'
+float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+                                                                    ^
+9 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/calculate.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 warning generated.
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,29 @@
+[0.096s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/reciever -- -j8 -l8
+[0.501s] [ 50%] Linking CXX executable receiver
+[0.899s] [100%] Built target receiver
+[0.940s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/reciever' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/reciever -- -j8 -l8
+[1.069s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/reciever
+[1.097s] -- Install configuration: ""
+[1.098s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include
+[1.099s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/.DS_Store
+[1.099s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver
+[1.099s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver/.DS_Store
+[1.100s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever
+[1.100s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever/multicast.hpp
+[1.100s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/lib/reciever/receiver
+[1.234s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/package_run_dependencies/reciever
+[1.235s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/parent_prefix_path/reciever
+[1.235s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.sh
+[1.236s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.dsv
+[1.237s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.sh
+[1.237s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.dsv
+[1.238s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.bash
+[1.238s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.sh
+[1.238s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.zsh
+[1.238s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.dsv
+[1.239s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.dsv
+[1.239s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/packages/reciever
+[1.239s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig.cmake
+[1.240s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig-version.cmake
+[1.240s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.xml
+[1.253s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/reciever' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/reciever

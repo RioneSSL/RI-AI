@@ -1,0 +1,27 @@
+[0.128s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.478s] Scanning dependencies of target main
+[0.616s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[2.837s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:7:
+[2.838s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:7: error: redefinition of 'Goalie'
+[2.838s] class Goalie : public rclcpp::Node{
+[2.838s]       ^
+[2.838s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:17:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp' included multiple times, additional include site here
+[2.839s] #include "goalie.hpp"
+[2.839s]          ^
+[2.839s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:7:10: note: '/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp' included multiple times, additional include site here
+[2.839s] #include "goalie.hpp"
+[2.840s]          ^
+[2.840s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:7: note: unguarded header; consider using #ifdef guards or #pragma once
+[2.840s] class Goalie : public rclcpp::Node{
+[2.841s]       ^
+[2.841s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:32:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.841s]          float field_width = geometry_message->field_width;
+[2.841s]                ^
+[2.858s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:49:13: error: call to non-static member function without an object argument
+[2.858s]     Goalie::main(ball,robot,goal,command);
+[2.858s]     ~~~~~~~~^~~~
+[5.736s] 1 warning and 2 errors generated.
+[5.758s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[5.759s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[5.759s] make: *** [all] Error 2
+[5.761s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

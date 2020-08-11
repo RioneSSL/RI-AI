@@ -1,0 +1,83 @@
+[0.114s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.502s] Scanning dependencies of target main
+[0.636s] [ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.638s] [ 66%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.202s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[3.202s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:33: error: expected '{' after base class list
+[3.203s] class Game : public rclcpp::Node : public Goalie
+[3.203s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[3.203s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:33: error: expected '{' after base class list
+[3.203s]                                 ^
+[3.204s] class Game : public rclcpp::Node : public Goalie
+[3.204s]                                 ^
+[3.206s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:34: error: expected ';' after class
+[3.206s] 22:34: error: expected ';' after class
+[3.206s] class Game : public rclcpp::Node : public Goalie
+[3.206s]                                  ^
+[3.207s]                                  ;
+[3.207s] class Game : public rclcpp::Node : public Goalie
+[3.208s]                                  ^
+[3.208s]                                  ;
+[3.208s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:36: error: expected unqualified-id
+[3.209s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:36:class Game : public rclcpp::Node : public Goalie 
+[3.209s] error                                   ^: 
+[3.209s] expected unqualified-id
+[3.209s] class Game : public rclcpp::Node : public Goalie
+[3.210s]                                    ^
+[3.210s] /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:8:3: error: no matching function for call to 'spin'
+[3.210s]   rclcpp::spin(node);
+[3.211s]   ^~~~~~~~~~~~
+[3.211s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:45:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>' for 1st argument
+[3.211s] spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.211s] ^
+[3.212s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:49:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::Node>' for 1st argument
+[3.212s] spin(rclcpp::Node::SharedPtr node_ptr);
+[3.212s] ^
+[3.226s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:44:12: error: out-of-line definition of 'test' does not match any declaration in 'Game'
+[3.226s] void Game::test(){
+[3.226s]            ^~~~
+[3.308s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:7: error: no member named 'main' in the global namespace; did you mean 'min'?
+[3.309s]     ::main(ball,robot,goal,command);
+[3.309s]     ~~^~~~
+[3.310s]       min
+[3.310s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:2523:1: note: 'min' declared here
+[3.310s] min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[3.311s] ^
+[3.311s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:12: error: use of undeclared identifier 'ball'; did you mean 'fill'?
+[3.311s]     ::main(ball,robot,goal,command);
+[3.311s]            ^~~~
+[3.312s]            fill
+[3.312s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:2033:1: note: 'fill' declared here
+[3.312s] fill(_ForwardIterator __first, _ForwardIterator __last, const _Tp& __value_)
+[3.312s] ^
+[3.313s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:17: error: use of undeclared identifier 'robot'
+[3.313s]     ::main(ball,robot,goal,command);
+[3.313s]                 ^
+[3.313s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:23: error: use of undeclared identifier 'goal'
+[3.314s]     ::main(ball,robot,goal,command);
+[3.314s]                       ^
+[3.314s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:50:11: error: no member named 'publisher' in 'Game'
+[3.315s]     this->publisher->publish(send_info); //grsimへパブリッシュx
+[3.315s]     ~~~~  ^
+[3.326s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:54:12: error: out-of-line definition of 'timer_callback' does not match any declaration in 'Game'
+[3.326s] void Game::timer_callback(){
+[3.326s]            ^~~~~~~~~~~~~~
+[3.837s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:1:
+[3.837s] In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/rclcpp.hpp:144:
+[3.837s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:4333:28: error: assigning to 'std::__1::__shared_weak_count *' from incompatible type 'std::__1::unique_ptr<std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> >, std::__1::__allocator_destructor<std::__1::allocator<std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> > > > >::pointer' (aka 'std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> > *')
+[3.837s]     __r.__cntrl_ = __hold2.release();
+[3.838s]                    ~~~~~~~~^~~~~~~~~
+[3.838s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:4709:29: note: in instantiation of function template specialization 'std::__1::shared_ptr<Game>::make_shared<>' requested here
+[3.838s]     return shared_ptr<_Tp>::make_shared(_VSTD::forward<_Args>(__args)...);
+[3.838s]                             ^
+[3.838s] /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:6:20: note: in instantiation of function template specialization 'std::__1::make_shared<Game>' requested here
+[3.839s]   auto node = std::make_shared<Game>();
+[3.839s]                    ^
+[3.840s] 5 errors generated.
+[3.859s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[3.860s] make[2]: *** Waiting for unfinished jobs....
+[3.924s] 10 errors generated.
+[3.937s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[3.938s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[3.938s] make: *** [all] Error 2
+[3.940s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

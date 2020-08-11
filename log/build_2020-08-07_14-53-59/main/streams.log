@@ -1,0 +1,12 @@
+[0.117s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.459s] Scanning dependencies of target main
+[0.598s] [ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[2.787s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[2.787s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:35: error: expected class name
+[2.787s] class Game : public rclcpp::Node, puclic Goalie
+[2.787s]                                   ^
+[3.260s] 1 error generated.
+[3.276s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[3.276s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[3.277s] make: *** [all] Error 2
+[3.279s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

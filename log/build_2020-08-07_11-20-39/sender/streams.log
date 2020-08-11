@@ -1,0 +1,18 @@
+[0.186s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8
+[0.764s] [  3%] Built target sender__cpp
+[0.769s] [ 12%] Built target sender__rosidl_generator_c
+[0.940s] [ 15%] Linking CXX executable sim_sender
+[1.100s] [ 30%] Built target sender__rosidl_typesupport_fastrtps_cpp
+[1.101s] [ 33%] Built target sender__rosidl_typesupport_introspection_cpp
+[1.120s] [ 42%] Built target sender__rosidl_typesupport_c
+[1.169s] [ 51%] Built target sender__rosidl_typesupport_cpp
+[1.201s] [ 60%] Built target sender__rosidl_typesupport_introspection_c
+[1.340s] [ 69%] Built target sender__rosidl_typesupport_fastrtps_c
+[1.427s] [ 72%] Built target sim_sender
+[1.604s] [ 72%] Built target sender
+[1.833s] [ 75%] Built target sender__py
+[2.073s] [ 81%] Built target sender__python
+[2.409s] [ 87%] Built target sender__rosidl_typesupport_introspection_c__pyext
+[2.410s] [ 93%] Built target sender__rosidl_typesupport_c__pyext
+[2.411s] [100%] Built target sender__rosidl_typesupport_fastrtps_c__pyext
+[2.412s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/sender' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8

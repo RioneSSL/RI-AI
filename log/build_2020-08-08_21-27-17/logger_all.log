@@ -1,0 +1,322 @@
+[2.588s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[2.588s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x1063617c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x1063617c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x106361d30>)
+[2.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.851s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/Users/mukuyo/Desktop/RI-AI'
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['ignore', 'ignore_ament_install']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ignore'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ignore_ament_install'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['colcon_pkg']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'colcon_pkg'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['colcon_meta']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'colcon_meta'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extensions ['ros']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/main) by extension 'ros'
+[2.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main' with type 'ros.ament_cmake' and name 'main'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['ignore', 'ignore_ament_install']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ignore'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ignore_ament_install'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['colcon_pkg']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'colcon_pkg'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['colcon_meta']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'colcon_meta'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extensions ['ros']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_info) by extension 'ros'
+[2.979s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message_info' with type 'ros.ament_cmake' and name 'message_info'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extensions ['ignore', 'ignore_ament_install']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extension 'ignore'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extension 'ignore_ament_install'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extensions ['colcon_pkg']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extension 'colcon_pkg'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extensions ['colcon_meta']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extension 'colcon_meta'
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extensions ['ros']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/proto_info) by extension 'ros'
+[2.983s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proto_info' with type 'ros.ament_cmake' and name 'proto_info'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extensions ['ignore', 'ignore_ament_install']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extension 'ignore'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extension 'ignore_ament_install'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extensions ['colcon_pkg']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extension 'colcon_pkg'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extensions ['colcon_meta']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extension 'colcon_meta'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extensions ['ros']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/reciever) by extension 'ros'
+[2.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/reciever' with type 'ros.ament_cmake' and name 'reciever'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extensions ['ignore', 'ignore_ament_install']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extension 'ignore'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extension 'ignore_ament_install'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extensions ['colcon_pkg']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extension 'colcon_pkg'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extensions ['colcon_meta']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extension 'colcon_meta'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extensions ['ros']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/sender) by extension 'ros'
+[2.993s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sender' with type 'ros.ament_cmake' and name 'sender'
+[2.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.141s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_args' from command line to 'None'
+[3.141s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_target' from command line to 'None'
+[3.141s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.141s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_clean_cache' from command line to 'False'
+[3.142s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_clean_first' from command line to 'False'
+[3.142s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'cmake_force_configure' from command line to 'False'
+[3.142s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'ament_cmake_args' from command line to 'None'
+[3.142s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'catkin_cmake_args' from command line to 'None'
+[3.142s] Level 5:colcon.colcon_core.verb:set package 'message_info' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.143s] DEBUG:colcon.colcon_core.verb:Building package 'message_info' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/mukuyo/Desktop/RI-AI/build/message_info', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/mukuyo/Desktop/RI-AI/install/message_info', 'merge_install': False, 'path': '/Users/mukuyo/Desktop/RI-AI/src/message_info', 'symlink_install': False, 'test_result_base': None}
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_args' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_target' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_clean_cache' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_clean_first' from command line to 'False'
+[3.223s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'cmake_force_configure' from command line to 'False'
+[3.223s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'ament_cmake_args' from command line to 'None'
+[3.223s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'catkin_cmake_args' from command line to 'None'
+[3.223s] Level 5:colcon.colcon_core.verb:set package 'proto_info' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.223s] DEBUG:colcon.colcon_core.verb:Building package 'proto_info' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/mukuyo/Desktop/RI-AI/build/proto_info', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/mukuyo/Desktop/RI-AI/install/proto_info', 'merge_install': False, 'path': '/Users/mukuyo/Desktop/RI-AI/src/proto_info', 'symlink_install': False, 'test_result_base': None}
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_args' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_cache' from command line to 'False'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_first' from command line to 'False'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_force_configure' from command line to 'False'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'ament_cmake_args' from command line to 'None'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_cmake_args' from command line to 'None'
+[3.278s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.278s] DEBUG:colcon.colcon_core.verb:Building package 'main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/mukuyo/Desktop/RI-AI/build/main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/mukuyo/Desktop/RI-AI/install/main', 'merge_install': False, 'path': '/Users/mukuyo/Desktop/RI-AI/src/main', 'symlink_install': False, 'test_result_base': None}
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_args' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_target' from command line to 'None'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_clean_cache' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_clean_first' from command line to 'False'
+[3.341s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'cmake_force_configure' from command line to 'False'
+[3.342s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'ament_cmake_args' from command line to 'None'
+[3.342s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'catkin_cmake_args' from command line to 'None'
+[3.342s] Level 5:colcon.colcon_core.verb:set package 'reciever' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.342s] DEBUG:colcon.colcon_core.verb:Building package 'reciever' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/mukuyo/Desktop/RI-AI/build/reciever', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/mukuyo/Desktop/RI-AI/install/reciever', 'merge_install': False, 'path': '/Users/mukuyo/Desktop/RI-AI/src/reciever', 'symlink_install': False, 'test_result_base': None}
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_args' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_target' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_clean_cache' from command line to 'False'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_clean_first' from command line to 'False'
+[3.374s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'cmake_force_configure' from command line to 'False'
+[3.374s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'ament_cmake_args' from command line to 'None'
+[3.374s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'catkin_cmake_args' from command line to 'None'
+[3.374s] Level 5:colcon.colcon_core.verb:set package 'sender' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.374s] DEBUG:colcon.colcon_core.verb:Building package 'sender' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/mukuyo/Desktop/RI-AI/build/sender', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/mukuyo/Desktop/RI-AI/install/sender', 'merge_install': False, 'path': '/Users/mukuyo/Desktop/RI-AI/src/sender', 'symlink_install': False, 'test_result_base': None}
+[3.381s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/mukuyo/Desktop/RI-AI/src/message_info' with build type 'ament_cmake'
+[3.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/mukuyo/Desktop/RI-AI/src/message_info'
+[3.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.678s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/mukuyo/Desktop/RI-AI/src/proto_info' with build type 'ament_cmake'
+[3.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/mukuyo/Desktop/RI-AI/src/proto_info'
+[3.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/message_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/message_info -- -j8 -l8
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/proto_info -- -j8 -l8
+[4.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/proto_info -- -j8 -l8
+[7.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/proto_info
+[8.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proto_info)
+[8.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/proto_info
+[8.117s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info' for CMake module files
+[8.119s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info' for CMake config files
+[8.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('proto_info', 'cmake_prefix_path')
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/cmake_prefix_path.ps1'
+[8.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/cmake_prefix_path.dsv'
+[8.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/cmake_prefix_path.sh'
+[8.139s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib'
+[8.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('proto_info', 'dyld_library_path')
+[8.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/dyld_library_path.ps1'
+[8.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/dyld_library_path.dsv'
+[8.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/dyld_library_path.sh'
+[8.159s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info/bin'
+[8.159s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/pkgconfig/proto_info.pc'
+[8.159s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages'
+[8.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('proto_info', 'pythonpath')
+[8.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/pythonpath.ps1'
+[8.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/pythonpath.dsv'
+[8.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/hook/pythonpath.sh'
+[8.215s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.ps1'
+[8.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.dsv'
+[8.220s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.sh'
+[8.225s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.bash'
+[8.229s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.zsh'
+[8.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/colcon-core/packages/proto_info)
+[8.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/message_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/message_info -- -j8 -l8
+[25.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/message_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/message_info
+[28.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_info)
+[28.519s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info' for CMake module files
+[28.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/message_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/message_info
+[28.528s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info' for CMake config files
+[28.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'cmake_prefix_path')
+[28.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/cmake_prefix_path.ps1'
+[28.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/cmake_prefix_path.dsv'
+[28.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/cmake_prefix_path.sh'
+[28.551s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib'
+[28.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'dyld_library_path')
+[28.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/dyld_library_path.ps1'
+[28.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/dyld_library_path.dsv'
+[28.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/dyld_library_path.sh'
+[28.569s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info/bin'
+[28.569s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/pkgconfig/message_info.pc'
+[28.569s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages'
+[28.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_info', 'pythonpath')
+[28.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/pythonpath.ps1'
+[28.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/pythonpath.dsv'
+[28.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/hook/pythonpath.sh'
+[28.601s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.ps1'
+[28.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.dsv'
+[28.605s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.sh'
+[28.606s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.bash'
+[28.607s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.zsh'
+[28.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/mukuyo/Desktop/RI-AI/install/message_info/share/colcon-core/packages/message_info)
+[28.610s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/mukuyo/Desktop/RI-AI/src/main' with build type 'ament_cmake'
+[28.625s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/mukuyo/Desktop/RI-AI/src/main'
+[28.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/mukuyo/Desktop/RI-AI/src/reciever' with build type 'ament_cmake'
+[28.734s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/mukuyo/Desktop/RI-AI/src/reciever'
+[28.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/mukuyo/Desktop/RI-AI/src/sender' with build type 'ament_cmake'
+[28.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/mukuyo/Desktop/RI-AI/src/sender'
+[28.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[29.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/reciever -- -j8 -l8
+[29.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8
+[30.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/reciever' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/reciever -- -j8 -l8
+[32.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/reciever': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/reciever
+[32.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reciever)
+[32.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/reciever' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/reciever
+[32.528s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever' for CMake module files
+[32.530s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever' for CMake config files
+[32.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('reciever', 'cmake_prefix_path')
+[32.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/hook/cmake_prefix_path.ps1'
+[32.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/hook/cmake_prefix_path.dsv'
+[32.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/hook/cmake_prefix_path.sh'
+[32.556s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever/lib'
+[32.556s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever/bin'
+[32.556s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever/lib/pkgconfig/reciever.pc'
+[32.557s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/reciever/lib/python3.8/site-packages'
+[32.579s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.ps1'
+[32.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.dsv'
+[32.586s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.sh'
+[32.588s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.bash'
+[32.589s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.zsh'
+[32.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/mukuyo/Desktop/RI-AI/install/reciever/share/colcon-core/packages/reciever)
+[35.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/sender' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8
+[38.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/sender
+[41.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sender)
+[41.399s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender' for CMake module files
+[41.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/sender' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/sender
+[41.407s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender' for CMake config files
+[41.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('sender', 'cmake_prefix_path')
+[41.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/cmake_prefix_path.ps1'
+[41.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/cmake_prefix_path.dsv'
+[41.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/cmake_prefix_path.sh'
+[41.431s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender/lib'
+[41.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('sender', 'dyld_library_path')
+[41.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/dyld_library_path.ps1'
+[41.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/dyld_library_path.dsv'
+[41.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/dyld_library_path.sh'
+[41.464s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender/bin'
+[41.465s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/pkgconfig/sender.pc'
+[41.465s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages'
+[41.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('sender', 'pythonpath')
+[41.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/pythonpath.ps1'
+[41.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/pythonpath.dsv'
+[41.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/hook/pythonpath.sh'
+[41.505s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.ps1'
+[41.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.dsv'
+[41.587s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.sh'
+[41.591s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.bash'
+[41.593s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.zsh'
+[41.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/mukuyo/Desktop/RI-AI/install/sender/share/colcon-core/packages/sender)
+[78.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[80.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main
+[80.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main)
+[80.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main
+[80.439s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main' for CMake module files
+[80.440s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main' for CMake config files
+[80.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('main', 'cmake_prefix_path')
+[80.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/hook/cmake_prefix_path.ps1'
+[80.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/hook/cmake_prefix_path.dsv'
+[80.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/hook/cmake_prefix_path.sh'
+[80.460s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main/lib'
+[80.460s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main/bin'
+[80.461s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main/lib/pkgconfig/main.pc'
+[80.461s] Level 1:colcon.colcon_core.environment:checking '/Users/mukuyo/Desktop/RI-AI/install/main/lib/python3.8/site-packages'
+[80.474s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.ps1'
+[80.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv'
+[80.478s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.sh'
+[80.479s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.bash'
+[80.480s] INFO:colcon.colcon_core.shell:Creating package script '/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.zsh'
+[80.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/mukuyo/Desktop/RI-AI/install/main/share/colcon-core/packages/main)
+[80.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[80.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[80.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[80.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[80.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[80.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[80.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[80.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'terminal_notifier'
+[80.711s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[80.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/Desktop/RI-AI/install/local_setup.ps1'
+[80.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/mukuyo/Desktop/RI-AI/install/_local_setup_util_ps1.py'
+[80.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/Desktop/RI-AI/install/setup.ps1'
+[80.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/Desktop/RI-AI/install/local_setup.sh'
+[80.752s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/mukuyo/Desktop/RI-AI/install/_local_setup_util_sh.py'
+[80.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/Desktop/RI-AI/install/setup.sh'
+[80.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/Desktop/RI-AI/install/local_setup.bash'
+[80.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/Desktop/RI-AI/install/setup.bash'
+[80.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/Desktop/RI-AI/install/local_setup.zsh'
+[80.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/Desktop/RI-AI/install/setup.zsh'

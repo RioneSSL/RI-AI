@@ -1,0 +1,4 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 warning generated.

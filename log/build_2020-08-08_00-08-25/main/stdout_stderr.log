@@ -1,0 +1,33 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
+[ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[ 83%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:9:8: warning: unused variable 'TH_goal_degree' [-Wunused-variable]
+        float TH_goal_degree=Calc::degree_atan2(goal.their,robot.pose);
+              ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 warning generated.
+1 warning generated.
+[100%] Linking CXX executable main
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

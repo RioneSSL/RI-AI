@@ -1,0 +1,18 @@
+[2.026s] CMake Error at CMakeLists.txt:35 (find_package):
+[2.026s]   By not providing "Findsender.cmake" in CMAKE_MODULE_PATH this project has
+[2.026s]   asked CMake to find a package configuration file provided by "sender", but
+[2.026s]   CMake did not find one.
+[2.026s] 
+[2.027s]   Could not find a package configuration file provided by "sender" with any
+[2.027s]   of the following names:
+[2.027s] 
+[2.027s]     senderConfig.cmake
+[2.027s]     sender-config.cmake
+[2.027s] 
+[2.027s]   Add the installation prefix of "sender" to CMAKE_PREFIX_PATH or set
+[2.027s]   "sender_DIR" to a directory containing one of the above files.  If "sender"
+[2.027s]   provides a separate development package or SDK, be sure it has been
+[2.027s]   installed.
+[2.028s] 
+[2.028s] 
+[2.042s] make: *** [cmake_check_build_system] Error 1

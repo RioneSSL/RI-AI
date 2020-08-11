@@ -1,0 +1,122 @@
+[0.214s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8
+[0.981s] [  3%] Built target sender__cpp
+[1.113s] [ 12%] Built target sender__rosidl_generator_c
+[1.180s] [ 15%] Linking CXX executable sim_sender
+[1.519s] [ 24%] Built target sender__rosidl_typesupport_introspection_cpp
+[1.528s] [ 36%] Built target sender__rosidl_typesupport_cpp
+[1.536s] [ 48%] Built target sender__rosidl_typesupport_c
+[1.538s] [ 51%] Built target sender__rosidl_typesupport_fastrtps_cpp
+[1.555s] [ 60%] Built target sender__rosidl_typesupport_introspection_c
+[1.748s] [ 63%] Built target sim_sender
+[1.862s] [ 72%] Built target sender__rosidl_typesupport_fastrtps_c
+[2.186s] [ 72%] Built target sender
+[2.502s] [ 75%] Built target sender__py
+[2.843s] [ 81%] Built target sender__python
+[3.190s] [ 87%] Built target sender__rosidl_typesupport_introspection_c__pyext
+[3.194s] [ 93%] Built target sender__rosidl_typesupport_c__pyext
+[3.195s] [100%] Built target sender__rosidl_typesupport_fastrtps_c__pyext
+[3.273s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/sender' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/sender -- -j8 -l8
+[5.856s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/sender
+[5.910s] -- Install configuration: ""
+[5.910s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/rosidl_interfaces/sender
+[5.911s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[5.912s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[5.912s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_generator_c__visibility_control.h
+[5.912s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/test.h
+[5.913s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[5.913s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__functions.h
+[5.913s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.h
+[5.913s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__struct.h
+[5.914s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__functions.c
+[5.914s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/library_path.sh
+[5.914s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/library_path.dsv
+[5.915s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_generator_c.dylib
+[5.998s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[5.999s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[5.999s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[5.999s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+[5.999s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.000s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_fastrtps_c.dylib
+[6.104s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[6.105s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[6.105s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.105s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[6.105s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[6.105s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/dds_fastrtps
+[6.105s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_fastrtps_cpp.dylib
+[6.172s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[6.173s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[6.173s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[6.173s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.c
+[6.173s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_introspection_c.h
+[6.173s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.174s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_introspection_c.dylib
+[6.290s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_c.dylib
+[6.360s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[6.361s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[6.361s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[6.361s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__traits.hpp
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__struct.hpp
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__builder.hpp
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/test.hpp
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail
+[6.362s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[6.363s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.cpp
+[6.363s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_introspection_cpp.dylib
+[6.432s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_cpp.dylib
+[6.506s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/pythonpath.sh
+[6.507s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/pythonpath.dsv
+[6.507s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/__init__.py
+[6.597s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg
+[6.598s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/__init__.py
+[6.598s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/_test.py
+[6.598s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/_test_s.c
+[6.599s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_fastrtps_c.cpython-38-darwin.so
+[6.790s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_introspection_c.cpython-38-darwin.so
+[7.006s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_c.cpython-38-darwin.so
+[7.213s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__python.dylib
+[7.386s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/msg/Test.idl
+[7.386s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/msg/Test.msg
+[7.386s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/sender/sim_sender
+[7.612s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config
+[7.613s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config/.DS_Store
+[7.614s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config/grsim.yaml
+[7.614s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch
+[7.615s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch/.DS_Store
+[7.615s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch/sender.xml
+[7.615s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/package_run_dependencies/sender
+[7.615s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/parent_prefix_path/sender
+[7.616s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/ament_prefix_path.sh
+[7.616s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/ament_prefix_path.dsv
+[7.616s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/path.sh
+[7.617s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/path.dsv
+[7.617s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.bash
+[7.617s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.sh
+[7.618s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.zsh
+[7.618s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.dsv
+[7.619s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.dsv
+[7.620s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/packages/sender
+[7.620s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cExport.cmake
+[7.620s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cExport-noconfig.cmake
+[7.620s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cExport.cmake
+[7.620s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.621s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cExport.cmake
+[7.621s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cExport-noconfig.cmake
+[7.621s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cppExport.cmake
+[7.622s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cppExport.cmake
+[7.622s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.622s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cppExport.cmake
+[7.623s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cppExport-noconfig.cmake
+[7.624s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake-extras.cmake
+[7.639s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.639s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_libraries-extras.cmake
+[7.640s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_targets-extras.cmake
+[7.640s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.640s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.641s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.641s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/senderConfig.cmake
+[7.642s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/senderConfig-version.cmake
+[7.642s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.xml
+[7.643s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/sender' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/sender

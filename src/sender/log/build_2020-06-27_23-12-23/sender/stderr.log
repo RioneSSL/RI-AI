@@ -1,0 +1,7 @@
+[5.867s] /Users/mukuyo/RI-AI/src/sender/src/sim_sender.cpp:6:10: fatal error: 'message_info/msg/test.msg' file not found
+[5.867s] #include "message_info/msg/test.msg"
+[5.867s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.028s] 1 error generated.
+[6.038s] make[2]: *** [CMakeFiles/sim_sender.dir/src/sim_sender.cpp.o] Error 1
+[6.038s] make[1]: *** [CMakeFiles/sim_sender.dir/all] Error 2
+[6.039s] make: *** [all] Error 2

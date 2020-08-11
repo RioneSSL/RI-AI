@@ -1,0 +1,17 @@
+[0.106s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.467s] Scanning dependencies of target main
+[0.607s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.266s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.266s]          float field_width = geometry_message->field_width;
+[3.267s]                ^
+[3.288s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:12: error: call to implicitly-deleted default constructor of 'Goalie'
+[3.288s]     Goalie goalie;
+[3.288s]            ^
+[3.289s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:16: note: default constructor of 'Goalie' is implicitly deleted because base class 'rclcpp::Node' has no default constructor
+[3.289s] class Goalie : public rclcpp::Node{
+[3.289s]                ^
+[5.983s] 1 warning and 1 error generated.
+[6.017s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[6.017s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[6.018s] make: *** [all] Error 2
+[6.020s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

@@ -1,0 +1,63 @@
+[0.210s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/sender': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/mukuyo/Desktop/RI-AI/src/sender -DCMAKE_INSTALL_PREFIX=/Users/mukuyo/Desktop/RI-AI/install/sender
+[0.739s] -- The C compiler identification is AppleClang 11.0.3.11030032
+[0.877s] -- The CXX compiler identification is AppleClang 11.0.3.11030032
+[0.892s] -- Detecting C compiler ABI info
+[1.565s] -- Detecting C compiler ABI info - done
+[1.582s] -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+[1.582s] -- Detecting C compile features
+[1.583s] -- Detecting C compile features - done
+[1.590s] -- Detecting CXX compiler ABI info
+[2.282s] -- Detecting CXX compiler ABI info - done
+[2.299s] -- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+[2.300s] -- Detecting CXX compile features
+[2.302s] -- Detecting CXX compile features - done
+[2.319s] -- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+[2.450s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.450s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[3.004s] -- Found rclcpp: 2.0.2 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)
+[3.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.259s] -- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)
+[3.368s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[3.459s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[3.849s] -- Found OpenSSL: /usr/local/Cellar/openssl@1.1/1.1.1g/lib/libcrypto.dylib (found version "1.1.1g")  
+[4.098s] -- Found FastRTPS: /Users/mukuyo/ros2_ws/ros2-osx/include  
+[4.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.688s] -- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)
+[4.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.692s] -- Looking for pthread.h
+[5.181s] -- Looking for pthread.h - found
+[5.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.790s] -- Found Threads: TRUE  
+[6.106s] -- Found std_msgs: 2.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/std_msgs/cmake)
+[6.148s] -- Found rosidl_default_generators: 1.0.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_default_generators/cmake)
+[6.188s] -- Found message_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake)
+[6.685s] -- Found proto_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake)
+[6.897s] -- Found Boost: /usr/local/lib/cmake/Boost-1.73.0/BoostConfig.cmake (found version "1.73.0") found components: system 
+[7.070s] -- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found version "3.12.4") 
+[7.071s] -- OpenSSL Version: 1.1.1g /usr/local/Cellar/openssl@1.1/1.1.1g/include /usr/local/Cellar/openssl@1.1/1.1.1g/lib/libssl.dylib;/usr/local/Cellar/openssl@1.1/1.1.1g/lib/libcrypto.dylib
+[7.163s] -- Found PythonInterp: /usr/local/bin/python3 (found version "3.8.5") 
+[7.529s] -- Found ament_cmake_ros: 0.9.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake_ros/cmake)
+[8.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.292s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[8.506s] -- Using PythonExtra_INCLUDE_DIRS: /Library/Frameworks/Python.framework/Versions/3.8/include/python3.8;/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8
+[8.633s] -- Using PythonExtra_LIBRARIES: /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin/libpython3.8.dylib
+[8.737s] -- Found PythonExtra: .so  
+[9.217s] -- Using numpy include directory: /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/numpy/core/include
+[9.258s] -- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+[9.395s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.429s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.471s] -- Configured cppcheck include dirs: /Users/mukuyo/Desktop/RI-AI/src/sender/include
+[9.472s] -- Configured cppcheck exclude dirs and/or files: 
+[9.590s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.590s] -- Configured cpplint exclude dirs and/or files: 
+[9.590s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.637s] -- Added test 'lint_cmake' to check CMake code style
+[9.651s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.903s] -- Added test 'uncrustify' to check C / C++ code style
+[9.903s] -- Configured uncrustify additional arguments: 
+[10.001s] -- Added test 'xmllint' to check XML markup files
+[10.109s] -- Configuring done
+[10.371s] -- Generating done
+[10.372s] -- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/sender

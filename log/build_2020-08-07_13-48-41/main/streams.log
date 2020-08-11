@@ -1,0 +1,74 @@
+[0.115s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.484s] Scanning dependencies of target main
+[0.619s] [ 66%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.620s] [ 66%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[2.882s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+[2.882s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:14: warning: direct base 'rclcpp::Node' is inaccessible due to ambiguity:
+[2.883s]     class Game -> rclcpp::Node
+[2.883s]     class Game -> class Goalie -> rclcpp::Node [-Winaccessible-base]
+[2.883s] class Game : public rclcpp::Node, public Goalie
+[2.883s]              ^~~~~~~~~~~~~~~~~~~
+[2.898s] In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+[2.899s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:14: warning: direct base 'rclcpp::Node' is inaccessible due to ambiguity:
+[2.899s]     class Game -> rclcpp::Node
+[2.899s]     class Game -> class Goalie -> rclcpp::Node [-Winaccessible-base]
+[2.899s] class Game : public rclcpp::Node, public Goalie
+[2.900s]              ^~~~~~~~~~~~~~~~~~~
+[2.917s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:11:7: error: call to implicitly-deleted default constructor of 'Goalie'
+[2.917s] Game::Game() : Node("Masuo"){
+[2.918s]       ^
+[2.918s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:16: note: default constructor of 'Goalie' is implicitly deleted because base class 'rclcpp::Node' has no default constructor
+[2.918s] class Goalie : public rclcpp::Node{
+[2.918s]                ^
+[2.919s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:12:20: error: non-static member 'create_publisher' found in multiple base-class subobjects of type 'rclcpp::Node':
+[2.919s]     class Game -> rclcpp::Node
+[2.920s]     class Game -> class Goalie -> rclcpp::Node
+[2.920s]         publisher = this->create_publisher<message_info::msg::RobotCommands>("robot_commands",10); //grsimへのメッセージ
+[2.920s]                           ^
+[2.920s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:71:7: note: member found by ambiguous name lookup
+[2.920s] Node::create_publisher(
+[2.920s]       ^
+[2.920s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.921s]          float field_width = geometry_message->field_width;
+[2.921s]                ^
+[2.921s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:38:24: error: non-static member 'create_subscription' found in multiple base-class subobjects of type 'rclcpp::Node':
+[2.921s]     class Game -> rclcpp::Node
+[2.922s]     class Game -> class Goalie -> rclcpp::Node
+[2.922s]     subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,callback);
+[2.922s]                        ^
+[2.922s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:91:7: note: member found by ambiguous name lookup
+[2.922s] Node::create_subscription(
+[2.922s]       ^
+[2.922s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:39:33: error: non-static member 'create_subscription' found in multiple base-class subobjects of type 'rclcpp::Node':
+[2.922s]     class Game -> rclcpp::Node
+[2.922s]     class Game -> class Goalie -> rclcpp::Node
+[2.922s]     subscriber_geometry = this->create_subscription<message_info::msg::VisionGeometry>("vision_geometry",10,callback_geometry);
+[2.923s]                                 ^
+[2.923s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:91:7: note: member found by ambiguous name lookup
+[2.923s] Node::create_subscription(
+[2.923s]       ^
+[2.923s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:40:14: error: non-static member 'create_wall_timer' found in multiple base-class subobjects of type 'rclcpp::Node':
+[2.923s]     class Game -> rclcpp::Node
+[2.923s]     class Game -> class Goalie -> rclcpp::Node
+[2.923s]     timer_ = create_wall_timer(16ms, std::bind(&Game::timer_callback, this));
+[2.923s]              ^
+[2.924s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:109:7: note: member found by ambiguous name lookup
+[2.924s] Node::create_wall_timer(
+[2.924s]       ^
+[2.934s] /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:8:3: error: no matching function for call to 'spin'
+[2.935s]   rclcpp::spin(node);
+[2.935s]   ^~~~~~~~~~~~
+[2.935s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:45:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>' for 1st argument
+[2.935s] spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[2.935s] ^
+[2.936s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:49:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::Node>' for 1st argument
+[2.936s] spin(rclcpp::Node::SharedPtr node_ptr);
+[2.936s] ^
+[3.473s] 1 warning and 1 error generated.
+[3.489s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[3.489s] make[2]: *** Waiting for unfinished jobs....
+[3.558s] 2 warnings and 5 errors generated.
+[3.578s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[3.579s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[3.579s] make: *** [all] Error 2
+[3.581s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

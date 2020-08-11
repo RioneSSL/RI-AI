@@ -1,0 +1,25 @@
+{
+  "package_name": "sender",
+  "output_dir": "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_typesupport_fastrtps_cpp/sender",
+  "template_dir": "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_adapter/sender:msg/Test.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/Users/mukuyo/ros2_ws/ros2-osx/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_adapter/sender/msg/Test.idl",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

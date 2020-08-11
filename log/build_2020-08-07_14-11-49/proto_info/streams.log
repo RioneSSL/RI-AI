@@ -1,0 +1,53 @@
+[0.070s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/proto_info -- -j8 -l8
+[0.323s] [ 32%] Built target proto_info_py
+[0.350s] [100%] Built target proto_info
+[0.392s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/proto_info -- -j8 -l8
+[1.764s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/proto_info
+[1.793s] -- Install configuration: ""
+[1.793s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.sh
+[1.793s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.dsv
+[1.794s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info
+[1.794s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info/__init__.py
+[1.879s] Listing '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info'...
+[1.886s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_wrapper.pb.h
+[1.887s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_geometry.pb.h
+[1.887s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_detection.pb.h
+[1.887s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_robot_status.pb.h
+[1.888s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_refbox_log.pb.h
+[1.888s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/referee.pb.h
+[1.889s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/game_event.pb.h
+[1.889s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Replacement.pb.h
+[1.890s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Commands.pb.h
+[1.890s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Packet.pb.h
+[1.890s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/libproto_info.dylib
+[1.891s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_wrapper_pb2.py
+[1.891s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_geometry_pb2.py
+[1.891s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_detection_pb2.py
+[1.892s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_robot_status_pb2.py
+[1.892s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_refbox_log_pb2.py
+[1.893s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/referee_pb2.py
+[1.893s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/game_event_pb2.py
+[1.893s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Replacement_pb2.py
+[1.893s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Commands_pb2.py
+[1.893s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Packet_pb2.py
+[1.894s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.sh
+[1.894s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.dsv
+[1.894s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/package_run_dependencies/proto_info
+[1.894s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/parent_prefix_path/proto_info
+[1.895s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.sh
+[1.895s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.dsv
+[1.896s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.sh
+[1.896s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.dsv
+[1.896s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.bash
+[1.896s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.sh
+[1.897s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.zsh
+[1.897s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.dsv
+[1.897s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.dsv
+[1.898s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/packages/proto_info
+[1.899s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.903s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_libraries-extras.cmake
+[1.904s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.904s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig.cmake
+[1.904s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig-version.cmake
+[1.905s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.xml
+[1.905s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/proto_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/proto_info

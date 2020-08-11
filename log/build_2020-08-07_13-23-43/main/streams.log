@@ -1,0 +1,18 @@
+[0.082s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.260s] Scanning dependencies of target main
+[0.314s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[2.395s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.396s]          float field_width = geometry_message->field_width;
+[2.396s]                ^
+[2.419s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:13: error: call to non-static member function without an object argument
+[2.419s]     Goalie::main(ball,robot,goal,command);
+[2.420s]     ~~~~~~~~^~~~
+[2.425s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:13: error: 'main' is a private member of 'Goalie'
+[2.425s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:8:7: note: declared private here
+[2.425s]         void main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message);
+[2.426s]              ^
+[4.621s] 1 warning and 2 errors generated.
+[4.646s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[4.646s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[4.647s] make: *** [all] Error 2
+[4.649s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

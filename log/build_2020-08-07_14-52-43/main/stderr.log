@@ -1,0 +1,13 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:12: error: call to implicitly-deleted default constructor of 'Goalie'
+    Goalie goalie;
+           ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:16: note: default constructor of 'Goalie' is implicitly deleted because base class 'rclcpp::Node' has no default constructor
+class Goalie : public rclcpp::Node{
+               ^
+1 warning and 1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

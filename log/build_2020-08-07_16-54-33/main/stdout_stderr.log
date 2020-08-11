@@ -1,0 +1,20 @@
+Scanning dependencies of target main
+[ 60%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 60%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[ 60%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:43:13: error: out-of-line definition of 'distance_calc' does not match any declaration in 'Calc'; did you mean 'distace_calc'?
+float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+            ^~~~~~~~~~~~~
+            distace_calc
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.hpp:20:8: note: 'distace_calc' declared here
+        float distace_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+              ^
+1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/calculate.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+1 warning generated.
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,30 @@
+[0.123s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.530s] Scanning dependencies of target main
+[0.678s] [ 20%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.679s] [ 40%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[0.685s] [ 60%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.133s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.133s]          float field_width = geometry_message->field_width;
+[3.134s]                ^
+[8.457s] 1 warning generated.
+[8.531s] [ 80%] Linking CXX executable main
+[8.748s] [100%] Built target main
+[8.775s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[9.217s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main
+[9.245s] -- Install configuration: ""
+[9.246s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[9.246s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[9.247s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+[9.247s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+[9.249s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+[9.250s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+[9.251s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+[9.251s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+[9.251s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+[9.252s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+[9.252s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+[9.253s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+[9.253s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+[9.253s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+[9.254s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml
+[9.266s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main

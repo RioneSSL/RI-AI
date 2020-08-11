@@ -1,0 +1,7 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:14:8: warning: lambda capture 'this' is not used [-Wunused-lambda-capture]
+      [this](const message_info::msg::VisionDetections::SharedPtr vision_message) -> void //visionからのsubscriber
+       ^~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+2 warnings generated.

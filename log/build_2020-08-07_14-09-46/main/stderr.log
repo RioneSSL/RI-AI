@@ -1,0 +1,69 @@
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:14: warning: direct base 'rclcpp::Node' is inaccessible due to ambiguity:
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node [-Winaccessible-base]
+class Game : public rclcpp::Node, public Goalie
+             ^~~~~~~~~~~~~~~~~~~
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:14: warning: direct base 'rclcpp::Node' is inaccessible due to ambiguity:
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node [-Winaccessible-base]
+class Game : public rclcpp::Node, public Goalie
+             ^~~~~~~~~~~~~~~~~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:11:7: error: call to implicitly-deleted default constructor of 'Goalie'
+Game::Game() : Node("Masuo"){
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:16: note: default constructor of 'Goalie' is implicitly deleted because base class 'rclcpp::Node' has no default constructor
+class Goalie : public rclcpp::Node{
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:12:20: error: non-static member 'create_publisher' found in multiple base-class subobjects of type 'rclcpp::Node':
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node
+        publisher = this->create_publisher<message_info::msg::RobotCommands>("robot_commands",10); //grsimへのメッセージ
+                          ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:71:7: note: member found by ambiguous name lookup
+Node::create_publisher(
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:8:3: error: no matching function for call to 'spin'
+  rclcpp::spin(node);
+  ^~~~~~~~~~~~
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:45:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>' for 1st argument
+spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:49:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::Node>' for 1st argument
+spin(rclcpp::Node::SharedPtr node_ptr);
+^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:38:24: error: non-static member 'create_subscription' found in multiple base-class subobjects of type 'rclcpp::Node':
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node
+    subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,callback);
+                       ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:91:7: note: member found by ambiguous name lookup
+Node::create_subscription(
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:39:33: error: non-static member 'create_subscription' found in multiple base-class subobjects of type 'rclcpp::Node':
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node
+    subscriber_geometry = this->create_subscription<message_info::msg::VisionGeometry>("vision_geometry",10,callback_geometry);
+                                ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:91:7: note: member found by ambiguous name lookup
+Node::create_subscription(
+      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:40:14: error: non-static member 'create_wall_timer' found in multiple base-class subobjects of type 'rclcpp::Node':
+    class Game -> rclcpp::Node
+    class Game -> class Goalie -> rclcpp::Node
+    timer_ = create_wall_timer(16ms, std::bind(&Game::timer_callback, this));
+             ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:109:7: note: member found by ambiguous name lookup
+Node::create_wall_timer(
+      ^
+1 warning and 1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+2 warnings and 5 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

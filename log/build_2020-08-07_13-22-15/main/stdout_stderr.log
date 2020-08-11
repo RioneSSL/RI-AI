@@ -1,0 +1,12 @@
+Scanning dependencies of target main
+[ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:5: error: use of undeclared identifier 'goalie_main'
+    goalie_main(ball,robot,goal,command);
+    ^
+1 warning and 1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

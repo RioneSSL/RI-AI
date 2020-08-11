@@ -1,0 +1,52 @@
+-- Found ament_cmake: 0.9.6 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found rclcpp: 2.0.2 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found message_info: 0.0.0 (/Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake)
+-- Found ament_lint_auto: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mukuyo/Desktop/RI-AI/build/main
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 33%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[ 83%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[100%] Linking CXX executable main
+[100%] Built target main
+-- Install configuration: "Debug"
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

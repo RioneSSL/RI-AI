@@ -1,0 +1,4 @@
+[  3%] Built target sender__cpp
+[  6%] Linking CXX executable sim_sender
+make[1]: *** [CMakeFiles/sim_sender.dir/all] Interrupt: 2
+make: *** [all] Interrupt: 2

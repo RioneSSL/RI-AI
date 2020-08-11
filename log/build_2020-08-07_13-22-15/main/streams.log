@@ -1,0 +1,14 @@
+[0.087s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.296s] Scanning dependencies of target main
+[0.358s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[2.827s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.828s]          float field_width = geometry_message->field_width;
+[2.828s]                ^
+[2.828s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:5: error: use of undeclared identifier 'goalie_main'
+[2.828s]     goalie_main(ball,robot,goal,command);
+[2.828s]     ^
+[4.911s] 1 warning and 1 error generated.
+[4.942s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[4.942s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[4.942s] make: *** [all] Error 2
+[4.944s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

@@ -1,0 +1,18 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:1:10: fatal error: 'composition/goalie.hpp' file not found
+#include "composition/goalie.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:10: fatal error: 'composition/game.hpp' file not found
+#include "composition/game.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:10: fatal error: 'composition/game.hpp' file not found
+#include "composition/game.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

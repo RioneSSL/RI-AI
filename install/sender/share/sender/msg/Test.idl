@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sender/msg/Test.msg
+// generated code does not contain a copyright notice
+
+
+module sender {
+  module msg {
+    struct Test {
+      int64 a;
+
+      int64 b;
+    };
+  };
+};

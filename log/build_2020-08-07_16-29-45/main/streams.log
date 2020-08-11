@@ -1,0 +1,36 @@
+[0.122s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.547s] Scanning dependencies of target main
+[0.705s] [ 25%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.706s] [ 50%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.736s] [ 75%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[3.286s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:52: warning: unused parameter 'ball' [-Wunused-parameter]
+[3.286s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.287s]                                                    ^
+[3.288s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:92: warning: unused parameter 'robot' [-Wunused-parameter]
+[3.288s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.289s]                                                                                            ^
+[3.289s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:127: warning: unused parameter 'goal' [-Wunused-parameter]
+[3.290s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.290s]                                                                                                                               ^
+[3.290s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:167: warning: unused parameter 'send_message' [-Wunused-parameter]
+[3.290s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.290s]                                                                                                                                                                       ^
+[3.326s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.327s]          float field_width = geometry_message->field_width;
+[3.327s]                ^
+[3.363s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:5: error: use of undeclared identifier 'goalie'; did you mean 'goal'?
+[3.364s]     goalie.main(ball,robot,goal,command);
+[3.364s]     ^~~~~~
+[3.364s]     goal
+[3.364s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:32:33: note: 'goal' declared here
+[3.365s]                 message_info::msg::GoalInfo goal;
+[3.365s]                                             ^
+[3.365s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:12: error: no member named 'main' in 'message_info::msg::GoalInfo_<std::__1::allocator<void> >'
+[3.365s]     goalie.main(ball,robot,goal,command);
+[3.366s]     ~~~~~~ ^
+[3.984s] 4 warnings generated.
+[5.895s] 1 warning and 2 errors generated.
+[5.917s] make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+[5.918s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[5.918s] make: *** [all] Error 2
+[5.920s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

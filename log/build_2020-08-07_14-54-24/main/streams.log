@@ -1,0 +1,18 @@
+[0.113s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.299s] Scanning dependencies of target main
+[0.366s] [ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.366s] [ 66%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[2.454s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.454s]          float field_width = geometry_message->field_width;
+[2.454s]                ^
+[7.881s] 1 warning generated.
+[7.936s] [100%] Linking CXX executable main
+[8.027s] Undefined symbols for architecture x86_64:
+[8.027s]   "Goalie::main(message_info::msg::DetectionBall_<std::__1::allocator<void> >, message_info::msg::DetectionRobot_<std::__1::allocator<void> >, message_info::msg::GoalInfo_<std::__1::allocator<void> >, message_info::msg::RobotCommand_<std::__1::allocator<void> >&)", referenced from:
+[8.027s]       Game::test() in game.cpp.o
+[8.028s] ld: symbol(s) not found for architecture x86_64
+[8.029s] clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[8.031s] make[2]: *** [main] Error 1
+[8.032s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[8.032s] make: *** [all] Error 2
+[8.033s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

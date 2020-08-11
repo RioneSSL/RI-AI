@@ -1,0 +1,11 @@
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/list_install_components.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/rebuild_cache.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/edit_cache.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/proto_info_py.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/install/local.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/proto_info_uninstall.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/test.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/proto_info.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/install/strip.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/install.dir
+/Users/mukuyo/Desktop/RI-AI/build/proto_info/CMakeFiles/uninstall.dir

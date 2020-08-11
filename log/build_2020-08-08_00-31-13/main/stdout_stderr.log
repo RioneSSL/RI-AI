@@ -1,0 +1,30 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/calculate.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:9:17: error: expected unqualified-id
+        if(degree>std::M_PI){
+                       ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/math.h:692:21: note: expanded from macro 'M_PI'
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+                    ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:10:23: error: expected unqualified-id
+                degree=degree-(std::M_PI*2);
+                                    ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/math.h:692:21: note: expanded from macro 'M_PI'
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+                    ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:11:25: error: expected unqualified-id
+        }else if(degree< -std::M_PI){
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/math.h:692:21: note: expanded from macro 'M_PI'
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+                    ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/calculate.cpp:12:23: error: expected unqualified-id
+                degree=degree+(std::M_PI*2);
+                                    ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/math.h:692:21: note: expanded from macro 'M_PI'
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+                    ^
+4 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/calculate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

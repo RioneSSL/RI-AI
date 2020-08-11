@@ -1,0 +1,43 @@
+[0.108s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.464s] Scanning dependencies of target main
+[0.612s] [ 25%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.612s] [ 50%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.613s] [ 75%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[2.864s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:52: warning: unused parameter 'ball' [-Wunused-parameter]
+[2.864s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[2.865s]                                                    ^
+[2.865s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:92: warning: unused parameter 'robot' [-Wunused-parameter]
+[2.865s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[2.865s]                                                                                            ^
+[2.865s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:127: warning: unused parameter 'goal' [-Wunused-parameter]
+[2.866s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[2.866s]                                                                                                                               ^
+[2.866s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:167: warning: unused parameter 'send_message' [-Wunused-parameter]
+[2.866s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[2.867s]                                                                                                                                                                       ^
+[2.987s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[2.987s]          float field_width = geometry_message->field_width;
+[2.987s]                ^
+[3.520s] 4 warnings generated.
+[7.984s] 1 warning generated.
+[8.049s] [100%] Linking CXX executable main
+[8.241s] [100%] Built target main
+[8.265s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[8.640s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main
+[8.664s] -- Install configuration: ""
+[8.664s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[8.664s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[8.666s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+[8.667s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+[8.668s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+[8.668s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+[8.669s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+[8.669s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+[8.670s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+[8.670s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+[8.670s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+[8.671s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+[8.672s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+[8.672s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+[8.673s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml
+[8.674s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main

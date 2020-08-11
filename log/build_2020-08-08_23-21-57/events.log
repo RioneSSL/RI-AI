@@ -1,0 +1,1202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (message_info) JobQueued: {'identifier': 'message_info', 'dependencies': OrderedDict()}
+[0.000793] (proto_info) JobQueued: {'identifier': 'proto_info', 'dependencies': OrderedDict()}
+[0.001089] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict([('message_info', '/Users/mukuyo/Desktop/RI-AI/install/message_info')])}
+[0.001337] (reciever) JobQueued: {'identifier': 'reciever', 'dependencies': OrderedDict([('message_info', '/Users/mukuyo/Desktop/RI-AI/install/message_info'), ('proto_info', '/Users/mukuyo/Desktop/RI-AI/install/proto_info')])}
+[0.001862] (sender) JobQueued: {'identifier': 'sender', 'dependencies': OrderedDict([('message_info', '/Users/mukuyo/Desktop/RI-AI/install/message_info'), ('proto_info', '/Users/mukuyo/Desktop/RI-AI/install/proto_info')])}
+[0.001988] (message_info) JobStarted: {'identifier': 'message_info'}
+[0.108365] (-) TimerEvent: {}
+[0.142055] (proto_info) JobStarted: {'identifier': 'proto_info'}
+[0.212855] (-) TimerEvent: {}
+[0.291437] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'cmake'}
+[0.293503] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'build'}
+[0.295370] (message_info) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/Desktop/RI-AI/build/message_info', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/message_info', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/message_info'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.314578] (-) TimerEvent: {}
+[0.367504] (proto_info) JobProgress: {'identifier': 'proto_info', 'progress': 'cmake'}
+[0.370158] (proto_info) JobProgress: {'identifier': 'proto_info', 'progress': 'build'}
+[0.371462] (proto_info) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/Desktop/RI-AI/build/proto_info', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/proto_info', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/proto_info'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.416560] (-) TimerEvent: {}
+[0.517051] (-) TimerEvent: {}
+[0.622185] (-) TimerEvent: {}
+[0.722694] (-) TimerEvent: {}
+[0.825977] (-) TimerEvent: {}
+[0.931169] (-) TimerEvent: {}
+[0.944998] (message_info) StdoutLine: {'line': b'[ 12%] Built target message_info__rosidl_generator_c\n'}
+[0.979969] (proto_info) StdoutLine: {'line': b'[ 32%] Built target proto_info_py\n'}
+[1.031361] (-) TimerEvent: {}
+[1.132651] (-) TimerEvent: {}
+[1.233090] (-) TimerEvent: {}
+[1.268266] (message_info) StdoutLine: {'line': b'[ 12%] Built target message_info__cpp\n'}
+[1.309327] (proto_info) StdoutLine: {'line': b'[100%] Built target proto_info\n'}
+[1.333445] (-) TimerEvent: {}
+[1.383890] (proto_info) CommandEnded: {'returncode': 0}
+[1.433640] (-) TimerEvent: {}
+[1.535062] (-) TimerEvent: {}
+[1.603938] (message_info) StdoutLine: {'line': b'[ 24%] Built target message_info__rosidl_typesupport_introspection_c\n'}
+[1.635147] (-) TimerEvent: {}
+[1.735994] (-) TimerEvent: {}
+[1.837855] (-) TimerEvent: {}
+[1.938492] (-) TimerEvent: {}
+[1.955464] (message_info) StdoutLine: {'line': b'[ 36%] Built target message_info__rosidl_typesupport_fastrtps_cpp\n'}
+[2.042770] (-) TimerEvent: {}
+[2.146178] (-) TimerEvent: {}
+[2.247026] (-) TimerEvent: {}
+[2.294715] (message_info) StdoutLine: {'line': b'[ 48%] Built target message_info__rosidl_typesupport_introspection_cpp\n'}
+[2.347495] (-) TimerEvent: {}
+[2.450039] (-) TimerEvent: {}
+[2.551504] (-) TimerEvent: {}
+[2.625589] (message_info) StdoutLine: {'line': b'[ 60%] Built target message_info__rosidl_typesupport_fastrtps_c\n'}
+[2.651761] (-) TimerEvent: {}
+[2.753162] (-) TimerEvent: {}
+[2.853564] (-) TimerEvent: {}
+[2.952920] (message_info) StdoutLine: {'line': b'[ 72%] Built target message_info__rosidl_typesupport_cpp\n'}
+[2.953668] (-) TimerEvent: {}
+[3.055686] (-) TimerEvent: {}
+[3.156610] (-) TimerEvent: {}
+[3.257152] (-) TimerEvent: {}
+[3.301683] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info__rosidl_typesupport_c\n'}
+[3.357867] (-) TimerEvent: {}
+[3.459815] (-) TimerEvent: {}
+[3.563581] (-) TimerEvent: {}
+[3.608494] (message_info) StdoutLine: {'line': b'[ 84%] Built target message_info\n'}
+[3.663965] (-) TimerEvent: {}
+[3.764478] (-) TimerEvent: {}
+[3.865115] (-) TimerEvent: {}
+[3.926077] (message_info) StdoutLine: {'line': b'[ 85%] Built target message_info__py\n'}
+[3.965447] (-) TimerEvent: {}
+[4.067988] (-) TimerEvent: {}
+[4.099592] (proto_info) JobProgress: {'identifier': 'proto_info', 'progress': 'install'}
+[4.164682] (proto_info) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/Desktop/RI-AI/build/proto_info'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/proto_info', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/proto_info'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[4.172249] (-) TimerEvent: {}
+[4.239574] (proto_info) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[4.240189] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.sh\n'}
+[4.240777] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/pythonpath.dsv\n'}
+[4.241213] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info\n'}
+[4.241415] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info/__init__.py\n'}
+[4.272368] (-) TimerEvent: {}
+[4.273639] (message_info) StdoutLine: {'line': b'[ 96%] Built target message_info__python\n'}
+[4.376490] (-) TimerEvent: {}
+[4.478955] (-) TimerEvent: {}
+[4.524112] (proto_info) StdoutLine: {'line': b"Listing '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/proto_info'...\n"}
+[4.527541] (message_info) StdoutLine: {'line': b'[ 98%] Built target message_info__rosidl_typesupport_introspection_c__pyext\n'}
+[4.533022] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_wrapper.pb.h\n'}
+[4.533935] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_geometry.pb.h\n'}
+[4.534554] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_detection.pb.h\n'}
+[4.534947] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_robot_status.pb.h\n'}
+[4.535517] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/messages_robocup_ssl_refbox_log.pb.h\n'}
+[4.536131] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/referee.pb.h\n'}
+[4.536642] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/game_event.pb.h\n'}
+[4.537039] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Replacement.pb.h\n'}
+[4.537495] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Commands.pb.h\n'}
+[4.538055] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/include/proto_info/grSim_Packet.pb.h\n'}
+[4.538554] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/libproto_info.dylib\n'}
+[4.539055] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_wrapper_pb2.py\n'}
+[4.539495] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_geometry_pb2.py\n'}
+[4.539955] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_detection_pb2.py\n'}
+[4.540257] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_robot_status_pb2.py\n'}
+[4.540444] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/messages_robocup_ssl_refbox_log_pb2.py\n'}
+[4.540644] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/referee_pb2.py\n'}
+[4.540815] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/game_event_pb2.py\n'}
+[4.541298] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Replacement_pb2.py\n'}
+[4.541825] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Commands_pb2.py\n'}
+[4.542342] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages/grSim_Packet_pb2.py\n'}
+[4.542676] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.sh\n'}
+[4.542880] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/library_path.dsv\n'}
+[4.543069] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/package_run_dependencies/proto_info\n'}
+[4.543317] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/parent_prefix_path/proto_info\n'}
+[4.543511] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.sh\n'}
+[4.543728] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/ament_prefix_path.dsv\n'}
+[4.544632] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.sh\n'}
+[4.548545] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/environment/path.dsv\n'}
+[4.549154] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.bash\n'}
+[4.549665] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.sh\n'}
+[4.550155] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.zsh\n'}
+[4.550654] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/local_setup.dsv\n'}
+[4.550949] (proto_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.dsv\n'}
+[4.551294] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/ament_index/resource_index/packages/proto_info\n'}
+[4.551705] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.551956] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.552378] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.552754] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig.cmake\n'}
+[4.552967] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/cmake/proto_infoConfig-version.cmake\n'}
+[4.556135] (proto_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/proto_info/share/proto_info/package.xml\n'}
+[4.556587] (proto_info) CommandEnded: {'returncode': 0}
+[4.585383] (-) TimerEvent: {}
+[4.672665] (proto_info) JobEnded: {'identifier': 'proto_info', 'rc': 0}
+[4.688182] (-) TimerEvent: {}
+[4.773360] (message_info) StdoutLine: {'line': b'[ 99%] Built target message_info__rosidl_typesupport_c__pyext\n'}
+[4.790198] (-) TimerEvent: {}
+[4.890542] (-) TimerEvent: {}
+[4.991193] (-) TimerEvent: {}
+[5.008255] (message_info) StdoutLine: {'line': b'[100%] Built target message_info__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.071223] (message_info) CommandEnded: {'returncode': 0}
+[5.091390] (-) TimerEvent: {}
+[5.192771] (-) TimerEvent: {}
+[5.293185] (-) TimerEvent: {}
+[5.397802] (-) TimerEvent: {}
+[5.498455] (-) TimerEvent: {}
+[5.598807] (-) TimerEvent: {}
+[5.701064] (-) TimerEvent: {}
+[5.802094] (-) TimerEvent: {}
+[5.903015] (-) TimerEvent: {}
+[6.003604] (-) TimerEvent: {}
+[6.104211] (-) TimerEvent: {}
+[6.205752] (-) TimerEvent: {}
+[6.308311] (-) TimerEvent: {}
+[6.411715] (-) TimerEvent: {}
+[6.512159] (-) TimerEvent: {}
+[6.614438] (-) TimerEvent: {}
+[6.717353] (-) TimerEvent: {}
+[6.822196] (-) TimerEvent: {}
+[6.922651] (-) TimerEvent: {}
+[7.023758] (-) TimerEvent: {}
+[7.124177] (-) TimerEvent: {}
+[7.224640] (-) TimerEvent: {}
+[7.325481] (-) TimerEvent: {}
+[7.425867] (-) TimerEvent: {}
+[7.526360] (-) TimerEvent: {}
+[7.627010] (-) TimerEvent: {}
+[7.731864] (-) TimerEvent: {}
+[7.832295] (-) TimerEvent: {}
+[7.932759] (-) TimerEvent: {}
+[8.033773] (-) TimerEvent: {}
+[8.134469] (-) TimerEvent: {}
+[8.234857] (-) TimerEvent: {}
+[8.335239] (-) TimerEvent: {}
+[8.435891] (-) TimerEvent: {}
+[8.538884] (-) TimerEvent: {}
+[8.639708] (-) TimerEvent: {}
+[8.743047] (-) TimerEvent: {}
+[8.843402] (-) TimerEvent: {}
+[8.943826] (-) TimerEvent: {}
+[9.044231] (-) TimerEvent: {}
+[9.144867] (-) TimerEvent: {}
+[9.247725] (-) TimerEvent: {}
+[9.350492] (-) TimerEvent: {}
+[9.451180] (-) TimerEvent: {}
+[9.551536] (-) TimerEvent: {}
+[9.652255] (-) TimerEvent: {}
+[9.752857] (-) TimerEvent: {}
+[9.853504] (-) TimerEvent: {}
+[9.955548] (-) TimerEvent: {}
+[10.055931] (-) TimerEvent: {}
+[10.161284] (-) TimerEvent: {}
+[10.261691] (-) TimerEvent: {}
+[10.364481] (-) TimerEvent: {}
+[10.465467] (-) TimerEvent: {}
+[10.568304] (-) TimerEvent: {}
+[10.672199] (-) TimerEvent: {}
+[10.772636] (-) TimerEvent: {}
+[10.876592] (-) TimerEvent: {}
+[10.977598] (-) TimerEvent: {}
+[11.078088] (-) TimerEvent: {}
+[11.178510] (-) TimerEvent: {}
+[11.278849] (-) TimerEvent: {}
+[11.381931] (-) TimerEvent: {}
+[11.482437] (-) TimerEvent: {}
+[11.584316] (-) TimerEvent: {}
+[11.685997] (-) TimerEvent: {}
+[11.787943] (-) TimerEvent: {}
+[11.888857] (-) TimerEvent: {}
+[11.990757] (-) TimerEvent: {}
+[12.092618] (-) TimerEvent: {}
+[12.194329] (-) TimerEvent: {}
+[12.294684] (-) TimerEvent: {}
+[12.395140] (-) TimerEvent: {}
+[12.497018] (-) TimerEvent: {}
+[12.597494] (-) TimerEvent: {}
+[12.699411] (-) TimerEvent: {}
+[12.803653] (-) TimerEvent: {}
+[12.904139] (-) TimerEvent: {}
+[13.004525] (-) TimerEvent: {}
+[13.105735] (-) TimerEvent: {}
+[13.208315] (-) TimerEvent: {}
+[13.309222] (-) TimerEvent: {}
+[13.410723] (-) TimerEvent: {}
+[13.513602] (-) TimerEvent: {}
+[13.614027] (-) TimerEvent: {}
+[13.715171] (-) TimerEvent: {}
+[13.815584] (-) TimerEvent: {}
+[13.916070] (-) TimerEvent: {}
+[14.016421] (-) TimerEvent: {}
+[14.116991] (-) TimerEvent: {}
+[14.217690] (-) TimerEvent: {}
+[14.318157] (-) TimerEvent: {}
+[14.418523] (-) TimerEvent: {}
+[14.521277] (-) TimerEvent: {}
+[14.622187] (-) TimerEvent: {}
+[14.722704] (-) TimerEvent: {}
+[14.823082] (-) TimerEvent: {}
+[14.923764] (-) TimerEvent: {}
+[15.025080] (-) TimerEvent: {}
+[15.125481] (-) TimerEvent: {}
+[15.226203] (-) TimerEvent: {}
+[15.327288] (-) TimerEvent: {}
+[15.428775] (-) TimerEvent: {}
+[15.530061] (-) TimerEvent: {}
+[15.631496] (-) TimerEvent: {}
+[15.731843] (-) TimerEvent: {}
+[15.832459] (-) TimerEvent: {}
+[15.933803] (-) TimerEvent: {}
+[16.034464] (-) TimerEvent: {}
+[16.134835] (-) TimerEvent: {}
+[16.240384] (-) TimerEvent: {}
+[16.342330] (-) TimerEvent: {}
+[16.446657] (-) TimerEvent: {}
+[16.547307] (-) TimerEvent: {}
+[16.650717] (-) TimerEvent: {}
+[16.755733] (-) TimerEvent: {}
+[16.857333] (-) TimerEvent: {}
+[16.960867] (-) TimerEvent: {}
+[17.063822] (-) TimerEvent: {}
+[17.168413] (-) TimerEvent: {}
+[17.269373] (-) TimerEvent: {}
+[17.372240] (-) TimerEvent: {}
+[17.472642] (-) TimerEvent: {}
+[17.573187] (-) TimerEvent: {}
+[17.673631] (-) TimerEvent: {}
+[17.774093] (-) TimerEvent: {}
+[17.877492] (-) TimerEvent: {}
+[17.978238] (-) TimerEvent: {}
+[18.078767] (-) TimerEvent: {}
+[18.179121] (-) TimerEvent: {}
+[18.283680] (-) TimerEvent: {}
+[18.384559] (-) TimerEvent: {}
+[18.484947] (-) TimerEvent: {}
+[18.588751] (-) TimerEvent: {}
+[18.690692] (-) TimerEvent: {}
+[18.791170] (-) TimerEvent: {}
+[18.891575] (-) TimerEvent: {}
+[18.992035] (-) TimerEvent: {}
+[19.092407] (-) TimerEvent: {}
+[19.197579] (-) TimerEvent: {}
+[19.301420] (-) TimerEvent: {}
+[19.401870] (-) TimerEvent: {}
+[19.502492] (-) TimerEvent: {}
+[19.605990] (-) TimerEvent: {}
+[19.709533] (-) TimerEvent: {}
+[19.810501] (-) TimerEvent: {}
+[19.911346] (-) TimerEvent: {}
+[20.015239] (-) TimerEvent: {}
+[20.120187] (-) TimerEvent: {}
+[20.220840] (-) TimerEvent: {}
+[20.321201] (-) TimerEvent: {}
+[20.422113] (-) TimerEvent: {}
+[20.522630] (-) TimerEvent: {}
+[20.626033] (-) TimerEvent: {}
+[20.726998] (-) TimerEvent: {}
+[20.827466] (-) TimerEvent: {}
+[20.927886] (-) TimerEvent: {}
+[21.030196] (-) TimerEvent: {}
+[21.130762] (-) TimerEvent: {}
+[21.231229] (-) TimerEvent: {}
+[21.331889] (-) TimerEvent: {}
+[21.432272] (-) TimerEvent: {}
+[21.532835] (-) TimerEvent: {}
+[21.633932] (-) TimerEvent: {}
+[21.734424] (-) TimerEvent: {}
+[21.834959] (-) TimerEvent: {}
+[21.938709] (-) TimerEvent: {}
+[21.962220] (message_info) JobProgress: {'identifier': 'message_info', 'progress': 'install'}
+[21.963174] (message_info) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/Desktop/RI-AI/build/message_info'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/message_info', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/message_info'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[22.018303] (message_info) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[22.019582] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/ament_index/resource_index/rosidl_interfaces/message_info\n'}
+[22.020401] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.021345] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.022180] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_frame.h\n'}
+[22.022853] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee_game_event.h\n'}
+[22.023625] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.024458] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/goal_info.h\n'}
+[22.025373] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/field_line_segment.h\n'}
+[22.026163] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee_team_info.h\n'}
+[22.026812] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_ball.h\n'}
+[22.027177] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/vision_detections.h\n'}
+[22.027683] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/test.h\n'}
+[22.028108] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/field_circular_arc.h\n'}
+[22.028455] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/robot_command.h\n'}
+[22.028718] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_robot.h\n'}
+[22.028951] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.029211] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__type_support.h\n'}
+[22.029439] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__struct.h\n'}
+[22.029622] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__functions.c\n'}
+[22.029805] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.h\n'}
+[22.029989] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__functions.c\n'}
+[22.030168] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__struct.h\n'}
+[22.030600] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__functions.c\n'}
+[22.030890] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__functions.c\n'}
+[22.031051] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__struct.h\n'}
+[22.031221] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__struct.h\n'}
+[22.031394] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__struct.h\n'}
+[22.031646] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__functions.c\n'}
+[22.031890] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__struct.h\n'}
+[22.032117] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__functions.c\n'}
+[22.032278] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.h\n'}
+[22.032460] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__functions.h\n'}
+[22.032614] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.h\n'}
+[22.032783] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.h\n'}
+[22.032943] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__struct.h\n'}
+[22.033110] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__functions.h\n'}
+[22.033269] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__struct.h\n'}
+[22.033428] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__functions.c\n'}
+[22.033582] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__type_support.h\n'}
+[22.033736] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__type_support.h\n'}
+[22.033891] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__functions.c\n'}
+[22.034038] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__functions.c\n'}
+[22.034187] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__functions.c\n'}
+[22.034318] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.c\n'}
+[22.034513] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__functions.h\n'}
+[22.034691] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__struct.h\n'}
+[22.034817] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__functions.c\n'}
+[22.034978] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__functions.h\n'}
+[22.035141] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__functions.h\n'}
+[22.035312] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__type_support.h\n'}
+[22.035814] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__type_support.h\n'}
+[22.036030] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__functions.h\n'}
+[22.036298] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__struct.h\n'}
+[22.036536] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__functions.h\n'}
+[22.036769] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__struct.h\n'}
+[22.036940] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__struct.h\n'}
+[22.037095] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__struct.h\n'}
+[22.037269] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.h\n'}
+[22.037435] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__functions.c\n'}
+[22.037616] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__functions.h\n'}
+[22.037783] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__type_support.h\n'}
+[22.038007] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__type_support.h\n'}
+[22.038269] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__functions.h\n'}
+[22.038450] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__functions.h\n'}
+[22.038690] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.h\n'}
+[22.038892] (-) TimerEvent: {}
+[22.039149] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__type_support.h\n'}
+[22.039324] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__functions.h\n'}
+[22.039481] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__functions.c\n'}
+[22.039689] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__type_support.h\n'}
+[22.039858] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__struct.h\n'}
+[22.040021] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__functions.h\n'}
+[22.040182] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__functions.h\n'}
+[22.040340] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__functions.h\n'}
+[22.040503] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__functions.c\n'}
+[22.040672] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__functions.h\n'}
+[22.040838] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__type_support.h\n'}
+[22.041059] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/ball_info.h\n'}
+[22.041229] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee.h\n'}
+[22.041416] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/robot_commands.h\n'}
+[22.041581] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/vision_geometry.h\n'}
+[22.041759] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/library_path.sh\n'}
+[22.041930] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/library_path.dsv\n'}
+[22.042087] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_generator_c.dylib\n'}
+[22.132221] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.133124] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.134428] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.135061] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_c.h\n'}
+[22.135398] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[22.135627] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_c.h\n'}
+[22.135801] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_c.h\n'}
+[22.135995] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[22.136195] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h\n'}
+[22.136365] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_c.h\n'}
+[22.136549] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_c.h\n'}
+[22.136698] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_c.h\n'}
+[22.136867] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137068] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137228] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137395] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137568] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137737] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[22.137925] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.138102] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_c.dylib\n'}
+[22.139002] (-) TimerEvent: {}
+[22.244083] (-) TimerEvent: {}
+[22.296551] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.297568] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.298310] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.298876] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.299432] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.299764] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.299965] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.300170] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.300332] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.300485] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.300705] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.300916] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.301189] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.301396] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.301558] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.301744] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.301904] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.302099] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/dds_fastrtps\n'}
+[22.302297] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.302475] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.302643] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[22.347551] (-) TimerEvent: {}
+[22.406478] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.407356] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.408073] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.408819] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.c\n'}
+[22.409591] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__type_support.c\n'}
+[22.410142] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__type_support.c\n'}
+[22.410415] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__type_support.c\n'}
+[22.410594] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_c.h\n'}
+[22.410767] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_c.h\n'}
+[22.410935] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_c.h\n'}
+[22.411149] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__type_support.c\n'}
+[22.411350] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_c.h\n'}
+[22.411531] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__type_support.c\n'}
+[22.411697] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__type_support.c\n'}
+[22.411903] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.c\n'}
+[22.412189] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__type_support.c\n'}
+[22.412449] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_c.h\n'}
+[22.412693] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[22.412904] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_c.h\n'}
+[22.413122] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.c\n'}
+[22.413420] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__type_support.c\n'}
+[22.413609] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_c.h\n'}
+[22.414066] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[22.414276] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.c\n'}
+[22.414455] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.c\n'}
+[22.414650] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_c.h\n'}
+[22.414834] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__type_support.c\n'}
+[22.414990] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_c.h\n'}
+[22.415143] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__type_support.c\n'}
+[22.415348] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_c.h\n'}
+[22.415557] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_c.h\n'}
+[22.415890] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_c.h\n'}
+[22.416177] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_c.h\n'}
+[22.416395] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.416561] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_c.dylib\n'}
+[22.448820] (-) TimerEvent: {}
+[22.549210] (-) TimerEvent: {}
+[22.567968] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_c.dylib\n'}
+[22.651804] (-) TimerEvent: {}
+[22.672610] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.673441] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.674269] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_robot.hpp\n'}
+[22.675028] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/field_circular_arc.hpp\n'}
+[22.675852] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/ball_info.hpp\n'}
+[22.676661] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_frame.hpp\n'}
+[22.677342] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee_game_event.hpp\n'}
+[22.678304] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/robot_commands.hpp\n'}
+[22.678966] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/vision_detections.hpp\n'}
+[22.679533] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.680125] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__traits.hpp\n'}
+[22.680952] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__traits.hpp\n'}
+[22.681665] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__builder.hpp\n'}
+[22.682425] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__struct.hpp\n'}
+[22.683041] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__builder.hpp\n'}
+[22.683716] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__builder.hpp\n'}
+[22.684194] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__traits.hpp\n'}
+[22.684663] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__traits.hpp\n'}
+[22.684881] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__struct.hpp\n'}
+[22.685064] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__builder.hpp\n'}
+[22.685362] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__traits.hpp\n'}
+[22.685678] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__builder.hpp\n'}
+[22.686123] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__struct.hpp\n'}
+[22.686335] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__struct.hpp\n'}
+[22.686627] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__builder.hpp\n'}
+[22.686837] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__builder.hpp\n'}
+[22.687030] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__struct.hpp\n'}
+[22.687277] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__builder.hpp\n'}
+[22.687447] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__struct.hpp\n'}
+[22.687616] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__struct.hpp\n'}
+[22.687827] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__struct.hpp\n'}
+[22.688041] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__struct.hpp\n'}
+[22.688252] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__builder.hpp\n'}
+[22.688511] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__struct.hpp\n'}
+[22.688664] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__builder.hpp\n'}
+[22.688846] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__builder.hpp\n'}
+[22.689021] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__builder.hpp\n'}
+[22.689195] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__struct.hpp\n'}
+[22.689336] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__struct.hpp\n'}
+[22.689471] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__traits.hpp\n'}
+[22.689608] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__struct.hpp\n'}
+[22.689742] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__builder.hpp\n'}
+[22.689913] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__traits.hpp\n'}
+[22.690049] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__struct.hpp\n'}
+[22.690180] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__struct.hpp\n'}
+[22.690316] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__traits.hpp\n'}
+[22.690447] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__traits.hpp\n'}
+[22.690581] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__builder.hpp\n'}
+[22.690750] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__traits.hpp\n'}
+[22.690914] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__traits.hpp\n'}
+[22.691064] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__builder.hpp\n'}
+[22.691234] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__traits.hpp\n'}
+[22.691416] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__traits.hpp\n'}
+[22.691635] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__traits.hpp\n'}
+[22.691801] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__traits.hpp\n'}
+[22.692023] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/test.hpp\n'}
+[22.692215] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/field_line_segment.hpp\n'}
+[22.692419] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee.hpp\n'}
+[22.692617] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/robot_command.hpp\n'}
+[22.692796] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/referee_team_info.hpp\n'}
+[22.692977] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detection_ball.hpp\n'}
+[22.693158] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/vision_geometry.hpp\n'}
+[22.693333] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/goal_info.hpp\n'}
+[22.693527] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info\n'}
+[22.693714] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg\n'}
+[22.693881] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail\n'}
+[22.694084] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.694242] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.694381] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__type_support.cpp\n'}
+[22.694520] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_detections__type_support.cpp\n'}
+[22.694672] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.694825] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.695016] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_team_info__type_support.cpp\n'}
+[22.695200] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_ball__type_support.cpp\n'}
+[22.695409] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.695563] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.695702] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.695838] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.695974] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_line_segment__type_support.cpp\n'}
+[22.696113] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__type_support.cpp\n'}
+[22.696254] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__type_support.cpp\n'}
+[22.696392] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.696531] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/robot_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.696664] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.696796] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/vision_geometry__type_support.cpp\n'}
+[22.696927] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_robot__type_support.cpp\n'}
+[22.697135] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.697412] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/goal_info__type_support.cpp\n'}
+[22.697574] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/field_circular_arc__type_support.cpp\n'}
+[22.697732] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.697894] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.698069] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee_game_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.698242] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/referee__type_support.cpp\n'}
+[22.698423] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/detection_frame__type_support.cpp\n'}
+[22.698605] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/test__type_support.cpp\n'}
+[22.698810] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/include/message_info/msg/detail/ball_info__type_support.cpp\n'}
+[22.698963] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_introspection_cpp.dylib\n'}
+[22.752281] (-) TimerEvent: {}
+[22.800447] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__rosidl_typesupport_cpp.dylib\n'}
+[22.853722] (-) TimerEvent: {}
+[22.912297] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/pythonpath.sh\n'}
+[22.912891] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/pythonpath.dsv\n'}
+[22.913121] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/__init__.py\n'}
+[22.957512] (-) TimerEvent: {}
+[23.049717] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg\n'}
+[23.050472] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info_s.c\n'}
+[23.051260] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc_s.c\n'}
+[23.052153] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_team_info.py\n'}
+[23.052893] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame_s.c\n'}
+[23.053584] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot.py\n'}
+[23.053996] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee.py\n'}
+[23.054203] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_robot_s.c\n'}
+[23.054394] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info.py\n'}
+[23.054570] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections.py\n'}
+[23.054734] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_frame.py\n'}
+[23.054896] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command.py\n'}
+[23.055044] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/__init__.py\n'}
+[23.055192] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event.py\n'}
+[23.055341] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info_s.c\n'}
+[23.055502] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands_s.c\n'}
+[23.055672] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_game_event_s.c\n'}
+[23.055854] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_test.py\n'}
+[23.056013] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_circular_arc.py\n'}
+[23.056174] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_command_s.c\n'}
+[23.056324] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_goal_info_s.c\n'}
+[23.056535] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_referee_s.c\n'}
+[23.056693] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment_s.c\n'}
+[23.056838] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_detections_s.c\n'}
+[23.056978] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry_s.c\n'}
+[23.057140] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_robot_commands.py\n'}
+[23.057307] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_ball_info.py\n'}
+[23.057507] (-) TimerEvent: {}
+[23.057666] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_test_s.c\n'}
+[23.057839] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball.py\n'}
+[23.057978] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_vision_geometry.py\n'}
+[23.058121] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_detection_ball_s.c\n'}
+[23.058293] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/msg/_field_line_segment.py\n'}
+[23.058477] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_fastrtps_c.cpython-38-darwin.so\n'}
+[23.157902] (-) TimerEvent: {}
+[23.258545] (-) TimerEvent: {}
+[23.359057] (-) TimerEvent: {}
+[23.464196] (-) TimerEvent: {}
+[23.475653] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_introspection_c.cpython-38-darwin.so\n'}
+[23.567593] (-) TimerEvent: {}
+[23.669935] (-) TimerEvent: {}
+[23.772103] (-) TimerEvent: {}
+[23.872508] (-) TimerEvent: {}
+[23.894595] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages/message_info/message_info_s__rosidl_typesupport_c.cpython-38-darwin.so\n'}
+[23.972743] (-) TimerEvent: {}
+[24.073562] (-) TimerEvent: {}
+[24.173930] (-) TimerEvent: {}
+[24.274893] (-) TimerEvent: {}
+[24.310911] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/lib/libmessage_info__python.dylib\n'}
+[24.375030] (-) TimerEvent: {}
+[24.476431] (-) TimerEvent: {}
+[24.577401] (-) TimerEvent: {}
+[24.677853] (-) TimerEvent: {}
+[24.683158] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RefereeGameEvent.idl\n'}
+[24.684197] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RefereeTeamInfo.idl\n'}
+[24.685291] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/Referee.idl\n'}
+[24.686262] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/FieldCircularArc.idl\n'}
+[24.686916] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/FieldLineSegment.idl\n'}
+[24.687454] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/VisionGeometry.idl\n'}
+[24.688023] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionBall.idl\n'}
+[24.688610] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionRobot.idl\n'}
+[24.689155] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionFrame.idl\n'}
+[24.689674] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/VisionDetections.idl\n'}
+[24.690331] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RobotCommand.idl\n'}
+[24.690956] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RobotCommands.idl\n'}
+[24.691767] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/Test.idl\n'}
+[24.692448] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/BallInfo.idl\n'}
+[24.692844] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/GoalInfo.idl\n'}
+[24.693076] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RefereeGameEvent.msg\n'}
+[24.693572] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RefereeTeamInfo.msg\n'}
+[24.694046] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/Referee.msg\n'}
+[24.694544] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/FieldCircularArc.msg\n'}
+[24.695066] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/FieldLineSegment.msg\n'}
+[24.695405] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/VisionGeometry.msg\n'}
+[24.695939] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionBall.msg\n'}
+[24.696275] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionRobot.msg\n'}
+[24.696724] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/DetectionFrame.msg\n'}
+[24.697533] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/VisionDetections.msg\n'}
+[24.698480] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RobotCommand.msg\n'}
+[24.699114] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/RobotCommands.msg\n'}
+[24.699823] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/Test.msg\n'}
+[24.700282] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/BallInfo.msg\n'}
+[24.700573] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/msg/GoalInfo.msg\n'}
+[24.700810] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/ament_index/resource_index/package_run_dependencies/message_info\n'}
+[24.701023] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/ament_index/resource_index/parent_prefix_path/message_info\n'}
+[24.701244] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/ament_prefix_path.sh\n'}
+[24.701609] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/ament_prefix_path.dsv\n'}
+[24.701822] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/path.sh\n'}
+[24.702045] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/environment/path.dsv\n'}
+[24.702237] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/local_setup.bash\n'}
+[24.702457] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/local_setup.sh\n'}
+[24.703351] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/local_setup.zsh\n'}
+[24.704006] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/local_setup.dsv\n'}
+[24.715095] (message_info) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.dsv\n'}
+[24.720454] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/ament_index/resource_index/packages/message_info\n'}
+[24.720917] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport.cmake\n'}
+[24.721361] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cExport-debug.cmake\n'}
+[24.721684] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.722045] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[24.722429] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport.cmake\n'}
+[24.722806] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cExport-debug.cmake\n'}
+[24.723135] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_generator_cppExport.cmake\n'}
+[24.723471] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.723732] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[24.724009] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport.cmake\n'}
+[24.724373] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_info__rosidl_typesupport_cppExport-debug.cmake\n'}
+[24.724746] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/rosidl_cmake-extras.cmake\n'}
+[24.725106] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.725443] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.725700] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.726042] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.726378] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.726648] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.727031] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_infoConfig.cmake\n'}
+[24.727404] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/cmake/message_infoConfig-version.cmake\n'}
+[24.727698] (message_info) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/message_info/share/message_info/package.xml\n'}
+[24.728036] (message_info) CommandEnded: {'returncode': 0}
+[24.781118] (-) TimerEvent: {}
+[24.805495] (message_info) JobEnded: {'identifier': 'message_info', 'rc': 0}
+[24.823443] (main) JobStarted: {'identifier': 'main'}
+[24.887133] (-) TimerEvent: {}
+[24.909887] (reciever) JobStarted: {'identifier': 'reciever'}
+[24.996366] (-) TimerEvent: {}
+[25.025524] (sender) JobStarted: {'identifier': 'sender'}
+[25.113421] (-) TimerEvent: {}
+[25.213958] (-) TimerEvent: {}
+[25.222826] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[25.229190] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[25.233246] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/Desktop/RI-AI/build/main', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[25.285524] (reciever) JobProgress: {'identifier': 'reciever', 'progress': 'cmake'}
+[25.302113] (reciever) JobProgress: {'identifier': 'reciever', 'progress': 'build'}
+[25.319845] (-) TimerEvent: {}
+[25.354931] (reciever) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/Desktop/RI-AI/build/reciever', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/reciever', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/reciever'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[25.390565] (sender) JobProgress: {'identifier': 'sender', 'progress': 'cmake'}
+[25.392717] (sender) JobProgress: {'identifier': 'sender', 'progress': 'build'}
+[25.396719] (sender) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/Desktop/RI-AI/build/sender', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/sender', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/sender'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[25.421384] (-) TimerEvent: {}
+[25.522260] (-) TimerEvent: {}
+[25.624018] (-) TimerEvent: {}
+[25.726038] (-) TimerEvent: {}
+[25.821994] (main) StdoutLine: {'line': b'Scanning dependencies of target main\n'}
+[25.826186] (-) TimerEvent: {}
+[25.929334] (-) TimerEvent: {}
+[26.017430] (main) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o\n'}
+[26.030846] (-) TimerEvent: {}
+[26.071408] (sender) StdoutLine: {'line': b'[  3%] Built target sender__cpp\n'}
+[26.133572] (-) TimerEvent: {}
+[26.175769] (reciever) StdoutLine: {'line': b'[ 50%] Linking CXX executable receiver\n'}
+[26.234061] (-) TimerEvent: {}
+[26.334947] (-) TimerEvent: {}
+[26.435347] (-) TimerEvent: {}
+[26.438634] (sender) StdoutLine: {'line': b'[  6%] Linking CXX executable sim_sender\n'}
+[26.535472] (-) TimerEvent: {}
+[26.610525] (reciever) StdoutLine: {'line': b'[100%] Built target receiver\n'}
+[26.635760] (-) TimerEvent: {}
+[26.666147] (reciever) CommandEnded: {'returncode': 0}
+[26.736004] (-) TimerEvent: {}
+[26.836782] (-) TimerEvent: {}
+[26.938018] (-) TimerEvent: {}
+[26.995886] (sender) StdoutLine: {'line': b'[  9%] Built target sim_sender\n'}
+[27.038078] (-) TimerEvent: {}
+[27.138659] (-) TimerEvent: {}
+[27.239121] (-) TimerEvent: {}
+[27.312688] (sender) StdoutLine: {'line': b'[ 18%] Built target sender__rosidl_typesupport_introspection_cpp\n'}
+[27.339242] (-) TimerEvent: {}
+[27.439664] (-) TimerEvent: {}
+[27.540110] (-) TimerEvent: {}
+[27.612882] (sender) StdoutLine: {'line': b'[ 27%] Built target sender__rosidl_typesupport_cpp\n'}
+[27.640238] (-) TimerEvent: {}
+[27.713360] (reciever) JobProgress: {'identifier': 'reciever', 'progress': 'install'}
+[27.714451] (reciever) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/Desktop/RI-AI/build/reciever'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/reciever', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/reciever'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[27.741708] (-) TimerEvent: {}
+[27.784003] (reciever) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[27.784581] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include\n'}
+[27.785219] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/.DS_Store\n'}
+[27.785649] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver\n'}
+[27.785873] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver/.DS_Store\n'}
+[27.786108] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever\n'}
+[27.786311] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever/multicast.hpp\n'}
+[27.786521] (reciever) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/lib/reciever/receiver\n'}
+[27.841785] (-) TimerEvent: {}
+[27.918414] (sender) StdoutLine: {'line': b'[ 36%] Built target sender__rosidl_typesupport_fastrtps_cpp\n'}
+[27.941909] (-) TimerEvent: {}
+[28.042371] (-) TimerEvent: {}
+[28.084604] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/package_run_dependencies/reciever\n'}
+[28.085370] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/parent_prefix_path/reciever\n'}
+[28.085924] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.sh\n'}
+[28.086534] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.dsv\n'}
+[28.087030] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.sh\n'}
+[28.087326] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.dsv\n'}
+[28.087577] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.bash\n'}
+[28.087893] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.sh\n'}
+[28.088497] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.zsh\n'}
+[28.088776] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.dsv\n'}
+[28.088958] (reciever) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.dsv\n'}
+[28.089128] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/packages/reciever\n'}
+[28.089295] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig.cmake\n'}
+[28.089469] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig-version.cmake\n'}
+[28.089647] (reciever) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.xml\n'}
+[28.090873] (reciever) CommandEnded: {'returncode': 0}
+[28.147654] (-) TimerEvent: {}
+[28.149635] (reciever) JobEnded: {'identifier': 'reciever', 'rc': 0}
+[28.196159] (sender) StdoutLine: {'line': b'[ 45%] Built target sender__rosidl_generator_c\n'}
+[28.248735] (-) TimerEvent: {}
+[28.349166] (-) TimerEvent: {}
+[28.429055] (sender) StdoutLine: {'line': b'[ 54%] Built target sender__rosidl_typesupport_fastrtps_c\n'}
+[28.451646] (-) TimerEvent: {}
+[28.552393] (-) TimerEvent: {}
+[28.653904] (-) TimerEvent: {}
+[28.666328] (sender) StdoutLine: {'line': b'[ 63%] Built target sender__rosidl_typesupport_c\n'}
+[28.757853] (-) TimerEvent: {}
+[28.858382] (-) TimerEvent: {}
+[28.902834] (sender) StdoutLine: {'line': b'[ 72%] Built target sender__rosidl_typesupport_introspection_c\n'}
+[28.962969] (-) TimerEvent: {}
+[29.063337] (-) TimerEvent: {}
+[29.138217] (sender) StdoutLine: {'line': b'[ 72%] Built target sender\n'}
+[29.164182] (-) TimerEvent: {}
+[29.264821] (-) TimerEvent: {}
+[29.366757] (-) TimerEvent: {}
+[29.370935] (sender) StdoutLine: {'line': b'[ 75%] Built target sender__py\n'}
+[29.467249] (-) TimerEvent: {}
+[29.568892] (-) TimerEvent: {}
+[29.607577] (sender) StdoutLine: {'line': b'[ 81%] Built target sender__python\n'}
+[29.672025] (-) TimerEvent: {}
+[29.772891] (-) TimerEvent: {}
+[29.842825] (sender) StdoutLine: {'line': b'[ 87%] Built target sender__rosidl_typesupport_introspection_c__pyext\n'}
+[29.873292] (-) TimerEvent: {}
+[29.973753] (-) TimerEvent: {}
+[30.077548] (-) TimerEvent: {}
+[30.079379] (sender) StdoutLine: {'line': b'[ 93%] Built target sender__rosidl_typesupport_fastrtps_c__pyext\n'}
+[30.177728] (-) TimerEvent: {}
+[30.278418] (-) TimerEvent: {}
+[30.316049] (sender) StdoutLine: {'line': b'[100%] Built target sender__rosidl_typesupport_c__pyext\n'}
+[30.370788] (sender) CommandEnded: {'returncode': 0}
+[30.380072] (-) TimerEvent: {}
+[30.484173] (-) TimerEvent: {}
+[30.588615] (-) TimerEvent: {}
+[30.688989] (-) TimerEvent: {}
+[30.789387] (-) TimerEvent: {}
+[30.891463] (-) TimerEvent: {}
+[30.992903] (-) TimerEvent: {}
+[31.093351] (-) TimerEvent: {}
+[31.193764] (-) TimerEvent: {}
+[31.294183] (-) TimerEvent: {}
+[31.397247] (-) TimerEvent: {}
+[31.500165] (-) TimerEvent: {}
+[31.600738] (-) TimerEvent: {}
+[31.701338] (-) TimerEvent: {}
+[31.801776] (-) TimerEvent: {}
+[31.905729] (-) TimerEvent: {}
+[32.006149] (-) TimerEvent: {}
+[32.106846] (-) TimerEvent: {}
+[32.208193] (-) TimerEvent: {}
+[32.308883] (-) TimerEvent: {}
+[32.404281] (main) StderrLine: {'line': b"/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:32:16: warning: unused variable 'field_width' [-Wunused-variable]\n"}
+[32.404858] (main) StderrLine: {'line': b'         float field_width = geometry_message->field_width;\n'}
+[32.405084] (main) StderrLine: {'line': b'               ^\n'}
+[32.409409] (-) TimerEvent: {}
+[32.512044] (-) TimerEvent: {}
+[32.612886] (-) TimerEvent: {}
+[32.713228] (-) TimerEvent: {}
+[32.814252] (-) TimerEvent: {}
+[32.915753] (-) TimerEvent: {}
+[33.016467] (-) TimerEvent: {}
+[33.121707] (-) TimerEvent: {}
+[33.215656] (sender) JobProgress: {'identifier': 'sender', 'progress': 'install'}
+[33.216760] (sender) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/Desktop/RI-AI/build/sender'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/sender', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/sender'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[33.223533] (-) TimerEvent: {}
+[33.270614] (sender) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[33.272254] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/rosidl_interfaces/sender\n'}
+[33.273114] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.273657] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.273951] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.274181] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/test.h\n'}
+[33.274402] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.274620] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__functions.h\n'}
+[33.274918] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.h\n'}
+[33.275132] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__struct.h\n'}
+[33.275372] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__functions.c\n'}
+[33.275601] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/library_path.sh\n'}
+[33.275825] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/library_path.dsv\n'}
+[33.276080] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_generator_c.dylib\n'}
+[33.323641] (-) TimerEvent: {}
+[33.381121] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.381909] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.382256] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.382528] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[33.382767] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.382951] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_fastrtps_c.dylib\n'}
+[33.425707] (-) TimerEvent: {}
+[33.526620] (-) TimerEvent: {}
+[33.537329] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.538152] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.538593] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.538829] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.539045] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.539252] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/dds_fastrtps\n'}
+[33.539430] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[33.626869] (-) TimerEvent: {}
+[33.646141] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.646846] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.647127] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.647434] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.c\n'}
+[33.647673] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[33.647958] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.648166] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_introspection_c.dylib\n'}
+[33.727221] (-) TimerEvent: {}
+[33.815962] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_c.dylib\n'}
+[33.829553] (-) TimerEvent: {}
+[33.923686] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.924637] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.925189] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.925446] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__traits.hpp\n'}
+[33.925630] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__struct.hpp\n'}
+[33.925809] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__builder.hpp\n'}
+[33.925959] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/test.hpp\n'}
+[33.926117] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender\n'}
+[33.926267] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg\n'}
+[33.926423] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail\n'}
+[33.926597] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.926752] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/include/sender/msg/detail/test__type_support.cpp\n'}
+[33.926915] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_introspection_cpp.dylib\n'}
+[33.930012] (-) TimerEvent: {}
+[34.031229] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__rosidl_typesupport_cpp.dylib\n'}
+[34.031547] (-) TimerEvent: {}
+[34.132044] (-) TimerEvent: {}
+[34.143529] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/pythonpath.sh\n'}
+[34.144108] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/pythonpath.dsv\n'}
+[34.144332] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/__init__.py\n'}
+[34.232130] (-) TimerEvent: {}
+[34.280482] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg\n'}
+[34.281360] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/__init__.py\n'}
+[34.281622] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/_test.py\n'}
+[34.281894] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/msg/_test_s.c\n'}
+[34.282099] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_fastrtps_c.cpython-38-darwin.so\n'}
+[34.333991] (-) TimerEvent: {}
+[34.434509] (-) TimerEvent: {}
+[34.535019] (-) TimerEvent: {}
+[34.550603] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_introspection_c.cpython-38-darwin.so\n'}
+[34.635092] (-) TimerEvent: {}
+[34.735710] (-) TimerEvent: {}
+[34.816640] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages/sender/sender_s__rosidl_typesupport_c.cpython-38-darwin.so\n'}
+[34.838359] (-) TimerEvent: {}
+[34.938797] (-) TimerEvent: {}
+[35.040187] (-) TimerEvent: {}
+[35.082403] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/libsender__python.dylib\n'}
+[35.140330] (-) TimerEvent: {}
+[35.242686] (-) TimerEvent: {}
+[35.297365] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/msg/Test.idl\n'}
+[35.297962] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/msg/Test.msg\n'}
+[35.298176] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/lib/sender/sim_sender\n'}
+[35.342857] (-) TimerEvent: {}
+[35.443302] (-) TimerEvent: {}
+[35.548704] (-) TimerEvent: {}
+[35.584906] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config\n'}
+[35.585638] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config/.DS_Store\n'}
+[35.586304] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//config/grsim.yaml\n'}
+[35.586951] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch\n'}
+[35.587407] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch/.DS_Store\n'}
+[35.587858] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender//launch/sender.xml\n'}
+[35.588046] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/package_run_dependencies/sender\n'}
+[35.588227] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/parent_prefix_path/sender\n'}
+[35.588479] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/ament_prefix_path.sh\n'}
+[35.588833] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/ament_prefix_path.dsv\n'}
+[35.589227] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/path.sh\n'}
+[35.589642] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/environment/path.dsv\n'}
+[35.590243] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.bash\n'}
+[35.590666] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.sh\n'}
+[35.591014] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.zsh\n'}
+[35.591448] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/local_setup.dsv\n'}
+[35.592131] (sender) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.dsv\n'}
+[35.592931] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/ament_index/resource_index/packages/sender\n'}
+[35.593516] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cExport.cmake\n'}
+[35.594345] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cExport-debug.cmake\n'}
+[35.594664] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cExport.cmake\n'}
+[35.594816] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[35.594956] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cExport.cmake\n'}
+[35.595100] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cExport-debug.cmake\n'}
+[35.595245] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_generator_cppExport.cmake\n'}
+[35.595380] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[35.595512] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[35.595645] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cppExport.cmake\n'}
+[35.595779] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/sender__rosidl_typesupport_cppExport-debug.cmake\n'}
+[35.595918] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake-extras.cmake\n'}
+[35.596064] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.596201] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[35.596330] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[35.597027] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.597806] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[35.612527] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[35.612949] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/senderConfig.cmake\n'}
+[35.613321] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/cmake/senderConfig-version.cmake\n'}
+[35.613587] (sender) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/sender/share/sender/package.xml\n'}
+[35.613910] (sender) CommandEnded: {'returncode': 0}
+[35.651943] (-) TimerEvent: {}
+[35.718711] (sender) JobEnded: {'identifier': 'sender', 'rc': 0}
+[35.752074] (-) TimerEvent: {}
+[35.852749] (-) TimerEvent: {}
+[35.953169] (-) TimerEvent: {}
+[36.054704] (-) TimerEvent: {}
+[36.158064] (-) TimerEvent: {}
+[36.258911] (-) TimerEvent: {}
+[36.359489] (-) TimerEvent: {}
+[36.459841] (-) TimerEvent: {}
+[36.561119] (-) TimerEvent: {}
+[36.661495] (-) TimerEvent: {}
+[36.765640] (-) TimerEvent: {}
+[36.868666] (-) TimerEvent: {}
+[36.969402] (-) TimerEvent: {}
+[37.072242] (-) TimerEvent: {}
+[37.172797] (-) TimerEvent: {}
+[37.273292] (-) TimerEvent: {}
+[37.373850] (-) TimerEvent: {}
+[37.476882] (-) TimerEvent: {}
+[37.579117] (-) TimerEvent: {}
+[37.679554] (-) TimerEvent: {}
+[37.783809] (-) TimerEvent: {}
+[37.886967] (-) TimerEvent: {}
+[37.988567] (-) TimerEvent: {}
+[38.088952] (-) TimerEvent: {}
+[38.189325] (-) TimerEvent: {}
+[38.290087] (-) TimerEvent: {}
+[38.390473] (-) TimerEvent: {}
+[38.491037] (-) TimerEvent: {}
+[38.591977] (-) TimerEvent: {}
+[38.693637] (-) TimerEvent: {}
+[38.797708] (-) TimerEvent: {}
+[38.898269] (-) TimerEvent: {}
+[38.998752] (-) TimerEvent: {}
+[39.101407] (-) TimerEvent: {}
+[39.205722] (-) TimerEvent: {}
+[39.306159] (-) TimerEvent: {}
+[39.408289] (-) TimerEvent: {}
+[39.508694] (-) TimerEvent: {}
+[39.611706] (-) TimerEvent: {}
+[39.712064] (-) TimerEvent: {}
+[39.812598] (-) TimerEvent: {}
+[39.913313] (-) TimerEvent: {}
+[40.013953] (-) TimerEvent: {}
+[40.114369] (-) TimerEvent: {}
+[40.215779] (-) TimerEvent: {}
+[40.317070] (-) TimerEvent: {}
+[40.417734] (-) TimerEvent: {}
+[40.518098] (-) TimerEvent: {}
+[40.620532] (-) TimerEvent: {}
+[40.721693] (-) TimerEvent: {}
+[40.822341] (-) TimerEvent: {}
+[40.922712] (-) TimerEvent: {}
+[41.023056] (-) TimerEvent: {}
+[41.123645] (-) TimerEvent: {}
+[41.224103] (-) TimerEvent: {}
+[41.324743] (-) TimerEvent: {}
+[41.425279] (-) TimerEvent: {}
+[41.525798] (-) TimerEvent: {}
+[41.626361] (-) TimerEvent: {}
+[41.728710] (-) TimerEvent: {}
+[41.829148] (-) TimerEvent: {}
+[41.929542] (-) TimerEvent: {}
+[42.030469] (-) TimerEvent: {}
+[42.134207] (-) TimerEvent: {}
+[42.234690] (-) TimerEvent: {}
+[42.335074] (-) TimerEvent: {}
+[42.435455] (-) TimerEvent: {}
+[42.536536] (-) TimerEvent: {}
+[42.637968] (-) TimerEvent: {}
+[42.738316] (-) TimerEvent: {}
+[42.842626] (-) TimerEvent: {}
+[42.947340] (-) TimerEvent: {}
+[43.049223] (-) TimerEvent: {}
+[43.149803] (-) TimerEvent: {}
+[43.254910] (-) TimerEvent: {}
+[43.355747] (-) TimerEvent: {}
+[43.456538] (-) TimerEvent: {}
+[43.558859] (-) TimerEvent: {}
+[43.659463] (-) TimerEvent: {}
+[43.759988] (-) TimerEvent: {}
+[43.863561] (-) TimerEvent: {}
+[43.965496] (-) TimerEvent: {}
+[44.066098] (-) TimerEvent: {}
+[44.166992] (-) TimerEvent: {}
+[44.272185] (-) TimerEvent: {}
+[44.372604] (-) TimerEvent: {}
+[44.474273] (-) TimerEvent: {}
+[44.574666] (-) TimerEvent: {}
+[44.679390] (-) TimerEvent: {}
+[44.783593] (-) TimerEvent: {}
+[44.883945] (-) TimerEvent: {}
+[44.984380] (-) TimerEvent: {}
+[45.084824] (-) TimerEvent: {}
+[45.188107] (-) TimerEvent: {}
+[45.289046] (-) TimerEvent: {}
+[45.389392] (-) TimerEvent: {}
+[45.489915] (-) TimerEvent: {}
+[45.590700] (-) TimerEvent: {}
+[45.691696] (-) TimerEvent: {}
+[45.792650] (-) TimerEvent: {}
+[45.896173] (-) TimerEvent: {}
+[45.997765] (-) TimerEvent: {}
+[46.098122] (-) TimerEvent: {}
+[46.198675] (-) TimerEvent: {}
+[46.299107] (-) TimerEvent: {}
+[46.399711] (-) TimerEvent: {}
+[46.502838] (-) TimerEvent: {}
+[46.603656] (-) TimerEvent: {}
+[46.705972] (-) TimerEvent: {}
+[46.806518] (-) TimerEvent: {}
+[46.906945] (-) TimerEvent: {}
+[47.007294] (-) TimerEvent: {}
+[47.107854] (-) TimerEvent: {}
+[47.208336] (-) TimerEvent: {}
+[47.312201] (-) TimerEvent: {}
+[47.412635] (-) TimerEvent: {}
+[47.513343] (-) TimerEvent: {}
+[47.614948] (-) TimerEvent: {}
+[47.715622] (-) TimerEvent: {}
+[47.820042] (-) TimerEvent: {}
+[47.922228] (-) TimerEvent: {}
+[48.025775] (-) TimerEvent: {}
+[48.126239] (-) TimerEvent: {}
+[48.229489] (-) TimerEvent: {}
+[48.330042] (-) TimerEvent: {}
+[48.430481] (-) TimerEvent: {}
+[48.530832] (-) TimerEvent: {}
+[48.634209] (-) TimerEvent: {}
+[48.734865] (-) TimerEvent: {}
+[48.835287] (-) TimerEvent: {}
+[48.935719] (-) TimerEvent: {}
+[49.040483] (-) TimerEvent: {}
+[49.143540] (-) TimerEvent: {}
+[49.246165] (-) TimerEvent: {}
+[49.346610] (-) TimerEvent: {}
+[49.447011] (-) TimerEvent: {}
+[49.547451] (-) TimerEvent: {}
+[49.647896] (-) TimerEvent: {}
+[49.751421] (-) TimerEvent: {}
+[49.855743] (-) TimerEvent: {}
+[49.956864] (-) TimerEvent: {}
+[50.057197] (-) TimerEvent: {}
+[50.158328] (-) TimerEvent: {}
+[50.258746] (-) TimerEvent: {}
+[50.359142] (-) TimerEvent: {}
+[50.459499] (-) TimerEvent: {}
+[50.559908] (-) TimerEvent: {}
+[50.660273] (-) TimerEvent: {}
+[50.761837] (-) TimerEvent: {}
+[50.862234] (-) TimerEvent: {}
+[50.962609] (-) TimerEvent: {}
+[51.063075] (-) TimerEvent: {}
+[51.164786] (-) TimerEvent: {}
+[51.265214] (-) TimerEvent: {}
+[51.366231] (-) TimerEvent: {}
+[51.470646] (-) TimerEvent: {}
+[51.571219] (-) TimerEvent: {}
+[51.672197] (-) TimerEvent: {}
+[51.772778] (-) TimerEvent: {}
+[51.876579] (-) TimerEvent: {}
+[51.977767] (-) TimerEvent: {}
+[52.079171] (-) TimerEvent: {}
+[52.179581] (-) TimerEvent: {}
+[52.280897] (-) TimerEvent: {}
+[52.381319] (-) TimerEvent: {}
+[52.483663] (-) TimerEvent: {}
+[52.584062] (-) TimerEvent: {}
+[52.684704] (-) TimerEvent: {}
+[52.786726] (-) TimerEvent: {}
+[52.887106] (-) TimerEvent: {}
+[52.990619] (-) TimerEvent: {}
+[53.091005] (-) TimerEvent: {}
+[53.192870] (-) TimerEvent: {}
+[53.295749] (-) TimerEvent: {}
+[53.398252] (-) TimerEvent: {}
+[53.501457] (-) TimerEvent: {}
+[53.605767] (-) TimerEvent: {}
+[53.707307] (-) TimerEvent: {}
+[53.810992] (-) TimerEvent: {}
+[53.912669] (-) TimerEvent: {}
+[54.013092] (-) TimerEvent: {}
+[54.113606] (-) TimerEvent: {}
+[54.214455] (-) TimerEvent: {}
+[54.314833] (-) TimerEvent: {}
+[54.415234] (-) TimerEvent: {}
+[54.451461] (main) StderrLine: {'line': b'1 warning generated.\n'}
+[54.516043] (-) TimerEvent: {}
+[54.591224] (main) StdoutLine: {'line': b'[ 33%] Linking CXX executable main\n'}
+[54.616148] (-) TimerEvent: {}
+[54.717319] (-) TimerEvent: {}
+[54.819576] (-) TimerEvent: {}
+[54.919934] (-) TimerEvent: {}
+[54.998185] (main) StdoutLine: {'line': b'[100%] Built target main\n'}
+[55.020226] (-) TimerEvent: {}
+[55.053498] (main) CommandEnded: {'returncode': 0}
+[55.120432] (-) TimerEvent: {}
+[55.222426] (-) TimerEvent: {}
+[55.323938] (-) TimerEvent: {}
+[55.424305] (-) TimerEvent: {}
+[55.524748] (-) TimerEvent: {}
+[55.627165] (-) TimerEvent: {}
+[55.727583] (-) TimerEvent: {}
+[55.832927] (-) TimerEvent: {}
+[55.933779] (-) TimerEvent: {}
+[56.034701] (-) TimerEvent: {}
+[56.135101] (-) TimerEvent: {}
+[56.237219] (-) TimerEvent: {}
+[56.337596] (-) TimerEvent: {}
+[56.381664] (main) JobProgress: {'identifier': 'main', 'progress': 'install'}
+[56.382591] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/Desktop/RI-AI/build/main'], 'cwd': '/Users/mukuyo/Desktop/RI-AI/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'DBCEEE38-6265-47BF-9CA8-BAD4AAF9D0D6'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.kQff0tjRpm/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/microchip/xc16/v1.41/bin'), ('LaunchInstanceID', '06227F25-9967-42BE-B4FA-F13E3F172A92'), ('PWD', '/Users/mukuyo/Desktop/RI-AI/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.TJpAG1OE9Q/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a6'), ('_', '/usr/bin/env')]), 'shell': False}
+[56.432019] (main) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[56.432933] (main) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main\n'}
+[56.437770] (-) TimerEvent: {}
+[56.542059] (-) TimerEvent: {}
+[56.616499] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main\n'}
+[56.617342] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main\n'}
+[56.618053] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh\n'}
+[56.618757] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv\n'}
+[56.618993] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh\n'}
+[56.619372] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv\n'}
+[56.620013] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash\n'}
+[56.620230] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh\n'}
+[56.620406] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh\n'}
+[56.620577] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv\n'}
+[56.620741] (main) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv\n'}
+[56.620911] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main\n'}
+[56.621538] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake\n'}
+[56.622068] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake\n'}
+[56.633128] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml\n'}
+[56.638188] (main) CommandEnded: {'returncode': 0}
+[56.647789] (-) TimerEvent: {}
+[56.679735] (main) JobEnded: {'identifier': 'main', 'rc': 0}
+[56.681835] (-) EventReactorShutdown: {}

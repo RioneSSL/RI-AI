@@ -1,0 +1,44 @@
+[0.134s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.713s] Scanning dependencies of target main
+[0.972s] [ 20%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[1.025s] [ 40%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.035s] [ 60%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.673s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:52: warning: unused parameter 'ball' [-Wunused-parameter]
+[3.673s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.673s]                                                    ^
+[3.673s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:92: warning: unused parameter 'robot' [-Wunused-parameter]
+[3.673s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.674s]                                                                                            ^
+[3.674s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:127: warning: unused parameter 'goal' [-Wunused-parameter]
+[3.674s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.674s]                                                                                                                               ^
+[3.674s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:7:167: warning: unused parameter 'send_message' [-Wunused-parameter]
+[3.675s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.675s]                                                                                                                                                                       ^
+[3.730s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.731s]          float field_width = geometry_message->field_width;
+[3.731s]                ^
+[4.428s] 4 warnings generated.
+[9.839s] 1 warning generated.
+[9.936s] [ 80%] Linking CXX executable main
+[10.204s] [100%] Built target main
+[10.241s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[11.032s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main
+[11.063s] -- Install configuration: ""
+[11.063s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+[11.181s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[11.181s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[11.181s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+[11.182s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+[11.182s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+[11.182s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+[11.182s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+[11.182s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+[11.183s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+[11.183s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+[11.183s] -- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+[11.184s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+[11.184s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+[11.184s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+[11.184s] -- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml
+[11.195s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '0': CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:/Users/mukuyo/Desktop/RI-AI/install/sender:/Users/mukuyo/Desktop/RI-AI/install/reciever:/Users/mukuyo/Desktop/RI-AI/install/proto_info:/Users/mukuyo/Desktop/RI-AI/install/main:/Users/mukuyo/ros2_ws/ros2-osx DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:/Users/mukuyo/Desktop/RI-AI/install/sender/lib:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/Desktop/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/main

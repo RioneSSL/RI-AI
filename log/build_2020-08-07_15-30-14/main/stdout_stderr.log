@@ -1,0 +1,19 @@
+Scanning dependencies of target main
+[ 25%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[ 75%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:3:8: error: expected unqualified-id
+Goalie()::Goalie{
+       ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:10:14: error: out-of-line definition of 'main' does not match any declaration in 'Goalie'
+void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+             ^~~~
+2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+1 warning generated.
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,20 @@
+{
+  "package_name": "message_info",
+  "non_idl_tuples": [
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/RefereeGameEvent.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/RefereeTeamInfo.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/Referee.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/FieldCircularArc.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/FieldLineSegment.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/VisionGeometry.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/DetectionBall.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/DetectionRobot.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/DetectionFrame.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/VisionDetections.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/RobotCommand.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/RobotCommands.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/Test.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/BallInfo.msg",
+    "/Users/mukuyo/Desktop/RI-AI/src/message_info:msg/GoalInfo.msg"
+  ]
+}

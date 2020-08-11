@@ -1,0 +1,14 @@
+source;share/sender/hook/cmake_prefix_path.ps1
+source;share/sender/hook/cmake_prefix_path.dsv
+source;share/sender/hook/cmake_prefix_path.sh
+source;share/sender/hook/dyld_library_path.ps1
+source;share/sender/hook/dyld_library_path.dsv
+source;share/sender/hook/dyld_library_path.sh
+source;share/sender/hook/pythonpath.ps1
+source;share/sender/hook/pythonpath.dsv
+source;share/sender/hook/pythonpath.sh
+source;share/sender/local_setup.bash
+source;share/sender/local_setup.dsv
+source;share/sender/local_setup.ps1
+source;share/sender/local_setup.sh
+source;share/sender/local_setup.zsh

@@ -1,0 +1,22 @@
+[0.099s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.464s] Scanning dependencies of target main
+[0.612s] [ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[0.615s] [ 66%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[3.240s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.240s]          float field_width = geometry_message->field_width;
+[3.241s]                ^
+[8.922s] 1 warning generated.
+[9.001s] [100%] Linking CXX executable main
+[9.145s] Undefined symbols for architecture x86_64:
+[9.146s]   "Goalie::main(message_info::msg::DetectionBall_<std::__1::allocator<void> >, message_info::msg::DetectionRobot_<std::__1::allocator<void> >, message_info::msg::GoalInfo_<std::__1::allocator<void> >, message_info::msg::RobotCommand_<std::__1::allocator<void> >&)", referenced from:
+[9.146s]       Game::test() in game.cpp.o
+[9.146s]   "Goalie::Goalie()", referenced from:
+[9.146s]       Game::test() in game.cpp.o
+[9.147s]   "Goalie::Goalie()", referenced from:
+[9.147s]       Game::Game() in game.cpp.o
+[9.148s] ld: symbol(s) not found for architecture x86_64
+[9.150s] clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[9.151s] make[2]: *** [main] Error 1
+[9.152s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[9.152s] make: *** [all] Error 2
+[9.153s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

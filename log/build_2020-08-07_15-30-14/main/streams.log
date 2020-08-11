@@ -1,0 +1,21 @@
+[0.146s] Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/main': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8
+[0.563s] Scanning dependencies of target main
+[0.720s] [ 25%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[0.721s] [ 50%] Building CXX object CMakeFiles/main.dir/src/goalie.cpp.o
+[0.723s] [ 75%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[3.164s] /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+[3.165s]          float field_width = geometry_message->field_width;
+[3.165s]                ^
+[3.166s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:3:8: error: expected unqualified-id
+[3.167s] Goalie()::Goalie{
+[3.167s]        ^
+[3.181s] /Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.cpp:10:14: error: out-of-line definition of 'main' does not match any declaration in 'Goalie'
+[3.182s] void Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message){
+[3.182s]              ^~~~
+[3.771s] 2 errors generated.
+[3.785s] make[2]: *** [CMakeFiles/main.dir/src/goalie.cpp.o] Error 1
+[3.785s] make[2]: *** Waiting for unfinished jobs....
+[9.025s] 1 warning generated.
+[9.059s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[9.059s] make: *** [all] Error 2
+[9.061s] Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/main' returned '2': AMENT_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info:${CMAKE_PREFIX_PATH} DYLD_LIBRARY_PATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib:${DYLD_LIBRARY_PATH} PYTHONPATH=/Users/mukuyo/Desktop/RI-AI/install/message_info/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/main -- -j8 -l8

@@ -1,0 +1,12 @@
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 warning generated.
+Undefined symbols for architecture x86_64:
+  "Goalie::main(message_info::msg::DetectionBall_<std::__1::allocator<void> >, message_info::msg::DetectionRobot_<std::__1::allocator<void> >, message_info::msg::GoalInfo_<std::__1::allocator<void> >, message_info::msg::RobotCommand_<std::__1::allocator<void> >&)", referenced from:
+      Game::test() in game.cpp.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [main] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

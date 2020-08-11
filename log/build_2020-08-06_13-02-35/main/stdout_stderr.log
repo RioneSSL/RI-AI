@@ -1,0 +1,23 @@
+Scanning dependencies of target main
+[ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:17:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:23: error: expected class name
+class Goalie : public Game{
+                      ^
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:17:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:4:23: error: expected class name
+class Goalie : public Game{
+                      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+1 warning and 1 error generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

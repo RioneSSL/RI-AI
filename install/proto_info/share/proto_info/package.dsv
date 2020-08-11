@@ -1,0 +1,14 @@
+source;share/proto_info/hook/cmake_prefix_path.ps1
+source;share/proto_info/hook/cmake_prefix_path.dsv
+source;share/proto_info/hook/cmake_prefix_path.sh
+source;share/proto_info/hook/dyld_library_path.ps1
+source;share/proto_info/hook/dyld_library_path.dsv
+source;share/proto_info/hook/dyld_library_path.sh
+source;share/proto_info/hook/pythonpath.ps1
+source;share/proto_info/hook/pythonpath.dsv
+source;share/proto_info/hook/pythonpath.sh
+source;share/proto_info/local_setup.bash
+source;share/proto_info/local_setup.dsv
+source;share/proto_info/local_setup.ps1
+source;share/proto_info/local_setup.sh
+source;share/proto_info/local_setup.zsh

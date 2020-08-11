@@ -1,0 +1,4 @@
+Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/message_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/message_info -- -j8 -l8
+Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/message_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/Desktop/RI-AI/build/message_info -- -j8 -l8
+Invoking command in '/Users/mukuyo/Desktop/RI-AI/build/message_info': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/message_info
+Invoked command in '/Users/mukuyo/Desktop/RI-AI/build/message_info' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/Desktop/RI-AI/build/message_info

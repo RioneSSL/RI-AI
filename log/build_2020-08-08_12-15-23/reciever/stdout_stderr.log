@@ -1,0 +1,25 @@
+[ 50%] Linking CXX executable receiver
+[100%] Built target receiver
+-- Install configuration: ""
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/.DS_Store
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/receiver/.DS_Store
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/include/reciever/multicast.hpp
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/lib/reciever/receiver
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/package_run_dependencies/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/parent_prefix_path/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/ament_prefix_path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/environment/path.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.bash
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.sh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.zsh
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.dsv
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/ament_index/resource_index/packages/reciever
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/cmake/recieverConfig-version.cmake
+-- Up-to-date: /Users/mukuyo/Desktop/RI-AI/install/reciever/share/reciever/package.xml

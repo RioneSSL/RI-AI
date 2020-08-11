@@ -1,0 +1,81 @@
+Scanning dependencies of target main
+[ 33%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:2:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:33: error: expected '{' after base class list
+class Game : public rclcpp::Node : public Goalie
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:6:
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:33: error: expected '{' after base class list
+                                ^
+class Game : public rclcpp::Node : public Goalie
+                                ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:34: error: expected ';' after class
+22:34: error: expected ';' after class
+class Game : public rclcpp::Node : public Goalie
+                                 ^
+                                 ;
+class Game : public rclcpp::Node : public Goalie
+                                 ^
+                                 ;
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:36: error: expected unqualified-id
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.hpp:22:36:class Game : public rclcpp::Node : public Goalie 
+error                                   ^: 
+expected unqualified-id
+class Game : public rclcpp::Node : public Goalie
+                                   ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:8:3: error: no matching function for call to 'spin'
+  rclcpp::spin(node);
+  ^~~~~~~~~~~~
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:45:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>' for 1st argument
+spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:49:1: note: candidate function not viable: no known conversion from 'shared_ptr<Game>' to 'shared_ptr<rclcpp::Node>' for 1st argument
+spin(rclcpp::Node::SharedPtr node_ptr);
+^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:44:12: error: out-of-line definition of 'test' does not match any declaration in 'Game'
+void Game::test(){
+           ^~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:7: error: no member named 'main' in the global namespace; did you mean 'min'?
+    ::main(ball,robot,goal,command);
+    ~~^~~~
+      min
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:2523:1: note: 'min' declared here
+min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:12: error: use of undeclared identifier 'ball'; did you mean 'fill'?
+    ::main(ball,robot,goal,command);
+           ^~~~
+           fill
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:2033:1: note: 'fill' declared here
+fill(_ForwardIterator __first, _ForwardIterator __last, const _Tp& __value_)
+^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:17: error: use of undeclared identifier 'robot'
+    ::main(ball,robot,goal,command);
+                ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:23: error: use of undeclared identifier 'goal'
+    ::main(ball,robot,goal,command);
+                      ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:50:11: error: no member named 'publisher' in 'Game'
+    this->publisher->publish(send_info); //grsimへパブリッシュx
+    ~~~~  ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:54:12: error: out-of-line definition of 'timer_callback' does not match any declaration in 'Game'
+void Game::timer_callback(){
+           ^~~~~~~~~~~~~~
+In file included from /Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:1:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/rclcpp.hpp:144:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:4333:28: error: assigning to 'std::__1::__shared_weak_count *' from incompatible type 'std::__1::unique_ptr<std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> >, std::__1::__allocator_destructor<std::__1::allocator<std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> > > > >::pointer' (aka 'std::__1::__shared_ptr_emplace<Game, std::__1::allocator<Game> > *')
+    __r.__cntrl_ = __hold2.release();
+                   ~~~~~~~~^~~~~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:4709:29: note: in instantiation of function template specialization 'std::__1::shared_ptr<Game>::make_shared<>' requested here
+    return shared_ptr<_Tp>::make_shared(_VSTD::forward<_Args>(__args)...);
+                            ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/main.cpp:6:20: note: in instantiation of function template specialization 'std::__1::make_shared<Game>' requested here
+  auto node = std::make_shared<Game>();
+                   ^
+5 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+10 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

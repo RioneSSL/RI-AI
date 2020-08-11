@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000333] (sender) JobQueued: {'identifier': 'sender', 'dependencies': OrderedDict()}
+[0.000536] (sender) JobStarted: {'identifier': 'sender'}
+[0.070001] (sender) JobProgress: {'identifier': 'sender', 'progress': 'cmake'}
+[0.072196] (sender) JobProgress: {'identifier': 'sender', 'progress': 'build'}
+[0.073169] (sender) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/RI-AI/src/sender/build/sender', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/RI-AI/src/sender/build/sender', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('__PYVENV_LAUNCHER__', '/usr/local/Cellar/python/3.7.7/bin/python3.7'), ('TERM_PROGRAM_VERSION', '433'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', '2AE95819-14DC-4986-8AAD-A4036E914BB0'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('LaunchInstanceID', '6790ED13-7F83-45F3-92EF-48BDEB74DE47'), ('PWD', '/Users/mukuyo/RI-AI/src/sender/build/sender'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/ros2_ws/ros2-osx'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('SECURITYSESSIONID', '186a7'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.101535] (-) TimerEvent: {}
+[0.204488] (-) TimerEvent: {}
+[0.250636] (sender) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.303311] (sender) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.304823] (-) TimerEvent: {}
+[0.410105] (-) TimerEvent: {}
+[0.511827] (-) TimerEvent: {}
+[0.548660] (sender) StdoutLine: {'line': b'-- Found rclcpp: 2.0.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)\n'}
+[0.599245] (sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.607874] (sender) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)\n'}
+[0.611942] (-) TimerEvent: {}
+[0.667098] (sender) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[0.707840] (sender) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[0.712947] (-) TimerEvent: {}
+[0.815176] (sender) StdoutLine: {'line': b'-- Found OpenSSL: /usr/local/Cellar/openssl@1.1/1.1.1g/lib/libcrypto.dylib (found version "1.1.1g")  \n'}
+[0.815394] (-) TimerEvent: {}
+[0.920309] (-) TimerEvent: {}
+[1.022520] (-) TimerEvent: {}
+[1.079033] (sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.125564] (-) TimerEvent: {}
+[1.198367] (sender) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)\n'}
+[1.204560] (sender) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.228492] (-) TimerEvent: {}
+[1.329400] (-) TimerEvent: {}
+[1.396338] (sender) StdoutLine: {'line': b'-- Found std_msgs: 2.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/std_msgs/cmake)\n'}
+[1.430143] (-) TimerEvent: {}
+[1.441489] (sender) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_default_generators/cmake)\n'}
+[1.470057] (sender) StdoutLine: {'line': b'-- Found message_info: 0.0.0 (/Users/mukuyo/RI-AI/install/message_info/share/message_info/cmake)\n'}
+[1.533742] (-) TimerEvent: {}
+[1.637493] (-) TimerEvent: {}
+[1.740483] (-) TimerEvent: {}
+[1.844732] (-) TimerEvent: {}
+[1.939299] (sender) StdoutLine: {'line': b'-- Found proto_info: 0.0.0 (/Users/mukuyo/RI-AI/install/proto_info/share/proto_info/cmake)\n'}
+[1.945010] (-) TimerEvent: {}
+[2.026407] (sender) StderrLine: {'line': b'CMake Error at CMakeLists.txt:35 (find_package):\n'}
+[2.026690] (sender) StderrLine: {'line': b'  By not providing "Findsender.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.026806] (sender) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "sender", but\n'}
+[2.026906] (sender) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.027007] (sender) StderrLine: {'line': b'\n'}
+[2.027102] (sender) StderrLine: {'line': b'  Could not find a package configuration file provided by "sender" with any\n'}
+[2.027199] (sender) StderrLine: {'line': b'  of the following names:\n'}
+[2.027317] (sender) StderrLine: {'line': b'\n'}
+[2.027413] (sender) StderrLine: {'line': b'    senderConfig.cmake\n'}
+[2.027507] (sender) StderrLine: {'line': b'    sender-config.cmake\n'}
+[2.027603] (sender) StderrLine: {'line': b'\n'}
+[2.027695] (sender) StderrLine: {'line': b'  Add the installation prefix of "sender" to CMAKE_PREFIX_PATH or set\n'}
+[2.027790] (sender) StderrLine: {'line': b'  "sender_DIR" to a directory containing one of the above files.  If "sender"\n'}
+[2.027883] (sender) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.027976] (sender) StderrLine: {'line': b'  installed.\n'}
+[2.028072] (sender) StderrLine: {'line': b'\n'}
+[2.028166] (sender) StderrLine: {'line': b'\n'}
+[2.034036] (sender) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.034237] (sender) StdoutLine: {'line': b'See also "/Users/mukuyo/RI-AI/src/sender/build/sender/CMakeFiles/CMakeOutput.log".\n'}
+[2.042566] (sender) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[2.044183] (sender) CommandEnded: {'returncode': 2}
+[2.044893] (sender) JobEnded: {'identifier': 'sender', 'rc': 2}
+[2.046807] (-) TimerEvent: {}
+[2.056544] (-) EventReactorShutdown: {}

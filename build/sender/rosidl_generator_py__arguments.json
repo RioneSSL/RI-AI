@@ -1,0 +1,30 @@
+{
+  "package_name": "sender",
+  "output_dir": "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_generator_py/sender",
+  "template_dir": "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_adapter/sender:msg/Test.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/Users/mukuyo/Desktop/RI-AI/build/sender/rosidl_adapter/sender/msg/Test.idl",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/mukuyo/ros2_ws/ros2-osx/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

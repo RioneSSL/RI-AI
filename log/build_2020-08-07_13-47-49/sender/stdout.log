@@ -1,0 +1,16 @@
+[  3%] Built target sender__cpp
+[ 12%] Built target sender__rosidl_generator_c
+[ 15%] Linking CXX executable sim_sender
+[ 24%] Built target sender__rosidl_typesupport_c
+[ 33%] Built target sender__rosidl_typesupport_cpp
+[ 42%] Built target sender__rosidl_typesupport_introspection_cpp
+[ 51%] Built target sender__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target sim_sender
+[ 63%] Built target sender__rosidl_typesupport_introspection_c
+[ 72%] Built target sender__rosidl_typesupport_fastrtps_c
+[ 72%] Built target sender
+[ 75%] Built target sender__py
+[ 81%] Built target sender__python
+[ 87%] Built target sender__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target sender__rosidl_typesupport_c__pyext
+[100%] Built target sender__rosidl_typesupport_fastrtps_c__pyext

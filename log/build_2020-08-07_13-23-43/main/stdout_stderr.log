@@ -1,0 +1,16 @@
+Scanning dependencies of target main
+[ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:31:16: warning: unused variable 'field_width' [-Wunused-variable]
+         float field_width = geometry_message->field_width;
+               ^
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:13: error: call to non-static member function without an object argument
+    Goalie::main(ball,robot,goal,command);
+    ~~~~~~~~^~~~
+/Users/mukuyo/Desktop/RI-AI/src/main/src/game.cpp:48:13: error: 'main' is a private member of 'Goalie'
+/Users/mukuyo/Desktop/RI-AI/src/main/src/goalie.hpp:8:7: note: declared private here
+        void main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_message);
+             ^
+1 warning and 2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/game.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

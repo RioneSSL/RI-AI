@@ -1,0 +1,21 @@
+Scanning dependencies of target main
+[ 66%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[ 66%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[100%] Linking CXX executable main
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+-- Installing: /Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

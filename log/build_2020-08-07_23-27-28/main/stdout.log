@@ -1,0 +1,4 @@
+Scanning dependencies of target main
+[ 16%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[ 33%] Building CXX object CMakeFiles/main.dir/src/game.cpp.o
+[ 50%] Building CXX object CMakeFiles/main.dir/src/attacker.cpp.o
