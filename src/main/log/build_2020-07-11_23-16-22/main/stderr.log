@@ -1,0 +1,4 @@
+/Users/mukuyo/RI-AI/src/main/src/main.cpp:24:67: warning: unused parameter 'vision_message' [-Wunused-parameter]
+  void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {
+                                                                  ^
+1 warning generated.

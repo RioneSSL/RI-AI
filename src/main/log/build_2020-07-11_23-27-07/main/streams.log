@@ -1,0 +1,23 @@
+[0.068s] Invoking command in '/Users/mukuyo/RI-AI/src/main/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
+[0.273s] Scanning dependencies of target main
+[0.340s] [ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.306s] /Users/mukuyo/RI-AI/src/main/src/main.cpp:25:57: error: no member named 'frames' in 'message_info::msg::RobotCommands_<std::__1::allocator<void> >'
+[1.307s]     RCLCPP_INFO(this->get_logger(),"%f",vision_message->frames[0].balls[0].pose.x);
+[1.307s]                                         ~~~~~~~~~~~~~~  ^
+[1.307s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:545:35: note: expanded from macro 'RCLCPP_INFO'
+[1.307s]         RCLCPP_ALL_BUT_FIRST_ARGS(__VA_ARGS__,"")); \
+[1.307s]                                   ^~~~~~~~~~~
+[1.307s] /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:36:43: note: expanded from macro 'RCLCPP_ALL_BUT_FIRST_ARGS'
+[1.307s] #define RCLCPP_ALL_BUT_FIRST_ARGS(N, ...) __VA_ARGS__
+[1.307s]                                           ^~~~~~~~~~~
+[1.308s] /Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:503:5: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+[1.308s]     __VA_ARGS__)
+[1.308s]     ^~~~~~~~~~~
+[1.308s] /Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:72:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+[1.308s]       rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+[1.308s]                                                                ^~~~~~~~~~~
+[2.524s] 1 error generated.
+[2.539s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[2.539s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[2.540s] make: *** [all] Error 2
+[2.541s] Invoked command in '/Users/mukuyo/RI-AI/src/main/build/main' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8

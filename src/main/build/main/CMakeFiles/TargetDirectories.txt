@@ -1,0 +1,10 @@
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/list_install_components.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/rebuild_cache.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/edit_cache.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/install/local.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/test.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/install/strip.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/install.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/uninstall.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/main_uninstall.dir
+/Users/mukuyo/RI-AI/src/main/build/main/CMakeFiles/main.dir

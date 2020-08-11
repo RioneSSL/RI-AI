@@ -1,0 +1,16 @@
+/Users/mukuyo/Desktop/RI-AI/install/main/lib/main/main
+/Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/package_run_dependencies/main
+/Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/parent_prefix_path/main
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.sh
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/ament_prefix_path.dsv
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.sh
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/environment/path.dsv
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.bash
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.sh
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.zsh
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/local_setup.dsv
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.dsv
+/Users/mukuyo/Desktop/RI-AI/install/main/share/ament_index/resource_index/packages/main
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig.cmake
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/cmake/mainConfig-version.cmake
+/Users/mukuyo/Desktop/RI-AI/install/main/share/main/package.xml

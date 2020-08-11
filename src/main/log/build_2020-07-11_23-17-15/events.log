@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.001490] (main) JobStarted: {'identifier': 'main'}
+[0.063586] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[0.064781] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[0.067018] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/RI-AI/src/main/build/main', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100480] (-) TimerEvent: {}
+[0.203970] (-) TimerEvent: {}
+[0.274850] (main) StdoutLine: {'line': b'Scanning dependencies of target main\n'}
+[0.306791] (-) TimerEvent: {}
+[0.341781] (main) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o\n'}
+[0.409623] (-) TimerEvent: {}
+[0.511258] (-) TimerEvent: {}
+[0.616541] (-) TimerEvent: {}
+[0.721834] (-) TimerEvent: {}
+[0.827167] (-) TimerEvent: {}
+[0.932469] (-) TimerEvent: {}
+[1.037759] (-) TimerEvent: {}
+[1.141001] (-) TimerEvent: {}
+[1.245778] (-) TimerEvent: {}
+[1.310380] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:25:57: error: no member named 'frames' in 'message_info::msg::RobotCommands_<std::__1::allocator<void> >'\n"}
+[1.310868] (main) StderrLine: {'line': b'    RCLCPP_INFO(this->get_logger(),"%f",vision_message->frames[0].balls[0].pose.x);\n'}
+[1.310987] (main) StderrLine: {'line': b'                                        ~~~~~~~~~~~~~~  ^\n'}
+[1.311084] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:545:35: note: expanded from macro 'RCLCPP_INFO'\n"}
+[1.311179] (main) StderrLine: {'line': b'        RCLCPP_ALL_BUT_FIRST_ARGS(__VA_ARGS__,"")); \\\n'}
+[1.311302] (main) StderrLine: {'line': b'                                  ^~~~~~~~~~~\n'}
+[1.311395] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:36:43: note: expanded from macro 'RCLCPP_ALL_BUT_FIRST_ARGS'\n"}
+[1.311488] (main) StderrLine: {'line': b'#define RCLCPP_ALL_BUT_FIRST_ARGS(N, ...) __VA_ARGS__\n'}
+[1.311582] (main) StderrLine: {'line': b'                                          ^~~~~~~~~~~\n'}
+[1.311674] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:503:5: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'\n"}
+[1.311767] (main) StderrLine: {'line': b'    __VA_ARGS__)\n'}
+[1.311859] (main) StderrLine: {'line': b'    ^~~~~~~~~~~\n'}
+[1.311953] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:72:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'\n"}
+[1.312044] (main) StderrLine: {'line': b'      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \\\n'}
+[1.312136] (main) StderrLine: {'line': b'                                                               ^~~~~~~~~~~\n'}
+[1.350890] (-) TimerEvent: {}
+[1.456261] (-) TimerEvent: {}
+[1.558950] (-) TimerEvent: {}
+[1.659453] (-) TimerEvent: {}
+[1.762406] (-) TimerEvent: {}
+[1.867775] (-) TimerEvent: {}
+[1.973060] (-) TimerEvent: {}
+[2.078385] (-) TimerEvent: {}
+[2.183701] (-) TimerEvent: {}
+[2.289046] (-) TimerEvent: {}
+[2.394439] (-) TimerEvent: {}
+[2.499781] (-) TimerEvent: {}
+[2.519269] (main) StderrLine: {'line': b'1 error generated.\n'}
+[2.534478] (main) StderrLine: {'line': b'make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1\n'}
+[2.535172] (main) StderrLine: {'line': b'make[1]: *** [CMakeFiles/main.dir/all] Error 2\n'}
+[2.535735] (main) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.537138] (main) CommandEnded: {'returncode': 2}
+[2.538114] (main) JobEnded: {'identifier': 'main', 'rc': 2}
+[2.550938] (-) EventReactorShutdown: {}

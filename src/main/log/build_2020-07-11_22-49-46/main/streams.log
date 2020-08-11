@@ -1,0 +1,32 @@
+[0.065s] Invoking command in '/Users/mukuyo/RI-AI/src/main/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
+[0.269s] Scanning dependencies of target main
+[0.335s] [ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.324s] /Users/mukuyo/RI-AI/src/main/src/main.cpp:16:16: error: no viable overloaded '='
+[1.324s]     subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,std::bind(&Main::callback,this,std::placeholders::_1));
+[1.324s]     ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.325s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3839:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'const shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument
+[1.325s]     shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+[1.326s]                 ^
+[1.326s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3850:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument
+[1.326s]     shared_ptr& operator=(shared_ptr&& __r) _NOEXCEPT;
+[1.326s]                 ^
+[1.326s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3847:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]
+[1.326s]         operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+[1.326s]         ^
+[1.326s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3858:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]
+[1.326s]         operator=(shared_ptr<_Yp>&& __r);
+[1.326s]         ^
+[1.327s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3868:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+[1.327s]         operator=(auto_ptr<_Yp>&& __r);
+[1.327s]         ^
+[1.327s] /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3892:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+[1.327s]         operator=(unique_ptr<_Yp, _Dp>&& __r);
+[1.327s]         ^
+[1.327s] /Users/mukuyo/RI-AI/src/main/src/main.cpp:24:67: warning: unused parameter 'vision_message' [-Wunused-parameter]
+[1.327s]   void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {
+[1.327s]                                                                   ^
+[2.445s] 1 warning and 1 error generated.
+[2.460s] make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[2.461s] make[1]: *** [CMakeFiles/main.dir/all] Error 2
+[2.461s] make: *** [all] Error 2
+[2.462s] Invoked command in '/Users/mukuyo/RI-AI/src/main/build/main' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
