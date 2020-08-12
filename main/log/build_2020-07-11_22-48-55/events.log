@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.000801] (main) JobStarted: {'identifier': 'main'}
+[0.087347] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[0.089858] (main) Command: {'cmd': ['/usr/local/bin/cmake', '/Users/mukuyo/RI-AI/src/main', '-DCMAKE_INSTALL_PREFIX=/Users/mukuyo/RI-AI/src/main/install/main'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100948] (-) TimerEvent: {}
+[0.204316] (-) TimerEvent: {}
+[0.307729] (-) TimerEvent: {}
+[0.408188] (-) TimerEvent: {}
+[0.511513] (-) TimerEvent: {}
+[0.612743] (-) TimerEvent: {}
+[0.713143] (-) TimerEvent: {}
+[0.813919] (-) TimerEvent: {}
+[0.918204] (-) TimerEvent: {}
+[1.023253] (-) TimerEvent: {}
+[1.033877] (main) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 11.0.3.11030032\n'}
+[1.127794] (-) TimerEvent: {}
+[1.160399] (main) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 11.0.3.11030032\n'}
+[1.194842] (main) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc\n'}
+[1.229425] (-) TimerEvent: {}
+[1.331667] (-) TimerEvent: {}
+[1.435769] (-) TimerEvent: {}
+[1.540601] (-) TimerEvent: {}
+[1.594732] (main) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works\n'}
+[1.598462] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.642086] (-) TimerEvent: {}
+[1.742567] (-) TimerEvent: {}
+[1.847843] (-) TimerEvent: {}
+[1.909142] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.920125] (main) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.920856] (main) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.928571] (main) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++\n'}
+[1.952579] (-) TimerEvent: {}
+[2.057868] (-) TimerEvent: {}
+[2.158859] (-) TimerEvent: {}
+[2.235977] (main) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works\n'}
+[2.237533] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.261550] (-) TimerEvent: {}
+[2.363443] (-) TimerEvent: {}
+[2.464775] (-) TimerEvent: {}
+[2.548545] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.558990] (main) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.559731] (main) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.565280] (-) TimerEvent: {}
+[2.583492] (main) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.5 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_cmake/cmake)\n'}
+[2.668278] (-) TimerEvent: {}
+[2.672106] (main) StdoutLine: {'line': b'-- Found PythonInterp: /usr/local/opt/python@3.8/bin/python3 (found suitable version "3.8.3", minimum required is "3") \n'}
+[2.672491] (main) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/opt/python@3.8/bin/python3\n'}
+[2.769267] (-) TimerEvent: {}
+[2.869609] (-) TimerEvent: {}
+[2.972158] (-) TimerEvent: {}
+[3.075502] (-) TimerEvent: {}
+[3.114006] (main) StdoutLine: {'line': b'-- Found rclcpp: 2.0.0 (/Users/mukuyo/ros2_ws/ros2-osx/share/rclcpp/cmake)\n'}
+[3.177278] (-) TimerEvent: {}
+[3.248611] (main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.279633] (-) TimerEvent: {}
+[3.284706] (main) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rosidl_adapter/cmake)\n'}
+[3.365828] (main) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[3.380023] (-) TimerEvent: {}
+[3.433484] (main) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[3.480827] (-) TimerEvent: {}
+[3.586101] (-) TimerEvent: {}
+[3.686389] (-) TimerEvent: {}
+[3.786863] (-) TimerEvent: {}
+[3.888262] (-) TimerEvent: {}
+[3.988660] (-) TimerEvent: {}
+[4.089074] (-) TimerEvent: {}
+[4.190341] (-) TimerEvent: {}
+[4.290980] (-) TimerEvent: {}
+[4.391711] (-) TimerEvent: {}
+[4.405910] (main) StdoutLine: {'line': b'-- Found OpenSSL: /usr/local/opt/openssl@1.1/lib/libcrypto.dylib (found version "1.1.1g")  \n'}
+[4.496890] (-) TimerEvent: {}
+[4.557982] (main) StdoutLine: {'line': b'-- Found FastRTPS: /Users/mukuyo/ros2_ws/ros2-osx/include  \n'}
+[4.598562] (-) TimerEvent: {}
+[4.703893] (-) TimerEvent: {}
+[4.807409] (-) TimerEvent: {}
+[4.819827] (main) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.907897] (-) TimerEvent: {}
+[4.991194] (main) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.1 (/Users/mukuyo/ros2_ws/ros2-osx/share/rmw_implementation_cmake/cmake)\n'}
+[4.996064] (main) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.000496] (main) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.009809] (-) TimerEvent: {}
+[5.111159] (-) TimerEvent: {}
+[5.211797] (-) TimerEvent: {}
+[5.317248] (-) TimerEvent: {}
+[5.385491] (main) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.385888] (main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.422315] (-) TimerEvent: {}
+[5.524618] (-) TimerEvent: {}
+[5.629524] (-) TimerEvent: {}
+[5.734812] (-) TimerEvent: {}
+[5.746249] (main) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.747470] (main) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.835049] (-) TimerEvent: {}
+[5.936101] (-) TimerEvent: {}
+[5.978186] (main) StdoutLine: {'line': b'-- Found message_info: 0.0.0 (/Users/mukuyo/RI-AI/install/message_info/share/message_info/cmake)\n'}
+[6.040993] (-) TimerEvent: {}
+[6.144822] (-) TimerEvent: {}
+[6.245277] (-) TimerEvent: {}
+[6.346356] (-) TimerEvent: {}
+[6.446868] (-) TimerEvent: {}
+[6.474356] (main) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.4 (/Users/mukuyo/ros2_ws/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[6.552032] (-) TimerEvent: {}
+[6.657283] (-) TimerEvent: {}
+[6.698046] (main) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.713843] (main) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.714163] (main) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.714282] (main) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.729182] (main) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.729350] (main) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.737427] (main) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.762422] (-) TimerEvent: {}
+[6.766604] (main) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.766873] (main) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.774264] (main) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.796595] (main) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.826530] (main) StdoutLine: {'line': b'-- Generating done\n'}
+[6.832324] (main) StdoutLine: {'line': b'-- Build files have been written to: /Users/mukuyo/RI-AI/src/main/build/main\n'}
+[6.847590] (main) CommandEnded: {'returncode': 0}
+[6.850012] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[6.857137] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/RI-AI/src/main/build/main', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.867007] (-) TimerEvent: {}
+[6.970975] (-) TimerEvent: {}
+[7.075486] (-) TimerEvent: {}
+[7.177624] (-) TimerEvent: {}
+[7.267529] (main) StdoutLine: {'line': b'Scanning dependencies of target main\n'}
+[7.278097] (-) TimerEvent: {}
+[7.339680] (main) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o\n'}
+[7.379097] (-) TimerEvent: {}
+[7.480807] (-) TimerEvent: {}
+[7.586078] (-) TimerEvent: {}
+[7.686718] (-) TimerEvent: {}
+[7.788158] (-) TimerEvent: {}
+[7.888613] (-) TimerEvent: {}
+[7.990135] (-) TimerEvent: {}
+[8.095459] (-) TimerEvent: {}
+[8.200572] (-) TimerEvent: {}
+[8.305951] (-) TimerEvent: {}
+[8.406330] (-) TimerEvent: {}
+[8.507910] (-) TimerEvent: {}
+[8.593221] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:16:16: error: no viable overloaded '='\n"}
+[8.593979] (main) StderrLine: {'line': b'    subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,std::bind(&Main::callback,this,std::placeholders::_1));\n'}
+[8.594082] (main) StderrLine: {'line': b'    ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[8.596964] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3839:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'const shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument\n"}
+[8.597543] (main) StderrLine: {'line': b'    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;\n'}
+[8.598012] (main) StderrLine: {'line': b'                ^\n'}
+[8.598118] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3850:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument\n"}
+[8.598277] (main) StderrLine: {'line': b'    shared_ptr& operator=(shared_ptr&& __r) _NOEXCEPT;\n'}
+[8.598545] (main) StderrLine: {'line': b'                ^\n'}
+[8.598848] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3847:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]\n"}
+[8.599261] (main) StderrLine: {'line': b'        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;\n'}
+[8.599646] (main) StderrLine: {'line': b'        ^\n'}
+[8.599742] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3858:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]\n"}
+[8.599833] (main) StderrLine: {'line': b'        operator=(shared_ptr<_Yp>&& __r);\n'}
+[8.599915] (main) StderrLine: {'line': b'        ^\n'}
+[8.600008] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3868:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'\n"}
+[8.600092] (main) StderrLine: {'line': b'        operator=(auto_ptr<_Yp>&& __r);\n'}
+[8.600179] (main) StderrLine: {'line': b'        ^\n'}
+[8.600261] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3892:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'\n"}
+[8.600341] (main) StderrLine: {'line': b'        operator=(unique_ptr<_Yp, _Dp>&& __r);\n'}
+[8.600432] (main) StderrLine: {'line': b'        ^\n'}
+[8.600511] (main) StderrLine: {'line': b'/Users/mukuyo/RI-AI/src/main/src/main.cpp:17:39: error: no matching literal operator for call to \'operator""s\' with argument of type \'unsigned long long\' or \'const char *\', and no matching literal operator template\n'}
+[8.600594] (main) StderrLine: {'line': b'    timer_ = this->create_wall_timer(1s, std::bind(&Main::timer_callback, this));\n'}
+[8.600672] (main) StderrLine: {'line': b'                                      ^\n'}
+[8.605352] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:25:57: error: no member named 'frames' in 'message_info::msg::RobotCommands_<std::__1::allocator<void> >'\n"}
+[8.605882] (main) StderrLine: {'line': b'    RCLCPP_INFO(this->get_logger(),"%f",vision_message->frames[0].balls[0].pose.x);\n'}
+[8.606486] (main) StderrLine: {'line': b'                                        ~~~~~~~~~~~~~~  ^\n'}
+[8.606931] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:545:35: note: expanded from macro 'RCLCPP_INFO'\n"}
+[8.607083] (main) StderrLine: {'line': b'        RCLCPP_ALL_BUT_FIRST_ARGS(__VA_ARGS__,"")); \\\n'}
+[8.607165] (main) StderrLine: {'line': b'                                  ^~~~~~~~~~~\n'}
+[8.607243] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/logging.hpp:36:43: note: expanded from macro 'RCLCPP_ALL_BUT_FIRST_ARGS'\n"}
+[8.607323] (main) StderrLine: {'line': b'#define RCLCPP_ALL_BUT_FIRST_ARGS(N, ...) __VA_ARGS__\n'}
+[8.607420] (main) StderrLine: {'line': b'                                          ^~~~~~~~~~~\n'}
+[8.607499] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:503:5: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'\n"}
+[8.607578] (main) StderrLine: {'line': b'    __VA_ARGS__)\n'}
+[8.607655] (main) StderrLine: {'line': b'    ^~~~~~~~~~~\n'}
+[8.607755] (main) StderrLine: {'line': b"/Users/mukuyo/ros2_ws/ros2-osx/include/rcutils/logging_macros.h:72:64: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'\n"}
+[8.607856] (main) StderrLine: {'line': b'      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \\\n'}
+[8.607931] (-) TimerEvent: {}
+[8.608080] (main) StderrLine: {'line': b'                                                               ^~~~~~~~~~~\n'}
+[8.711327] (-) TimerEvent: {}
+[8.816593] (-) TimerEvent: {}
+[8.921949] (-) TimerEvent: {}
+[9.023101] (-) TimerEvent: {}
+[9.124188] (-) TimerEvent: {}
+[9.229504] (-) TimerEvent: {}
+[9.334474] (-) TimerEvent: {}
+[9.439578] (-) TimerEvent: {}
+[9.540990] (-) TimerEvent: {}
+[9.644442] (-) TimerEvent: {}
+[9.744895] (-) TimerEvent: {}
+[9.746706] (main) StderrLine: {'line': b'3 errors generated.\n'}
+[9.761391] (main) StderrLine: {'line': b'make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1\n'}
+[9.762218] (main) StderrLine: {'line': b'make[1]: *** [CMakeFiles/main.dir/all] Error 2\n'}
+[9.762820] (main) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.764482] (main) CommandEnded: {'returncode': 2}
+[9.765387] (main) JobEnded: {'identifier': 'main', 'rc': 2}
+[9.768229] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.066s] Invoking command in '/Users/mukuyo/RI-AI/src/main/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
+[0.270s] Scanning dependencies of target main
+[0.337s] [ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o
+[1.319s] /Users/mukuyo/RI-AI/src/main/src/main.cpp:25:67: warning: unused parameter 'vision_message' [-Wunused-parameter]
+[1.319s]   void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {
+[1.319s]                                                                   ^
+[3.966s] 1 warning generated.
+[4.039s] [100%] Linking CXX executable main
+[4.217s] [100%] Built target main
+[4.244s] Invoked command in '/Users/mukuyo/RI-AI/src/main/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
+[4.673s] Invoking command in '/Users/mukuyo/RI-AI/src/main/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/RI-AI/src/main/build/main
+[4.701s] -- Install configuration: ""
+[4.701s] -- Installing: /Users/mukuyo/RI-AI/src/main/install/main/lib/main/main
+[4.764s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[4.764s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[4.765s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/ament_prefix_path.sh
+[4.765s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/ament_prefix_path.dsv
+[4.765s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/path.sh
+[4.765s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/path.dsv
+[4.766s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.bash
+[4.766s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.sh
+[4.766s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.zsh
+[4.766s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.dsv
+[4.766s] -- Installing: /Users/mukuyo/RI-AI/src/main/install/main/share/main/package.dsv
+[4.767s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/packages/main
+[4.767s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/cmake/mainConfig.cmake
+[4.767s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/cmake/mainConfig-version.cmake
+[4.770s] -- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/package.xml
+[4.770s] Invoked command in '/Users/mukuyo/RI-AI/src/main/build/main' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --install /Users/mukuyo/RI-AI/src/main/build/main

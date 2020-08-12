@@ -1,0 +1,53 @@
+#include <cmath>
+#include <iostream>
+
+#include "calculate.hpp"
+
+float Calc::degree_improve(float degree){
+	if(degree>180){
+		degree=degree-360;
+	}else if(degree<-180){
+		degree=degree+360;
+	}
+	return degree;
+}
+
+float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+	float degree=std::atan2(object1.y - object2.y, object1.x - object2.x);
+	return degree;
+}
+
+float Calc::wrap_calc(float degree){
+	float a_constant=-0.002102256;
+	float b_constant=1.647918685;
+	float c_constant=-1.932145886;
+	bool flag=false;
+	float wrap_degree=0;
+
+	if (degree<0){
+		flag=true;
+		degree=std::fabs(degree);
+	}
+	wrap_degree= degree * degree * a_constant + degree * b_constant + c_constant;
+
+	if(flag==true){
+		wrap_degree=(wrap_degree-360)*(-1);
+	}
+	if(wrap_degree>180){
+		wrap_degree=wrap_degree-360;
+	}
+
+	return wrap_degree;
+}
+
+float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+	float difference_x,difference_y,distance;
+
+	difference_x=object1.pose.x-object2.pose.x;
+	difference_y=object1.pose.y-object2.pose.y;
+	
+	distance=std::sqrt((difference_x*difference_x)+(difference_y*difference_y));
+
+	return distance;
+}
+

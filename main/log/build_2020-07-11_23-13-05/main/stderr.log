@@ -1,0 +1,66 @@
+/Users/mukuyo/RI-AI/src/main/src/main.cpp:16:16: error: no viable overloaded '='
+    subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,std::bind(&Main::callback,_1));
+    ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3839:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'const shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument
+    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3850:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument
+    shared_ptr& operator=(shared_ptr&& __r) _NOEXCEPT;
+                ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3847:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]
+        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;
+        ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3858:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]
+        operator=(shared_ptr<_Yp>&& __r);
+        ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3868:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'
+        operator=(auto_ptr<_Yp>&& __r);
+        ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3892:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'
+        operator=(unique_ptr<_Yp, _Dp>&& __r);
+        ^
+/Users/mukuyo/RI-AI/src/main/src/main.cpp:24:67: warning: unused parameter 'vision_message' [-Wunused-parameter]
+  void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {
+                                                                  ^
+In file included from /Users/mukuyo/RI-AI/src/main/src/main.cpp:1:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/rclcpp.hpp:146:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors.hpp:21:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executors/multi_threaded_executor.hpp:25:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executor.hpp:33:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/executor_options.hpp:20:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/memory_strategies.hpp:18:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/memory_strategy.hpp:24:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/any_executable.hpp:20:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/callback_group.hpp:26:
+In file included from /Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/subscription_base.hpp:29:
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/any_subscription_callback.hpp:85:26: error: no viable overloaded '='
+    shared_ptr_callback_ = callback;
+    ~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/subscription_factory.hpp:97:29: note: in instantiation of function template specialization 'rclcpp::AnySubscriptionCallback<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> >::set<std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>, nullptr>' requested here
+  any_subscription_callback.set(std::forward<CallbackT>(callback));
+                            ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/create_subscription.hpp:112:26: note: in instantiation of function template specialization 'rclcpp::create_subscription_factory<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>, std::__1::allocator<void>, message_info::msg::RobotCommands_<std::__1::allocator<void> >, rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >' requested here
+  auto factory = rclcpp::create_subscription_factory<MessageT>(
+                         ^
+/Users/mukuyo/ros2_ws/ros2-osx/include/rclcpp/node_impl.hpp:98:18: note: in instantiation of function template specialization 'rclcpp::create_subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>, std::__1::allocator<void>, message_info::msg::RobotCommands_<std::__1::allocator<void> >, rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> >, rclcpp::Node &>' requested here
+  return rclcpp::create_subscription<MessageT>(
+                 ^
+/Users/mukuyo/RI-AI/src/main/src/main.cpp:16:24: note: in instantiation of function template specialization 'rclcpp::Node::create_subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>, std::__1::allocator<void>, message_info::msg::RobotCommands_<std::__1::allocator<void> >, rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >' requested here
+    subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,std::bind(&Main::callback,_1));
+                       ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional:2297:15: note: candidate function not viable: no known conversion from 'std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>' to 'const std::__1::function<void (std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >)>' for 1st argument
+    function& operator=(const function&);
+              ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional:2298:15: note: candidate function not viable: no known conversion from 'std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>' to 'std::__1::function<void (std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >)>' for 1st argument
+    function& operator=(function&&) _NOEXCEPT;
+              ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional:2299:15: note: candidate function not viable: no known conversion from 'std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &>' to 'std::nullptr_t' (aka 'nullptr_t') for 1st argument
+    function& operator=(nullptr_t) _NOEXCEPT;
+              ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional:2301:15: note: candidate template ignored: requirement '__callable<std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &> &, false>::value' was not satisfied [with _Fp = std::__1::__bind<void (Main::*)(std::__1::shared_ptr<message_info::msg::RobotCommands_<std::__1::allocator<void> > >), const std::__1::placeholders::__ph<1> &> &]
+    function& operator=(_Fp&&);
+              ^
+1 warning and 2 errors generated.
+make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

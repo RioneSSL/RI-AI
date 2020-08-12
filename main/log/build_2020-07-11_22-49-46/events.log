@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.001493] (main) JobStarted: {'identifier': 'main'}
+[0.060584] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[0.061719] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[0.064044] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/RI-AI/src/main/build/main', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100337] (-) TimerEvent: {}
+[0.204867] (-) TimerEvent: {}
+[0.270606] (main) StdoutLine: {'line': b'Scanning dependencies of target main\n'}
+[0.309936] (-) TimerEvent: {}
+[0.336006] (main) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o\n'}
+[0.412071] (-) TimerEvent: {}
+[0.513033] (-) TimerEvent: {}
+[0.618371] (-) TimerEvent: {}
+[0.723566] (-) TimerEvent: {}
+[0.826802] (-) TimerEvent: {}
+[0.927256] (-) TimerEvent: {}
+[1.029037] (-) TimerEvent: {}
+[1.134305] (-) TimerEvent: {}
+[1.239575] (-) TimerEvent: {}
+[1.324593] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:16:16: error: no viable overloaded '='\n"}
+[1.325351] (main) StderrLine: {'line': b'    subscriber = this->create_subscription<message_info::msg::VisionDetections>("vision_detections",10,std::bind(&Main::callback,this,std::placeholders::_1));\n'}
+[1.325768] (main) StderrLine: {'line': b'    ~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.326181] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3839:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'const shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument\n"}
+[1.326589] (main) StderrLine: {'line': b'    shared_ptr& operator=(const shared_ptr& __r) _NOEXCEPT;\n'}
+[1.327144] (main) StderrLine: {'line': b'                ^\n'}
+[1.327245] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3850:17: note: candidate function not viable: no known conversion from 'shared_ptr<Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, [...]>>>' to 'shared_ptr<Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...], MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, [...]>>>' for 1st argument\n"}
+[1.327343] (main) StderrLine: {'line': b'    shared_ptr& operator=(shared_ptr&& __r) _NOEXCEPT;\n'}
+[1.327428] (main) StderrLine: {'line': b'                ^\n'}
+[1.327512] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3847:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]\n"}
+[1.327611] (main) StderrLine: {'line': b'        operator=(const shared_ptr<_Yp>& __r) _NOEXCEPT;\n'}
+[1.327695] (main) StderrLine: {'line': b'        ^\n'}
+[1.327776] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3858:9: note: candidate template ignored: requirement 'is_convertible<rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > > *, rclcpp::Subscription<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::VisionDetections_<std::__1::allocator<void> >, std::__1::allocator<void> > > *>::value' was not satisfied [with _Yp = rclcpp::Subscription<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<message_info::msg::RobotCommands_<std::__1::allocator<void> >, std::__1::allocator<void> > >]\n"}
+[1.327878] (main) StderrLine: {'line': b'        operator=(shared_ptr<_Yp>&& __r);\n'}
+[1.327960] (main) StderrLine: {'line': b'        ^\n'}
+[1.328041] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3868:9: note: candidate template ignored: could not match 'auto_ptr' against 'shared_ptr'\n"}
+[1.328122] (main) StderrLine: {'line': b'        operator=(auto_ptr<_Yp>&& __r);\n'}
+[1.328202] (main) StderrLine: {'line': b'        ^\n'}
+[1.328294] (main) StderrLine: {'line': b"/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/memory:3892:9: note: candidate template ignored: could not match 'unique_ptr' against 'shared_ptr'\n"}
+[1.328394] (main) StderrLine: {'line': b'        operator=(unique_ptr<_Yp, _Dp>&& __r);\n'}
+[1.328481] (main) StderrLine: {'line': b'        ^\n'}
+[1.328559] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:24:67: warning: unused parameter 'vision_message' [-Wunused-parameter]\n"}
+[1.328685] (main) StderrLine: {'line': b'  void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {\n'}
+[1.328785] (main) StderrLine: {'line': b'                                                                  ^\n'}
+[1.341975] (-) TimerEvent: {}
+[1.447367] (-) TimerEvent: {}
+[1.550828] (-) TimerEvent: {}
+[1.652139] (-) TimerEvent: {}
+[1.757506] (-) TimerEvent: {}
+[1.862843] (-) TimerEvent: {}
+[1.968159] (-) TimerEvent: {}
+[2.072144] (-) TimerEvent: {}
+[2.173609] (-) TimerEvent: {}
+[2.278895] (-) TimerEvent: {}
+[2.384275] (-) TimerEvent: {}
+[2.446464] (main) StderrLine: {'line': b'1 warning and 1 error generated.\n'}
+[2.461563] (main) StderrLine: {'line': b'make[2]: *** [CMakeFiles/main.dir/src/main.cpp.o] Error 1\n'}
+[2.461958] (main) StderrLine: {'line': b'make[1]: *** [CMakeFiles/main.dir/all] Error 2\n'}
+[2.462251] (main) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.463241] (main) CommandEnded: {'returncode': 2}
+[2.463649] (main) JobEnded: {'identifier': 'main', 'rc': 2}
+[2.465233] (-) EventReactorShutdown: {}

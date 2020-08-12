@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000818] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.001860] (main) JobStarted: {'identifier': 'main'}
+[0.064390] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[0.065508] (main) JobProgress: {'identifier': 'main', 'progress': 'build'}
+[0.067730] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/mukuyo/RI-AI/src/main/build/main', '--', '-j8', '-l8'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.103823] (-) TimerEvent: {}
+[0.209159] (-) TimerEvent: {}
+[0.273973] (main) StdoutLine: {'line': b'Scanning dependencies of target main\n'}
+[0.314229] (-) TimerEvent: {}
+[0.341720] (main) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/main.dir/src/main.cpp.o\n'}
+[0.419305] (-) TimerEvent: {}
+[0.520941] (-) TimerEvent: {}
+[0.626275] (-) TimerEvent: {}
+[0.731632] (-) TimerEvent: {}
+[0.836721] (-) TimerEvent: {}
+[0.940578] (-) TimerEvent: {}
+[1.046007] (-) TimerEvent: {}
+[1.151294] (-) TimerEvent: {}
+[1.252071] (-) TimerEvent: {}
+[1.281443] (main) StderrLine: {'line': b"/Users/mukuyo/RI-AI/src/main/src/main.cpp:25:67: warning: unused parameter 'vision_message' [-Wunused-parameter]\n"}
+[1.281744] (main) StderrLine: {'line': b'  void callback(const message_info::msg::RobotCommands::SharedPtr vision_message) {\n'}
+[1.281863] (main) StderrLine: {'line': b'                                                                  ^\n'}
+[1.356680] (-) TimerEvent: {}
+[1.458723] (-) TimerEvent: {}
+[1.562479] (-) TimerEvent: {}
+[1.662878] (-) TimerEvent: {}
+[1.767181] (-) TimerEvent: {}
+[1.779341] (main) StderrLine: {'line': b'1 warning generated.\n'}
+[1.834952] (main) StdoutLine: {'line': b'[100%] Linking CXX executable main\n'}
+[1.872287] (-) TimerEvent: {}
+[1.964449] (main) StdoutLine: {'line': b'[100%] Built target main\n'}
+[1.974258] (-) TimerEvent: {}
+[1.991131] (main) CommandEnded: {'returncode': 0}
+[2.075272] (-) TimerEvent: {}
+[2.177503] (-) TimerEvent: {}
+[2.281473] (-) TimerEvent: {}
+[2.386418] (-) TimerEvent: {}
+[2.389469] (main) JobProgress: {'identifier': 'main', 'progress': 'install'}
+[2.416696] (main) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/mukuyo/RI-AI/src/main/build/main'], 'cwd': '/Users/mukuyo/RI-AI/src/main/build/main', 'env': OrderedDict([('TERM_PROGRAM', 'Apple_Terminal'), ('SHELL', '/bin/zsh'), ('TERM', 'xterm-256color'), ('TMPDIR', '/var/folders/gd/nzkytg853t71yy2sknch_fh00000gn/T/'), ('TERM_PROGRAM_VERSION', '433'), ('OPENSSL_INCLUDE_DIR', '/usr/local/opt/openssl@1.1'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/mukuyo/RI-AI/install:/Users/mukuyo/ros2_ws/ros2-osx'), ('TERM_SESSION_ID', 'AC5271D7-1864-454A-938E-C13878DEA07A'), ('AMENT_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/sender:/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx'), ('USER', 'mukuyo'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.9KduaiWhrJ/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x1:0xE'), ('PATH', '/Users/mukuyo/ros2_ws/ros2-osx/bin:/usr/local/opt/python@3.8/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin'), ('PWD', '/Users/mukuyo/RI-AI/src/main/build/main'), ('COLCON', '1'), ('LANG', 'ja_JP.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl@1.1'), ('SHLVL', '2'), ('HOME', '/Users/mukuyo'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/mukuyo/RI-AI/install/sender/lib:/Users/mukuyo/RI-AI/install/proto_info/lib:/Users/mukuyo/RI-AI/install/message_info/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/mukuyo/ros2_ws/ros2-osx/lib'), ('PYTHONPATH', '/Users/mukuyo/RI-AI/install/sender/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/proto_info/lib/python3.8/site-packages:/Users/mukuyo/RI-AI/install/message_info/lib/python3.8/site-packages:/Users/mukuyo/ros2_ws/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'mukuyo'), ('PKG_CONFIG_PATH', '/Users/mukuyo/ros2_ws/ros2-osx/lib/pkgconfig'), ('CMAKE_PREFIX_PATH', '/Users/mukuyo/RI-AI/install/reciever:/Users/mukuyo/RI-AI/install/proto_info:/Users/mukuyo/RI-AI/install/main:/Users/mukuyo/RI-AI/install/message_info:/Users/mukuyo/ros2_ws/ros2-osx:/Users/mukuyo/RI-AI/install/sender'), ('DISPLAY', '/private/tmp/com.apple.launchd.6POVJug0h5/org.macosforge.xquartz:0'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[2.442536] (main) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.442829] (main) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/RI-AI/src/main/install/main/lib/main/main\n'}
+[2.491269] (-) TimerEvent: {}
+[2.499428] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/package_run_dependencies/main\n'}
+[2.500391] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/parent_prefix_path/main\n'}
+[2.500739] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/ament_prefix_path.sh\n'}
+[2.500873] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/ament_prefix_path.dsv\n'}
+[2.501460] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/path.sh\n'}
+[2.501711] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/environment/path.dsv\n'}
+[2.501848] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.bash\n'}
+[2.502037] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.sh\n'}
+[2.502207] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.zsh\n'}
+[2.502330] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/local_setup.dsv\n'}
+[2.502539] (main) StdoutLine: {'line': b'-- Installing: /Users/mukuyo/RI-AI/src/main/install/main/share/main/package.dsv\n'}
+[2.503006] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/ament_index/resource_index/packages/main\n'}
+[2.503117] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/cmake/mainConfig.cmake\n'}
+[2.503598] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/cmake/mainConfig-version.cmake\n'}
+[2.503711] (main) StdoutLine: {'line': b'-- Up-to-date: /Users/mukuyo/RI-AI/src/main/install/main/share/main/package.xml\n'}
+[2.505607] (main) CommandEnded: {'returncode': 0}
+[2.538686] (main) JobEnded: {'identifier': 'main', 'rc': 0}
+[2.540178] (-) EventReactorShutdown: {}

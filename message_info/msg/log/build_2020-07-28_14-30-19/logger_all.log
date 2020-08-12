@@ -1,0 +1,59 @@
+[0.733s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.733s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x10e1a3700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x10e1a3700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x10e1a3c40>)
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.836s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/Users/mukuyo/RI-AI/src/message_info/msg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.875s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.892s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[0.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[0.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.899s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'terminal_notifier'
+[1.023s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/RI-AI/src/message_info/msg/install/local_setup.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/mukuyo/RI-AI/src/message_info/msg/install/_local_setup_util_ps1.py'
+[1.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/RI-AI/src/message_info/msg/install/setup.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/RI-AI/src/message_info/msg/install/local_setup.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/mukuyo/RI-AI/src/message_info/msg/install/_local_setup_util_sh.py'
+[1.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/RI-AI/src/message_info/msg/install/setup.sh'
+[1.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/RI-AI/src/message_info/msg/install/local_setup.bash'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/RI-AI/src/message_info/msg/install/setup.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/mukuyo/RI-AI/src/message_info/msg/install/local_setup.zsh'
+[1.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/mukuyo/RI-AI/src/message_info/msg/install/setup.zsh'
