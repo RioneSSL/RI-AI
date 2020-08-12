@@ -17,7 +17,8 @@ float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg:
 	return degree;
 }
 
-float Calc::wrap_calc(float degree){
+float Calc::wrap(float degree){
+	degree = degree * 180 / M_PI;
 	float a_constant=-0.002102256;
 	float b_constant=1.647918685;
 	float c_constant=-1.932145886;
@@ -40,11 +41,11 @@ float Calc::wrap_calc(float degree){
 	return wrap_degree;
 }
 
-float Calc::distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2){
+float Calc::distance(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
 	float difference_x,difference_y,distance;
 
-	difference_x=object1.pose.x-object2.pose.x;
-	difference_y=object1.pose.y-object2.pose.y;
+	difference_x=object1.x-object2.x;
+	difference_y=object1.y-object2.y;
 	
 	distance=std::sqrt((difference_x*difference_x)+(difference_y*difference_y));
 

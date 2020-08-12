@@ -18,9 +18,9 @@ public:
 
 	float degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
 
-	float wrap_calc(float degree);
+	float wrap(float degree);
 
-	float distance_calc(message_info::msg::DetectionBall object1, message_info::msg::DetectionBall object2);
+	float distance(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
 
 private:
 
