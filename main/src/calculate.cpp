@@ -12,7 +12,7 @@ float Calc::degree_improve(float degree){
 	return degree;
 }
 
-float Calc::degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
+float Calc::degree(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2){
 	float degree=std::atan2(object1.y - object2.y, object1.x - object2.x);
 	return degree;
 }
@@ -38,6 +38,7 @@ float Calc::wrap(float degree){
 		wrap_degree=wrap_degree-360;
 	}
 
+	wrap_degree = wrap_degree/180*M_PI;
 	return wrap_degree;
 }
 

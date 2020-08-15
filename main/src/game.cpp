@@ -19,9 +19,11 @@ Game::Game() : Node("Masuo"){
           {
             ball = vision_message->frames[i].balls[0]; //ボール座標
           }
-          if(vision_message->frames[i].robots_blue.size()>0 && vision_message->frames[i].robots_blue.size()<16)
-          {
-            robot=vision_message->frames[i].robots_blue[0]; //  ロボット座標
+
+          if(vision_message->frames[i].robots_blue.size() && vision_message->frames[i].robots_blue.size()<=16){
+            for (auto robot : vision_message->frames[i].robots_blue) {
+              frame.blue_robots[robot.robot_id]=robot;
+            }
           }
         }
       };
@@ -43,14 +45,15 @@ Game::Game() : Node("Masuo"){
 
 
 void Game::test(){
-	  message_info::msg::RobotCommands send_info;
-    message_info::msg::RobotCommand command;
-  
-    Attacker::main(ball,robot,goal,command); //アタッカーメインプログラム
-    //Goalie::main(ball,robot,goal,command);
-    send_info.commands.push_back(command);
-    this->publisher->publish(send_info); //grsimへパブリッシュx
+	  message_info::msg::RobotCommands send;
+    
+    send.commands.push_back(Attacker::main(ball,frame.blue_robots[0],goal)); //アタッカーメインプログラム
+    send.commands.push_back(Offense::main(ball,frame.blue_robots[2],frame.blue_robots[0] ,goal));
+    send.commands.push_back(Goalie::main(ball,frame.blue_robots[1],goal));
+    send.commands.push_back(Defense::main(ball,frame.blue_robots[3],goal));
 
+    this->publisher->publish(send); //grsimへパブリッシュ
+    //RCLCPP_INFO(this->get_logger(),"%f",distance);
 }
 
 void Game::timer_callback(){

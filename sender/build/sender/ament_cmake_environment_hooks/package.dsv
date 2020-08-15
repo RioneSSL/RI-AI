@@ -1,4 +1,0 @@
-source;share/sender/local_setup.bash
-source;share/sender/local_setup.dsv
-source;share/sender/local_setup.sh
-source;share/sender/local_setup.zsh

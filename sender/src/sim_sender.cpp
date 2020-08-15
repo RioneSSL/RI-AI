@@ -66,7 +66,7 @@ private:
     packet_commands->set_isteamyellow(msg->is_yellow);
     for (auto command : msg->commands) {
       grSim_Robot_Command * robot_command = packet_commands->add_robot_commands();
-      robot_command->set_id(0);
+      robot_command->set_id(command.robot_id);
       // 走行速度
       robot_command->set_veltangent(command.vel_surge);
       robot_command->set_velnormal(command.vel_sway);

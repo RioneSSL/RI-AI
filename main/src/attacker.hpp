@@ -10,10 +10,16 @@
 
 class Attacker : public Calc
 {
-public:
-	void main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, message_info::msg::RobotCommand & send_command);	
+
+public:	
+	message_info::msg::RobotCommand main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal);
+
 private:
+	
+	message_info::msg::RobotCommand send_command;
 	float wrap_degree;
 	float robot_to_goal_degree;
+	float robot_to_ball_degree;
 	float ball_distance;
+
 };

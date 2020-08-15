@@ -1,2 +1,0 @@
-[0.076s] Invoking command in '/Users/mukuyo/RI-AI/src/sender/build/sender': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/sender/build/sender -- -j8 -l8
-[2.044s] Invoked command in '/Users/mukuyo/RI-AI/src/sender/build/sender' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/sender/build/sender -- -j8 -l8

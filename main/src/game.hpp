@@ -14,11 +14,13 @@
 #include <string>
 #include "attacker.hpp"
 #include "goalie.hpp"
+#include "offense.hpp"
+#include "defense.hpp"
 
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
-class Game : public rclcpp::Node, public Goalie, public Attacker
+class Game : public rclcpp::Node, public Goalie, public Attacker, public Offense, public Defense
 {
 	private:
 		  rclcpp::Publisher<message_info::msg::RobotCommands>::SharedPtr publisher;
@@ -29,6 +31,8 @@ class Game : public rclcpp::Node, public Goalie, public Attacker
   		message_info::msg::VisionDetections::SharedPtr message;
   		message_info::msg::DetectionRobot robot;
   		message_info::msg::GoalInfo goal;
+      message_info::msg::DetectionFrame frame;
+
 
   		void test();
 

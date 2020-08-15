@@ -1,4 +1,0 @@
-[0.065s] Invoking command in '/Users/mukuyo/RI-AI/src/sender/build/sender': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/mukuyo/RI-AI/src/sender -DCMAKE_INSTALL_PREFIX=/Users/mukuyo/RI-AI/src/sender/install/sender
-[3.950s] Invoked command in '/Users/mukuyo/RI-AI/src/sender/build/sender' returned '0': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/mukuyo/RI-AI/src/sender -DCMAKE_INSTALL_PREFIX=/Users/mukuyo/RI-AI/src/sender/install/sender
-[3.954s] Invoking command in '/Users/mukuyo/RI-AI/src/sender/build/sender': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/sender/build/sender -- -j8 -l8
-[6.041s] Invoked command in '/Users/mukuyo/RI-AI/src/sender/build/sender' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/sender/build/sender -- -j8 -l8

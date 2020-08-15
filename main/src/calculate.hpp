@@ -16,7 +16,7 @@ public:
 
 	float degree_improve(float degree);
 
-	float degree_atan2(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
+	float degree(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
 
 	float wrap(float degree);
 

@@ -29,6 +29,8 @@ add_executable(main
   src/goalie.cpp
   src/calculate.cpp
   src/attacker.cpp
+  src/offense.cpp
+  src/defense.cpp
 )
 ament_target_dependencies(main
   rclcpp

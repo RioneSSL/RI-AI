@@ -6,3 +6,4 @@ uint32              camera_id
 DetectionBall[]     balls
 DetectionRobot[]    robots_yellow
 DetectionRobot[]    robots_blue
+DetectionRobot[16]  blue_robots

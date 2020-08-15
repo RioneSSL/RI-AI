@@ -1,2 +1,0 @@
-Invoking command in '/Users/mukuyo/RI-AI/src/main/build/main': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
-Invoked command in '/Users/mukuyo/RI-AI/src/main/build/main' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/mukuyo/RI-AI/install/sender SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/mukuyo/RI-AI/src/main/build/main -- -j8 -l8
