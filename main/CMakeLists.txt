@@ -31,6 +31,7 @@ add_executable(main
   src/attacker.cpp
   src/offense.cpp
   src/defense.cpp
+  src/role.cpp
 )
 ament_target_dependencies(main
   rclcpp

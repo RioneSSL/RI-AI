@@ -53,3 +53,13 @@ float Calc::distance(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pos
 	return distance;
 }
 
+bool Calc::list_search(std::array<int,10> temp,int num){
+	bool decision = false;
+	for(int i=0; i<10; i++){
+		if(temp[i]==num){
+			decision = true;
+		}
+	}
+	return decision;
+}
+

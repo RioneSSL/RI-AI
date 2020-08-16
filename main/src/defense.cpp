@@ -17,8 +17,7 @@ message_info::msg::RobotCommand Defense::main(message_info::msg::DetectionBall b
 	target_robot_distance = Calc::distance(target_position, robot.pose);
 	if(target_robot_distance>=1)target_robot_distance=1;
 
-	//send_message.robot_id = robot.robot_id;
-	send_message.robot_id = 3;
+	send_message.robot_id = robot.robot_id;
 	send_message.vel_surge = std::cos(target_robot_degree) * target_robot_distance;
 	send_message.vel_sway = std::sin(target_robot_degree) * target_robot_distance;
 	send_message.vel_angular = -robot.pose.theta * 4;

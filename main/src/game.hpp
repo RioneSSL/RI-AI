@@ -5,6 +5,7 @@
 #include "message_info/msg/detection_frame.hpp"
 #include "message_info/msg/ball_info.hpp"
 #include "message_info/msg/goal_info.hpp"
+#include "message_info/msg/attacker.hpp"
 #include <cmath>
 #include <chrono>
 #include <exception>
@@ -16,11 +17,12 @@
 #include "goalie.hpp"
 #include "offense.hpp"
 #include "defense.hpp"
+#include "role.hpp"
 
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
-class Game : public rclcpp::Node, public Goalie, public Attacker, public Offense, public Defense
+class Game : public rclcpp::Node, public Goalie, public Attacker, public Offense, public Defense, public Role
 {
 	private:
 		  rclcpp::Publisher<message_info::msg::RobotCommands>::SharedPtr publisher;

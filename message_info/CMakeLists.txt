@@ -68,6 +68,9 @@ set(msg_files
   "msg/Test.msg"
   "msg/BallInfo.msg"
   "msg/GoalInfo.msg"
+  "msg/Role.msg"
+  "msg/Attacker.msg"
+  "msg/Goalie.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

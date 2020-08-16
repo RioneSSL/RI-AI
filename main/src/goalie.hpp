@@ -15,6 +15,6 @@ public:
 	message_info::msg::RobotCommand main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal);
 
 private:
-	
-
+	float target_robot_degree;
+	float target_robot_distance;
 };

@@ -22,6 +22,7 @@ public:
 
 	float distance(geometry_msgs::msg::Pose2D object1, geometry_msgs::msg::Pose2D object2);
 
+	bool list_search(std::array<int,10> temp,int num);
 private:
 
 };
