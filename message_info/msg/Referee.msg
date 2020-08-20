@@ -3,6 +3,10 @@
 # These are the "coarse" stages of the game.
 uint8 stage
 
+bool play
+
+string info
+
 # These are the "fine" states of play on the field.
 uint8 command
 
@@ -21,3 +25,4 @@ geometry_msgs/Point designated_position
 
 # The game event that caused the referee command
 RefereeGameEvent game_event
+

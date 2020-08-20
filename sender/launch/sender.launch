@@ -1,0 +1,20 @@
+import os
+
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+
+def generate_launch_description():
+    start_sender_cmd = Node(
+        package='sender', executable='sim_sender',
+        output='screen',
+        parameters=[os.path.join(get_package_share_directory(
+            'sender'), 'config', 'grsim.yaml')]
+    )
+
+    ld = LaunchDescription()
+
+    ld.add_action(start_sender_cmd)
+
+    return ld

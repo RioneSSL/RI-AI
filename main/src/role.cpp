@@ -2,14 +2,16 @@
 
 void Role::decision(message_info::msg::DetectionBall ball, message_info::msg::DetectionFrame frame, message_info::msg::GoalInfo goal, message_info::msg::Role & devide){
 	geometry_msgs::msg::Pose2D attacker;
-	devide.goalie = 1;
+	devide.goalie = 0;
 
 	find_ball_min(ball,frame,devide,attacker);
+	
 	//our_goal_min(ball,frame,devide,goal);
 	offense_decide(frame,devide,attacker,goal);
 	defense_decide(frame,devide,goal);
-	
+	//std::cout<<devide.attacker<<std::endl;
 	//std::cout<<devide.defense[0] << " " <<devide.defense[1] <<std::endl;
+
 }
 
 void Role::find_ball_min(message_info::msg::DetectionBall ball, message_info::msg::DetectionFrame frame, message_info::msg::Role & devide, geometry_msgs::msg::Pose2D & attacker){
@@ -46,6 +48,9 @@ void Role::our_goal_min(message_info::msg::DetectionBall ball, message_info::msg
 
 void Role::defense_decide(message_info::msg::DetectionFrame frame, message_info::msg::Role & devide, message_info::msg::GoalInfo goal){
 	defense_temp = 0;
+	for(int i = 0; i<4; i++){
+		devide.defense[i] = -1;
+	}
 	for(int i=0; i<1; i++){
 		count = 0;
 		distance_goalie_min = 0;
@@ -70,8 +75,8 @@ void Role::defense_decide(message_info::msg::DetectionFrame frame, message_info:
 
 void Role::offense_decide(message_info::msg::DetectionFrame frame,message_info::msg::Role & devide, geometry_msgs::msg::Pose2D attacker, message_info::msg::GoalInfo goal){
 	offense_temp = 0; 
-	for(int i = 0; i<10; i++){
-		//devide.offense[i] = 16;
+	for(int i = 0; i<4; i++){
+		devide.offense[i] = -1;
 	}
 	for(int i=0; i<1; i++){
 		count = 0;

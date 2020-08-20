@@ -63,3 +63,56 @@ bool Calc::list_search(std::array<int,10> temp,int num){
 	return decision;
 }
 
+void Calc::offense_position(std::array<int,10> offense, int field_width, std::vector<float> & target_position){
+	//target_position = [10];
+	offense_count = 0;
+
+	for(int i=0; i<4; i++){
+		if(offense[i] != -1){
+			offense_count = offense_count + 1;
+		}
+	}
+	//std::cout<<offense_count<<std::endl;
+	separate = 4;
+	if(offense_count ==4){
+		separate =6;
+	}
+	val = field_width/separate;
+	
+	if(offense_count == 1){
+		target_position.push_back(0);
+	}else if(offense_count ==2){
+		target_position.push_back(val);
+		target_position.push_back(-val);
+	}else if(offense_count == 3){
+		target_position.push_back(0);
+		target_position.push_back(val);
+		target_position.push_back(-val);
+	}else if(offense_count == 4){
+		target_position.push_back(val);
+		target_position.push_back(-val);
+		target_position.push_back(val * 2);
+		target_position.push_back(val * (-2));
+	}
+
+}
+
+void Calc::defense_position(std::array<int,10> defense, int field_width, std::vector<float> & target_position){
+	//target_position = [10];
+	defense_count = 0;
+
+	for(int i=0; i<4; i++){
+		if(defense[i] != -1){
+			defense_count = defense_count + 1;
+		}
+	}
+
+	if(defense_count == 1){
+		target_position.push_back(0);
+	}else if(defense_count == 2){
+		target_position.push_back(0.2);
+		target_position.push_back(-0.2);
+	}
+
+}
+

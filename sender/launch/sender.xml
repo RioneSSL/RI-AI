@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="sender" exec="sim_sender">
-        <param from="sender/config/grsim.yaml"/>
-    </node>
-</launch>

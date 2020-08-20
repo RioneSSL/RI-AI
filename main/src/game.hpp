@@ -18,23 +18,27 @@
 #include "offense.hpp"
 #include "defense.hpp"
 #include "role.hpp"
+#include "homeposition.hpp"
+#include "referee_translate.hpp"
 
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
-class Game : public rclcpp::Node, public Goalie, public Attacker, public Offense, public Defense, public Role
+class Game : public rclcpp::Node, public Goalie, public Attack, public Offense, public Defense, public Role, public Home, public Referee
 {
 	private:
+
 		  rclcpp::Publisher<message_info::msg::RobotCommands>::SharedPtr publisher;
   		rclcpp::Subscription<message_info::msg::VisionDetections>::SharedPtr subscriber;
   		rclcpp::Subscription<message_info::msg::VisionGeometry>::SharedPtr subscriber_geometry;
+      rclcpp::Subscription<message_info::msg::Referee>::SharedPtr subscriber_referee;
   		rclcpp::TimerBase::SharedPtr timer_;
   		message_info::msg::DetectionBall ball;
   		message_info::msg::VisionDetections::SharedPtr message;
   		message_info::msg::DetectionRobot robot;
   		message_info::msg::GoalInfo goal;
       message_info::msg::DetectionFrame frame;
-
+      message_info::msg::Referee referee;
 
   		void test();
 

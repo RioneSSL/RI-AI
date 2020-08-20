@@ -32,6 +32,8 @@ add_executable(main
   src/offense.cpp
   src/defense.cpp
   src/role.cpp
+  src/homeposition.cpp
+  src/referee_translate.cpp
 )
 ament_target_dependencies(main
   rclcpp
@@ -41,6 +43,10 @@ ament_target_dependencies(main
 install(TARGETS
   main
   DESTINATION lib/${PROJECT_NAME}
+)
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 if(BUILD_TESTING)

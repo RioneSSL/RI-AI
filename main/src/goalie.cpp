@@ -24,3 +24,17 @@ message_info::msg::RobotCommand Goalie::main(message_info::msg::DetectionBall ba
 
 	return send_message;
 }
+
+message_info::msg::RobotCommand Goalie::stop(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo){
+	message_info::msg::RobotCommand send_message;
+
+	float degree = Calc::degree(ball.pose, robot.pose) - robot.pose.theta;
+	degree = Calc::degree_improve(degree);
+
+	send_message.robot_id = robot.robot_id;
+	send_message.vel_surge = 0;
+	send_message.vel_sway = 0;
+	send_message.vel_angular = degree * 4;
+
+	return send_message;
+}

@@ -24,3 +24,14 @@ message_info::msg::RobotCommand Defense::main(message_info::msg::DetectionBall b
 
 	return send_message;
 }
+
+message_info::msg::RobotCommand Defense::stop(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal){
+	robot_ball_degree = Calc::degree(ball.pose, robot.pose) - robot.pose.theta;
+	robot_ball_degree = Calc::degree_improve(robot_ball_degree);
+
+	send_message.vel_surge = 0;
+	send_message.vel_sway = 0;
+	send_message.vel_angular = robot_ball_degree * 4;
+
+	return send_message;
+}

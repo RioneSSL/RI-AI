@@ -19,6 +19,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(example_interfaces REQUIRED)
 find_package(message_info REQUIRED)
 find_package(proto_info REQUIRED)
 find_package(Protobuf REQUIRED)
@@ -32,32 +33,41 @@ include_directories(
 
 include_directories(include ${CMAKE_CURRENT_BINARY_DIR})
 
-#add_executable(referee_receiver
-#  src/referee_receiver.cpp
-#)
+add_executable(referee_receiver
+  src/referee_receiver.cpp
+)
 
-add_executable(receiver
+add_executable(reciever
   src/grsim_receiver.cpp
 )
 
 ament_target_dependencies(
-  receiver
+  reciever
   "rclcpp"
   "std_msgs"
   "message_info"
   "proto_info"
 )
-#target_link_libraries(referee_receiver ${PROTOBUF_LIBRARIES} #${consai2r2_protobuf_LIBRARIES} ${Boost_LIBRARIES})
-target_link_libraries(receiver ${PROTOBUF_LIBRARIES} ${proto_info_LIBRARIES} ${Boost_LIBRARIES})
+
+ament_target_dependencies(
+  referee_receiver
+  "rclcpp"
+  "std_msgs"
+  "message_info"
+  "proto_info"
+)
+
+target_link_libraries(referee_receiver ${PROTOBUF_LIBRARIES} ${proto_info_LIBRARIES} ${Boost_LIBRARIES})
+target_link_libraries(reciever ${PROTOBUF_LIBRARIES} ${proto_info_LIBRARIES} ${Boost_LIBRARIES})
 
 install(
   DIRECTORY include/
   DESTINATION include)
 
-#install(TARGETS referee_receiver
-#  EXPORT export_${PROJECT_NAME}
-#  DESTINATION lib/${PROJECT_NAME})
-install(TARGETS receiver
+install(TARGETS referee_receiver
+  EXPORT export_${PROJECT_NAME}
+ DESTINATION lib/${PROJECT_NAME})
+install(TARGETS reciever
   EXPORT export_${PROJECT_NAME}
   DESTINATION lib/${PROJECT_NAME})
 
