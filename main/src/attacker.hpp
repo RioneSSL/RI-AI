@@ -18,7 +18,7 @@ public:
 
 	message_info::msg::RobotCommand main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal);
 	message_info::msg::RobotCommand straight(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, geometry_msgs::msg::Pose2D target_position);
-	message_info::msg::RobotCommand pass(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, geometry_msgs::msg::Pose2D target_position);
+	message_info::msg::RobotCommand pass(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, geometry_msgs::msg::Pose2D target_position, bool &kick_flag);
 	message_info::msg::RobotCommand stop_position(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, float DISTANCE);
 
 private:

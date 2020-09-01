@@ -5,7 +5,7 @@
 message_info::msg::RobotCommand Attack::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal){
 
 	wrap_degree = Calc::degree(ball.pose,robot.pose)-robot.pose.theta; //回り込み角度計算
-	wrap_degree = Calc::degree_improve(wrap_degree);
+	wrap_degree = Calc::degree_improve(wrap_degree); 
 	wrap_degree = Calc::wrap(wrap_degree); //degree整える
 	
 	robot_to_goal_degree=std::atan2(goal.their.y-robot.pose.y, goal.their.x-robot.pose.x) - robot.pose.theta;
@@ -83,7 +83,7 @@ message_info::msg::RobotCommand Attack::straight(message_info::msg::DetectionBal
 	return send_command;
 }
 
-message_info::msg::RobotCommand Attack::pass(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, geometry_msgs::msg::Pose2D target_position){
+message_info::msg::RobotCommand Attack::pass(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal, geometry_msgs::msg::Pose2D target_position, bool &kick_flag){
 
 	target_robot_degree = Calc::degree(target_position, robot.pose) - robot.pose.theta;
 	target_robot_degree = Calc::degree_improve(target_robot_degree);
@@ -100,12 +100,12 @@ message_info::msg::RobotCommand Attack::pass(message_info::msg::DetectionBall ba
 	}
 	
 	bool close = false;
-	if(ball_distance <= 0.18){
+	if(ball_distance <= 0.13){
 		close = true;
 	}
 
 	bool find = false;
-	if(robot_to_ball_degree *180/M_PI >= -15 && robot_to_ball_degree *180/M_PI <= 15){
+	if(robot_to_ball_degree *180/M_PI >= -5 && robot_to_ball_degree *180/M_PI <= 5){
 		find = true;
 	}
 	//std::cout<<find<<std::endl;
@@ -115,8 +115,8 @@ message_info::msg::RobotCommand Attack::pass(message_info::msg::DetectionBall ba
 	if(close == true && find == true){
 		direction = target_robot_degree;
 		if(target_robot_degree *180/M_PI >= -5 && target_robot_degree *180/M_PI <= 5){
-			kick_pow_x=0.8;
-			//kick_flag = true;
+			kick_pow_x=0.7;
+			kick_flag = true;
 		}
 	}
 

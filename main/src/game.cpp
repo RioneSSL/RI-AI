@@ -41,7 +41,8 @@ Game::Game() : Node("Masuo"){ //setting
         goal.our.y=0;
         goal.field_width = field_width;
         goal.field_length = field_length;
-
+        goal.goal_width = geometry_message->goal_width;
+        goal.goal_depth = geometry_message->goal_depth;
       };
 
     auto callback_referee =
@@ -62,20 +63,26 @@ void Game::test(){
     message_info::msg::Role devide;
 
     geometry_msgs::msg::Pose2D target_position;
-    target_position.x = 6;
-    target_position.y = 0;
+    target_position.x = 2;
+    target_position.y = 2;
 
+    /*send.command.robot_id = ;
+    send.command.vel_surge = ;
+    send.command.vel_sway = ;
+    send.command.vel_angular = ;
+
+    this->publisher->publish(send);*/    
     Referee::translate(referee, ball);
     Role::decision(ball,frame,goal,devide); //role decide
 
     //cout<<"AT="<<devide.attacker<<"  GL="<<devide.goalie<<"  OF="<<devide.offense[0]<<"  DF="<<devide.defense[0]<<endl;
-
+    referee.info="NORMAL_START";
     if(referee.info == "HALT"){
 
     }else if(referee.play == true or referee.info == "NORMAL_START"){
 
-      send.commands.push_back(Attack::pass(ball,frame.blue_robots[devide.attacker],goal,target_position)); //アタッカーメインプログラム
-      send.commands.push_back(Offense::main(ball,frame.blue_robots[devide.offense[0]],frame.blue_robots[devide.attacker] ,goal)); 
+      send.commands.push_back(Attack::pass(ball,frame.blue_robots[devide.attacker],goal,target_position,kick_flag)); //アタッカーメインプログラム
+      send.commands.push_back(Offense::main(ball,frame.blue_robots[devide.offense[0]],frame.blue_robots[devide.attacker] ,goal,kick_flag)); 
       send.commands.push_back(Goalie::main(ball,frame.blue_robots[devide.goalie],goal));
       send.commands.push_back(Defense::main(ball,frame.blue_robots[devide.defense[0]],goal));
     
@@ -109,6 +116,8 @@ void Game::test(){
 
     }else if(referee.info == "THEIR_INDIRECT"){
 
+    }else if(referee.info == "FREE"){
+      send.commands.push_back(Goalie::main(ball,frame.blue_robots[devide.goalie],goal));
     }
 
     this->publisher->publish(send); //grsimへパブリッシュ

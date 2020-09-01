@@ -41,8 +41,10 @@ class Game : public rclcpp::Node, public Goalie, public Attack, public Offense, 
       message_info::msg::Referee referee;
 
   		void test();
-
   		void timer_callback();
+
+      bool kick_flag;
+
 
   public:
   		 Game();
