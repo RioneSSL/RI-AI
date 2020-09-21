@@ -40,3 +40,4 @@ message_info::msg::RobotCommand Offense::stop(message_info::msg::DetectionBall b
 
 	return send_message;
 }
+

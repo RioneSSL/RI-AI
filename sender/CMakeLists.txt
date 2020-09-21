@@ -65,16 +65,31 @@ include_directories(
 add_executable(sim_sender
   src/sim_sender.cpp
 )
+
+add_executable(real_sender
+  src/real_sender.cpp
+)
 ament_target_dependencies(sim_sender
   rclcpp
   std_msgs
   message_info
   proto_info
 )
+ament_target_dependencies(real_sender
+  rclcpp
+  std_msgs
+  message_info
+  proto_info
+)
 target_link_libraries(sim_sender ${Boost_LIBRARIES} ${proto_info_LIBRARIES})
+target_link_libraries(real_sender ${Boost_LIBRARIES} ${proto_info_LIBRARIES})
 
 
 install(TARGETS sim_sender
+  EXPORT export_${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS real_sender
   EXPORT export_${PROJECT_NAME}
   DESTINATION lib/${PROJECT_NAME})
 

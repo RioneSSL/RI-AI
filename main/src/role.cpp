@@ -4,8 +4,7 @@ void Role::decision(message_info::msg::DetectionBall ball, message_info::msg::De
 	geometry_msgs::msg::Pose2D attacker;
 	devide.goalie = 0;
 
-	find_ball_min(ball,frame,devide,attacker);
-	
+	find_ball_min(ball,frame,devide,attacker); //attacker decide
 	//our_goal_min(ball,frame,devide,goal);
 	offense_decide(frame,devide,attacker,goal);
 	defense_decide(frame,devide,goal);

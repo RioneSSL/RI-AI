@@ -1,6 +1,6 @@
 
 uint8   robot_id
-# forward/back, m/s
+# /forwardback, m/s
 float64 vel_surge
 # left/right, m/s
 float64 vel_sway

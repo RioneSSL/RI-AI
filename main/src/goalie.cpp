@@ -4,30 +4,16 @@
 message_info::msg::RobotCommand Goalie::main(message_info::msg::DetectionBall ball, message_info::msg::DetectionRobot robot, message_info::msg::GoalInfo goal){
 	message_info::msg::RobotCommand send_message;
 
-	float degree=Calc::degree(ball.pose,robot.pose) - robot.pose.theta;
-	float TH_goal_degree=Calc::degree(goal.their,robot.pose);
+	float j;
+	//がんばってね	
+
+	//ball.pose.x ボールのx座標
+	//robot.pose.x robotのx座標
+	//Calc::degree(object1.pose, object2.pose); -> degree = Calc::degree(ball.pose, robot.pose)
+	//goalの情報はGoalInfo.msg　に詳細あり
+	//goalの幅　-> goal.goal_width
+
 	
-	geometry_msgs::msg::Pose2D target_position;
-
-	target_position.x = -5.7;
-
-	if(goal.goal_width/2 <= std::fabs(ball.pose.y)){
-		if(ball.pose.y<0){
-			target_position.y = -goal.goal_width/2;
-		}else{
-			target_position.y = goal.goal_width/2;
-		}
-	}else{
-		target_position.y = ball.pose.y;
-	}
-	//std::cout<< goal.goal_width/2<<std::endl;
-
-	target_robot_degree = Calc::degree(target_position, robot.pose) - robot.pose.theta;
-	target_robot_degree = Calc::degree_improve(target_robot_degree);
-
-	target_robot_distance = Calc::distance(target_position, robot.pose);
-	if(target_robot_distance>=2)target_robot_distance=2;
-
 	send_message.robot_id=robot.robot_id;
 	send_message.vel_surge=std::cos(target_robot_degree) * target_robot_distance;
 	send_message.vel_sway=std::sin(target_robot_degree) * target_robot_distance;
